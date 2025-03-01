@@ -1,0 +1,738 @@
+CRITICAL - 2025-02-25 00:00:59 --> ErrorException: Undefined array key "id_jurusan"
+[Method: GET, Route: admin/mahasiswa]
+in APPPATH\Views\admin\mahasiswa.php on line 674.
+ 1 APPPATH\Views\admin\mahasiswa.php(674): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jurusan"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 674)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:01:25 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: admin/mahasiswa]
+in APPPATH\Views\admin\mahasiswa.php on line 674.
+ 1 APPPATH\Views\admin\mahasiswa.php(674): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 674)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:01:26 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: admin/mahasiswa]
+in APPPATH\Views\admin\mahasiswa.php on line 674.
+ 1 APPPATH\Views\admin\mahasiswa.php(674): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 674)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:01:27 --> ErrorException: Undefined array key "nama_jurusan"
+[Method: GET, Route: admin/mahasiswa]
+in APPPATH\Views\admin\mahasiswa.php on line 674.
+ 1 APPPATH\Views\admin\mahasiswa.php(674): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 674)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(71): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->mahasiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-25 00:03:46 --> mysqli_sql_exception: Unknown column 'prodi' in 'field list' in D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Archive\PKL\laragon\www\siakad-online\app\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Archive\PKL\laragon\www\siakad-online\app\Controllers\Admin.php(90): App\Models\Mahasiswa_model->saveMahasiswa(Array)
+#6 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+#7 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Archive\PKL\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-02-25 00:03:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'prodi' in 'field list'
+[Method: POST, Route: admin/savemhs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (:nim:, :nama:, :jk:, :no_telp:, :alamat:, :prodi:, :fakultas:, :tahun:, :angkatan:, :semester:, :status:)', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(90): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:03:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'prodi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'q\', \'l\', \'213\', \'q\', \'TI\', NULL, \'2025\', \'21\', \'1\', \'belum\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'q\', \'l\', \'213\', \'q\', \'TI\', NULL, \'2025\', \'21\', \'1\', \'belum\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (:nim:, :nama:, :jk:, :no_telp:, :alamat:, :prodi:, :fakultas:, :tahun:, :angkatan:, :semester:, :status:)', [...], false)
+ 4 APPPATH\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Admin.php(90): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:03:46 --> [Caused by] mysqli_sql_exception: Unknown column 'prodi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'q\', \'l\', \'213\', \'q\', \'TI\', NULL, \'2025\', \'21\', \'1\', \'belum\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'q\', \'l\', \'213\', \'q\', \'TI\', NULL, \'2025\', \'21\', \'1\', \'belum\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'q\', \'l\', \'213\', \'q\', \'TI\', NULL, \'2025\', \'21\', \'1\', \'belum\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `fakultas`, `tahun`, `angkatan`, `semester`, `status`) VALUES (:nim:, :nama:, :jk:, :no_telp:, :alamat:, :prodi:, :fakultas:, :tahun:, :angkatan:, :semester:, :status:)', [...], false)
+ 5 APPPATH\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin.php(90): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-02-25 00:05:20 --> mysqli_sql_exception: Column 'jurusan' cannot be null in D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\Archive\PKL\laragon\www\siakad-online\app\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Archive\PKL\laragon\www\siakad-online\app\Controllers\Admin.php(89): App\Models\Mahasiswa_model->saveMahasiswa(Array)
+#6 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+#7 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Archive\PKL\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-02-25 00:05:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'jurusan' cannot be null
+[Method: POST, Route: admin/savemhs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (:nim:, :nama:, :jk:, :no_telp:, :alamat:, :jurusan:, :tahun:, :angkatan:, :semester:, :status:)', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(89): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:05:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'jurusan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'qw\', \'l\', \'212\', \'q\', NULL, \'213\', \'23\', \'1\', \'belum\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'qw\', \'l\', \'212\', \'q\', NULL, \'213\', \'23\', \'1\', \'belum\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (:nim:, :nama:, :jk:, :no_telp:, :alamat:, :jurusan:, :tahun:, :angkatan:, :semester:, :status:)', [...], false)
+ 4 APPPATH\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Admin.php(89): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 00:05:20 --> [Caused by] mysqli_sql_exception: Column 'jurusan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'qw\', \'l\', \'212\', \'q\', NULL, \'213\', \'23\', \'1\', \'belum\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'qw\', \'l\', \'212\', \'q\', NULL, \'213\', \'23\', \'1\', \'belum\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (\'1\', \'qw\', \'l\', \'212\', \'q\', NULL, \'213\', \'23\', \'1\', \'belum\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama`, `jk`, `no_telp`, `alamat`, `jurusan`, `tahun`, `angkatan`, `semester`, `status`) VALUES (:nim:, :nama:, :jk:, :no_telp:, :alamat:, :jurusan:, :tahun:, :angkatan:, :semester:, :status:)', [...], false)
+ 5 APPPATH\Models\Mahasiswa_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin.php(89): App\Models\Mahasiswa_model->saveMahasiswa([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savemhs()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-25 00:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 00:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-25 01:52:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/mahasiswa.php"
+[Method: GET, Route: admin/mahasiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 3 APPPATH\Controllers\Admin.php(71): view('admin/mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->mahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-25 01:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 01:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-25 02:42:14 --> ErrorException: Undefined variable $ruang
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 682.
+ 1 APPPATH\Views\admin\semester.php(682): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ruang', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 682)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(195): view('admin/semester')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-25 02:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-25 02:42:31 --> ErrorException: Undefined variable $ruang
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 682.
+ 1 APPPATH\Views\admin\semester.php(682): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ruang', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 682)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(195): view('admin/semester')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:45:56 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 652.
+ 1 APPPATH\Views\admin\semester.php(652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 652)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(195): view('admin/semester')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:45:57 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 652.
+ 1 APPPATH\Views\admin\semester.php(652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 652)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(195): view('admin/semester')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_view.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_view', [], true)
+ 3 APPPATH\Controllers\Admin.php(200): view('mahasiswa_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:25 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:48:26 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:49:29 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:49:30 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:49:30 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:49:30 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:49:31 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:49:31 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\mahasiswa.php on line 491.
+ 1 APPPATH\Views\admin\mahasiswa.php(491): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php', 491)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/mahasiswa', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:50:02 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 655.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 4 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:50:02 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 655.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 4 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:50:03 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 655.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 4 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:50:03 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 655.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 4 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:50:03 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 655.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 4 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:51:57 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 655.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 4 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:28 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:29 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:29 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:29 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:29 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:30 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:30 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:30 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:30 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:30 --> ErrorException: Undefined array key "prodi"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 658.
+ 1 APPPATH\Views\admin\semester.php(658): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prodi"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 658)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:46 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 660.
+ 1 APPPATH\Views\admin\semester.php(660): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 660)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-25 02:53:47 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 660.
+ 1 APPPATH\Views\admin\semester.php(660): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 660)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(200): view('admin/semester', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-25 02:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 02:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 03:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 03:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 03:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 03:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 03:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 03:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 06:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 06:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 06:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 06:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 06:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-25 07:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

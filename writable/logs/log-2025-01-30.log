@@ -1,0 +1,182 @@
+DEBUG - 2025-01-30 01:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 01:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 02:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-30 02:09:16 --> Error: Class "App\Models\Akun_model" not found
+[Method: GET, Route: admin/akun]
+in APPPATH\Controllers\Admin.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:10:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/akun.php"
+[Method: GET, Route: admin/akun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/akun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 3 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:11:01 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: admin/akun]
+in APPPATH\Views\admin\akun.php on line 708.
+ 1 APPPATH\Views\admin\akun.php(708): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php', 708)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 5 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:11:02 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: admin/akun]
+in APPPATH\Views\admin\akun.php on line 708.
+ 1 APPPATH\Views\admin\akun.php(708): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php', 708)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 5 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:12:07 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/akun]
+in APPPATH\Views\admin\akun.php on line 711.
+ 1 APPPATH\Views\admin\akun.php(711): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php', 711)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 5 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:12:08 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/akun]
+in APPPATH\Views\admin\akun.php on line 711.
+ 1 APPPATH\Views\admin\akun.php(711): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php', 711)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 5 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-30 02:12:22 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/akun]
+in APPPATH\Views\admin\akun.php on line 711.
+ 1 APPPATH\Views\admin\akun.php(711): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php', 711)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\akun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/akun', [], true)
+ 5 APPPATH\Controllers\Admin.php(46): view('admin/akun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->akun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-30 02:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 02:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-30 03:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

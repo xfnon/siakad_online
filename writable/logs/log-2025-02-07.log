@@ -1,0 +1,89 @@
+DEBUG - 2025-02-07 00:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 00:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 00:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 00:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 00:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 00:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 00:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-07 00:50:57 --> ErrorException: Undefined variable $jurusan
+[Method: GET, Route: admin/matkul]
+in APPPATH\Views\admin\matkul.php on line 678.
+ 1 APPPATH\Views\admin\matkul.php(678): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php', 678)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/matkul', [], true)
+ 5 APPPATH\Controllers\Admin.php(112): view('admin/matkul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->matkul()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-07 00:53:30 --> ErrorException: Undefined array key "id_dosen"
+[Method: GET, Route: admin/matkul]
+in APPPATH\Views\admin\matkul.php on line 698.
+ 1 APPPATH\Views\admin\matkul.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_dosen"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php', 698)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/matkul', [], true)
+ 5 APPPATH\Controllers\Admin.php(112): view('admin/matkul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->matkul()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-07 00:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-07 01:20:02 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/matkul]
+in APPPATH\Views\admin\matkul.php on line 673.
+ 1 APPPATH\Views\admin\matkul.php(673): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php', 673)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/matkul', [], true)
+ 5 APPPATH\Controllers\Admin.php(114): view('admin/matkul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->matkul()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-07 01:20:03 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/matkul]
+in APPPATH\Views\admin\matkul.php on line 673.
+ 1 APPPATH\Views\admin\matkul.php(673): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php', 673)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/matkul', [], true)
+ 5 APPPATH\Controllers\Admin.php(114): view('admin/matkul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->matkul()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-07 01:23:19 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: admin/matkul]
+in APPPATH\Views\admin\matkul.php on line 668.
+ 1 APPPATH\Views\admin\matkul.php(668): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php', 668)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/matkul', [], true)
+ 5 APPPATH\Controllers\Admin.php(114): view('admin/matkul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->matkul()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-07 01:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 01:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-07 02:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,171 @@
+CRITICAL - 2025-02-02 12:15:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tahun/tahunajaran.php"
+[Method: GET, Route: admin/tahun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tahun/tahunajaran.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tahun/tahunajaran', [], true)
+ 3 APPPATH\Controllers\Admin.php(61): view('tahun/tahunajaran')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-02 12:16:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tahun/tahun.php"
+[Method: GET, Route: admin/tahun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tahun/tahun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tahun/tahun', [], true)
+ 3 APPPATH\Controllers\Admin.php(61): view('tahun/tahun')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-02 12:16:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tahun/tahun.php"
+[Method: GET, Route: admin/tahun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tahun/tahun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tahun/tahun', [], true)
+ 3 APPPATH\Controllers\Admin.php(61): view('tahun/tahun')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-02 12:16:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tahun/tahun.php"
+[Method: GET, Route: admin/tahun]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tahun/tahun.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tahun/tahun', [], true)
+ 3 APPPATH\Controllers\Admin.php(61): view('tahun/tahun')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 12:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-02 12:16:11 --> ErrorException: Undefined variable $tahunajaran
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 APPPATH\Views\admin\tahun.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahunajaran', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php', 649)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 5 APPPATH\Controllers\Admin.php(61): view('admin/tahun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 12:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-02 12:16:13 --> ErrorException: Undefined variable $tahunajaran
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 APPPATH\Views\admin\tahun.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahunajaran', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php', 649)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 5 APPPATH\Controllers\Admin.php(61): view('admin/tahun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 12:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-02 12:16:13 --> ErrorException: Undefined variable $tahunajaran
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 APPPATH\Views\admin\tahun.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahunajaran', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php', 649)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 5 APPPATH\Controllers\Admin.php(61): view('admin/tahun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-02 12:17:05 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 3 APPPATH\Controllers\Admin.php(61): view('admin/tahun')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-02 12:17:06 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 3 APPPATH\Controllers\Admin.php(61): view('admin/tahun')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 12:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-02 12:18:24 --> ErrorException: Undefined variable $tahunajaran
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 APPPATH\Views\admin\tahun.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahunajaran', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php', 649)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/tahun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 12:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-02 12:18:25 --> ErrorException: Undefined variable $tahunajaran
+[Method: GET, Route: admin/tahun]
+in APPPATH\Views\admin\tahun.php on line 649.
+ 1 APPPATH\Views\admin\tahun.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahunajaran', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php', 649)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\tahun.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/tahun', [], true)
+ 5 APPPATH\Controllers\Admin.php(64): view('admin/tahun', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->tahun()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 12:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 12:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 12:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 12:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 12:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-02 14:20:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/ruang.php"
+[Method: GET, Route: admin/ruang]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/ruang.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/ruang', [], true)
+ 3 APPPATH\Controllers\Admin.php(73): view('admin/ruang', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->ruang()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-02 14:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 14:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 14:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 14:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 14:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

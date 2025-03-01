@@ -1,0 +1,128 @@
+DEBUG - 2025-02-11 01:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-11 02:17:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-02-11 02:17:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/semester.php"
+[Method: GET, Route: admin/semester]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/semester.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 3 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-11 02:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-11 02:17:38 --> ErrorException: Undefined variable $ruang
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 681.
+ 1 APPPATH\Views\admin\semester.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ruang', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 681)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-11 02:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-11 02:17:39 --> ErrorException: Undefined variable $ruang
+[Method: GET, Route: admin/semester]
+in APPPATH\Views\admin\semester.php on line 681.
+ 1 APPPATH\Views\admin\semester.php(681): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ruang', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php', 681)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\admin\\semester.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/semester', [], true)
+ 5 APPPATH\Controllers\Admin.php(141): view('admin/semester')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->semester()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-11 03:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

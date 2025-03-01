@@ -1,0 +1,162 @@
+DEBUG - 2025-02-05 00:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:12:53 --> BadMethodCallException: Call to undefined method App\Models\Jurusan_model::savejurusan
+[Method: POST, Route: admin/savejurusan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(33): CodeIgniter\Model->__call('savejurusan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savejurusan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:15:20 --> ErrorException: Undefined property: App\Controllers\Admin::$jurusanModel
+[Method: POST, Route: admin/savejurusan]
+in APPPATH\Controllers\Admin.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$jurusanModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Admin.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savejurusan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:16:00 --> ErrorException: Undefined property: App\Controllers\Admin::$jurusanModel
+[Method: POST, Route: admin/savejurusan]
+in APPPATH\Controllers\Admin.php on line 33.
+ 1 APPPATH\Controllers\Admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin::$jurusanModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Admin.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savejurusan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:17:43 --> BadMethodCallException: Call to undefined method App\Models\Jurusan_model::saveJurusan
+[Method: POST, Route: admin/savejurusan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(37): CodeIgniter\Model->__call('saveJurusan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savejurusan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:19:27 --> BadMethodCallException: Call to undefined method App\Models\Jurusan_model::saveJurusan
+[Method: POST, Route: admin/savejurusan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(37): CodeIgniter\Model->__call('saveJurusan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savejurusan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:20:30 --> BadMethodCallException: Call to undefined method App\Models\Jurusan_model::saveJurusan
+[Method: POST, Route: admin/savejurusan]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(37): CodeIgniter\Model->__call('saveJurusan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->savejurusan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:29:59 --> Error: Class "App\Controllers\JurusanModel" not found
+[Method: GET, Route: admin/mahasiswa]
+in APPPATH\Controllers\Admin.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-02-05 00:33:01 --> BadMethodCallException: Call to undefined method App\Models\Jurusan_model::deletejurusan
+[Method: GET, Route: admin/deletejurusan/3]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Admin.php(52): CodeIgniter\Model->__call('deletejurusan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->deletejurusan('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-05 00:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-05 00:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-05 02:25:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'pkl', 3306, '', 0)
+#1 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Archive\PKL\laragon\www\siakad-online\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Archive\PKL\laragon\www\siakad-online\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Archive\PKL\laragon\www\siakad-online\app\Controllers\Admin.php(137): CodeIgniter\BaseModel->findAll()
+#7 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Admin->ruang()
+#8 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Archive\PKL\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Archive\PKL\laragon\www\siakad-online\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Archive\PKL\laragon\www\siakad-online\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Archive\PKL\laragon\www\siakad-online\app\Controllers\Admin.php(137): CodeIgniter\BaseModel->findAll()
+#6 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Admin->ruang()
+#7 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Archive\PKL\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-02-05 02:25:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: admin/ruang]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ruang`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Admin.php(137): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->ruang()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

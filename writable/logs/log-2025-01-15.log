@@ -1,0 +1,374 @@
+CRITICAL - 2025-01-15 00:09:52 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:segment)"
+[Method: GET, Route: master-mhs/delete/%28:segment%29]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('master-mhs/delete/(:segment)')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('master-mhs/delete/(:segment)')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:10:08 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:10:11 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:10:13 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:12:08 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:12:08 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:14:10 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:14:12 --> ErrorException: Undefined array key "id_mahasiswa"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 458.
+ 1 APPPATH\Views\master-mhs\datamhs.php(458): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_mahasiswa"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 458)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:50:05 --> ArgumentCountError: Too few arguments to function App\Controllers\Mahasiswa::edit(), 0 passed in D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: master-mhs/edit]
+in APPPATH\Controllers\Mahasiswa.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:58:06 --> ErrorException: Undefined property: stdClass::$tahun_masuk
+[Method: GET, Route: master-mhs/edit/3]
+in APPPATH\Views\master-mhs\edit.php on line 490.
+ 1 APPPATH\Views\master-mhs\edit.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tahun_masuk', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\edit.php', 490)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/edit', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(56): view('master-mhs/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 00:58:07 --> ErrorException: Undefined property: stdClass::$tahun_masuk
+[Method: GET, Route: master-mhs/edit/3]
+in APPPATH\Views\master-mhs\edit.php on line 490.
+ 1 APPPATH\Views\master-mhs\edit.php(490): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tahun_masuk', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\edit.php', 490)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/edit', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(56): view('master-mhs/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:31:31 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$mahasiswaModel
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 80.
+ 1 APPPATH\Controllers\Mahasiswa.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$mahasiswaModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:33:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(88): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:33:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(88): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:33:38 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$mahasiswaModel
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 82.
+ 1 APPPATH\Controllers\Mahasiswa.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$mahasiswaModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:33:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(87): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:33:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(87): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:33:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(87): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:34:03 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$mahasiswaModel
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 81.
+ 1 APPPATH\Controllers\Mahasiswa.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$mahasiswaModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:34:04 --> Error: Object of class App\Models\Mahasiswa_model could not be converted to string
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:35:37 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 87.
+ 1 APPPATH\Controllers\Mahasiswa.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:35:48 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 87.
+ 1 APPPATH\Controllers\Mahasiswa.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:35:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(87): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:35:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(87): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:35:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(87): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:36:24 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$mahasiswaModel
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 80.
+ 1 APPPATH\Controllers\Mahasiswa.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$mahasiswaModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:36:25 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$mahasiswaModel
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 80.
+ 1 APPPATH\Controllers\Mahasiswa.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$mahasiswaModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:37:43 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$mahasiswaModel
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 80.
+ 1 APPPATH\Controllers\Mahasiswa.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$mahasiswaModel', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:38:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(93): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:40:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa_pdf.php"
+[Method: GET, Route: master-mhs/export-pdf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa_pdf.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa_pdf', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(82): view('mahasiswa_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:40:47 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 88.
+ 1 APPPATH\Controllers\Mahasiswa.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-15 01:40:50 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: master-mhs/export-pdf]
+in APPPATH\Controllers\Mahasiswa.php on line 88.
+ 1 APPPATH\Controllers\Mahasiswa.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Controllers\\Mahasiswa.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->exportPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

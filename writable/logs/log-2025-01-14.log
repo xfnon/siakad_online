@@ -1,0 +1,361 @@
+CRITICAL - 2025-01-14 02:55:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master-mhs_input.php"
+[Method: GET, Route: master-mhs/inputmhs]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master-mhs_input.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs_input', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(14): view('master-mhs_input')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->inputmhs()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 02:57:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master-mhs/input.php"
+[Method: GET, Route: master-mhs/input]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master-mhs/input.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/input', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(15): view('master-mhs/input')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->input()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 02:57:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master-mhs/input.php"
+[Method: GET, Route: master-mhs/input]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master-mhs/input.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/input', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(15): view('master-mhs/input')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->input()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 02:57:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "master-mhs/input.php"
+[Method: GET, Route: master-mhs/input]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master-mhs/input.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/input', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(15): view('master-mhs/input')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->input()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:29:40 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 449.
+ 1 APPPATH\Views\master-mhs\datamhs.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 449)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(20): view('master-mhs/datamhs')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:29:42 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 449.
+ 1 APPPATH\Views\master-mhs\datamhs.php(449): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 449)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(20): view('master-mhs/datamhs')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:23 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:23 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:23 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:23 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:24 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:24 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:25 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:25 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:32:26 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:34:28 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:04 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:05 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:05 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:05 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:05 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:05 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:06 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:06 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:06 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:06 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:06 --> Error: Class "App\Controllers\Mahasiswa_model" not found
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Controllers\Mahasiswa.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:40 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 454.
+ 1 APPPATH\Views\master-mhs\datamhs.php(454): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 454)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:40 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 454.
+ 1 APPPATH\Views\master-mhs\datamhs.php(454): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 454)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:35:40 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 454.
+ 1 APPPATH\Views\master-mhs\datamhs.php(454): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 454)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:36:21 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 454.
+ 1 APPPATH\Views\master-mhs\datamhs.php(454): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 454)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:36:22 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 454.
+ 1 APPPATH\Views\master-mhs\datamhs.php(454): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 454)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 04:36:22 --> ErrorException: Undefined array key "product_id"
+[Method: GET, Route: master-mhs/datamhs]
+in APPPATH\Views\master-mhs\datamhs.php on line 454.
+ 1 APPPATH\Views\master-mhs\datamhs.php(454): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_id"', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php', 454)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\app\\Views\\master-mhs\\datamhs.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('master-mhs/datamhs', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(24): view('master-mhs/datamhs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->datamhs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 14:02:15 --> ErrorException: Undefined variable $totalTime
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 46.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'D:\\Archive\\PKL\\laragon\\www\\siakad-online\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 46)
+ 2 SYSTEMPATH\Debug\Toolbar.php(533): include('D:\\Archive\\PKL\\laragon\\www\\siakad-online\\system\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

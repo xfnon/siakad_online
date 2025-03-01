@@ -1,0 +1,106 @@
+CRITICAL - 2025-01-20 01:53:07 --> Error: Call to undefined method App\Controllers\Auth::_validation()
+[Method: POST, Route: auth/create]
+in APPPATH\Controllers\Auth.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->create()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-01-20 01:53:38 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\Auth.php on line 25.
+ 1 APPPATH\Controllers\Auth.php(25): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-20 03:59:39 --> Received ID: 
+DEBUG - 2025-01-20 03:59:39 --> Data to update: {"nim":"121","nama":"w","jk":null,"no_telp":"123","alamat":"123","prodi":"123","fakultas":"123","tahun":"123","angkatan":"123"}
+DEBUG - 2025-01-20 03:59:39 --> Affected Rows: 1
+DEBUG - 2025-01-20 03:59:58 --> Received ID: 
+DEBUG - 2025-01-20 03:59:58 --> Data to update: {"nim":"1231","nama":"w","jk":null,"no_telp":"123","alamat":"123","prodi":"123","fakultas":"123","tahun":"123","angkatan":"123"}
+DEBUG - 2025-01-20 03:59:58 --> Affected Rows: 1
+DEBUG - 2025-01-20 04:00:45 --> Received ID: 
+DEBUG - 2025-01-20 04:00:45 --> Data to update: {"id_mhs":{"nim":"121","nama":"w","no_telp":"123","alamat":"123","prodi":"123","fakultas":"123","tahun":"123","angkatan":"123"},"nim":"121","nama":"w","jk":null,"no_telp":"123","alamat":"123","prodi":"123","fakultas":"123","tahun":"123","angkatan":"123"}
+ERROR - 2025-01-20 04:00:45 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\Archive\PKL\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `mahasis...', 0)
+#1 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 D:\Archive\PKL\laragon\www\siakad-online\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 D:\Archive\PKL\laragon\www\siakad-online\app\Models\Mahasiswa_model.php(29): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 D:\Archive\PKL\laragon\www\siakad-online\app\Controllers\Mahasiswa.php(83): App\Models\Mahasiswa_model->updateMahasiswa(Array, NULL)
+#6 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->update()
+#7 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\Archive\PKL\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Archive\PKL\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Archive\PKL\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-01-20 04:00:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: master-mhs/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `id_mhs` = :id_mhs:, `nim` = :nim:, `nama` = :nama:, `jk` = :jk:, `no_telp` = :no_telp:, `alamat` = :alamat:, `prodi` = :prodi:, `fakultas` = :fakultas:, `tahun` = :tahun:, `angkatan` = :angkatan:
+WHERE `id_mhs` IS NULL', [...], false)
+ 2 APPPATH\Models\Mahasiswa_model.php(29): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 3 APPPATH\Controllers\Mahasiswa.php(83): App\Models\Mahasiswa_model->updateMahasiswa([...], null)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->update()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:00:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `id_mhs` = (\'121\',\'w\',\'123\',\'123\',\'123\',\'123\',\'123\',\'123\'), `nim` = \'121\', `nama` = \'w\', `jk` = NULL, `no_telp` = \'123\', `alamat` = \'123\', `prodi` = \'123\', `fakultas` = \'123\', `tahun` = \'123\', `angkatan` = \'123\'
+WHERE `id_mhs` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `id_mhs` = (\'121\',\'w\',\'123\',\'123\',\'123\',\'123\',\'123\',\'123\'), `nim` = \'121\', `nama` = \'w\', `jk` = NULL, `no_telp` = \'123\', `alamat` = \'123\', `prodi` = \'123\', `fakultas` = \'123\', `tahun` = \'123\', `angkatan` = \'123\'
+WHERE `id_mhs` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `id_mhs` = :id_mhs:, `nim` = :nim:, `nama` = :nama:, `jk` = :jk:, `no_telp` = :no_telp:, `alamat` = :alamat:, `prodi` = :prodi:, `fakultas` = :fakultas:, `tahun` = :tahun:, `angkatan` = :angkatan:
+WHERE `id_mhs` IS NULL', [...], false)
+ 4 APPPATH\Models\Mahasiswa_model.php(29): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 5 APPPATH\Controllers\Mahasiswa.php(83): App\Models\Mahasiswa_model->updateMahasiswa([...], null)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->update()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-20 04:00:45 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `mahasiswa` SET `id_mhs` = (\'121\',\'w\',\'123\',\'123\',\'123\',\'123\',\'123\',\'123\'), `nim` = \'121\', `nama` = \'w\', `jk` = NULL, `no_telp` = \'123\', `alamat` = \'123\', `prodi` = \'123\', `fakultas` = \'123\', `tahun` = \'123\', `angkatan` = \'123\'
+WHERE `id_mhs` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `id_mhs` = (\'121\',\'w\',\'123\',\'123\',\'123\',\'123\',\'123\',\'123\'), `nim` = \'121\', `nama` = \'w\', `jk` = NULL, `no_telp` = \'123\', `alamat` = \'123\', `prodi` = \'123\', `fakultas` = \'123\', `tahun` = \'123\', `angkatan` = \'123\'
+WHERE `id_mhs` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `id_mhs` = (\'121\',\'w\',\'123\',\'123\',\'123\',\'123\',\'123\',\'123\'), `nim` = \'121\', `nama` = \'w\', `jk` = NULL, `no_telp` = \'123\', `alamat` = \'123\', `prodi` = \'123\', `fakultas` = \'123\', `tahun` = \'123\', `angkatan` = \'123\'
+WHERE `id_mhs` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `id_mhs` = :id_mhs:, `nim` = :nim:, `nama` = :nama:, `jk` = :jk:, `no_telp` = :no_telp:, `alamat` = :alamat:, `prodi` = :prodi:, `fakultas` = :fakultas:, `tahun` = :tahun:, `angkatan` = :angkatan:
+WHERE `id_mhs` IS NULL', [...], false)
+ 5 APPPATH\Models\Mahasiswa_model.php(29): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 APPPATH\Controllers\Mahasiswa.php(83): App\Models\Mahasiswa_model->updateMahasiswa([...], null)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->update()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-01-20 04:01:18 --> Received ID: 
+DEBUG - 2025-01-20 04:01:18 --> Data to update: {"nim":"121","nama":"w","jk":null,"no_telp":"123","alamat":"123","prodi":"123","fakultas":"123","tahun":"123","angkatan":"123"}
+DEBUG - 2025-01-20 04:01:18 --> Affected Rows: 1
+DEBUG - 2025-01-20 04:05:35 --> Received ID: 
+DEBUG - 2025-01-20 04:05:35 --> Data to update: {"nim":"12","nama":"w","jk":null,"no_telp":"123","alamat":"123","prodi":"123","fakultas":"123","tahun":"123","angkatan":"123"}
+DEBUG - 2025-01-20 04:05:35 --> Update successful for ID: 
+CRITICAL - 2025-01-20 04:07:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: master-mhs/update]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1027): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Models\Mahasiswa_model.php(34): CodeIgniter\Model->update(null, [...])
+ 4 APPPATH\Controllers\Mahasiswa.php(74): App\Models\Mahasiswa_model->updateMahasiswa([...], null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->update()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
