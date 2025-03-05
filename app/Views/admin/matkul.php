@@ -29,6 +29,7 @@
 
   <!-- RTL Css -->
   <link rel="stylesheet" href="../assets/css/rtl.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
 
 </head>
@@ -429,265 +430,214 @@
                 <h4 class="card-title">Data Matakuliah</h4>
               </div>
             </div>
-            <!--Input Modal-->
-            <div class="card-body">
-              <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Tambah Data</button>
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Form Input Mata Kuliah</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <form class="form-horizontal" action="/admin/savematkul" method="post">
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="kode_matkul">Kode Mata Kuliah :</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" id="kode_matkul" name="kode_matkul" placeholder="Masukan Kode Mata Kuliah">
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="nama_matkul">Nama Mata Kuliah :</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" id="nama_matkul" name="nama_matkul" placeholder="Masukan Nama Mata Kuliah">
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="nama_matkul">Jumlah SKS :</label>
-                          <div class="col-sm-9">
-                            <input type="number" class="form-control" id="nama_matkul" name="sks" placeholder="Masukan Jumlah SKS">
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="hari">Hari :</label>
-                          <div class="col-sm-9">
-                            <select class="form-control" id="hari" name="hari" required>
-                              <option value="" disabled selected>Pilih Hari</option>
-                              <option value="Senin">Senin</option>
-                              <option value="Selasa">Selasa</option>
-                              <option value="Rabu">Rabu</option>
-                              <option value="Kamis">Kamis</option>
-                              <option value="Jumat">Jumat</option>
-                              <option value="Sabtu">Sabtu</option>
-                              <option value="Minggu">Minggu</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="jam_mulai">Jam Mulai :</label>
-                          <div class="col-sm-9">
-                            <input type="time" class="form-control" id="jam_mulai" name="jam_mulai">
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="jam_selesai">Jam Selesai :</label>
-                          <div class="col-sm-9">
-                            <input type="time" class="form-control" id="jam_selesai" name="jam_selesai">
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="kode_dosen">Ruang :</label>
-                          <div class="col-sm-9">
-                            <select name="ruang" class="form-control" id="kode_dosen" required>
-                              <option value="" disabled selected>Pilih Ruang</option>
-                              <?php foreach ($ruang as $r): ?>
+<!-- Tombol Tambah Data -->
+<div class="card-body">
+    <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#inputMatkulModal">
+        Tambah Data
+    </button>
 
-                                <option value="<?php echo htmlspecialchars($r['nama_ruang']); ?>">
-
-                                  <?php echo htmlspecialchars($r['nama_ruang']); ?>
-
-                                </option>
-
-                              <?php endforeach; ?>
-
-                            </select>
-                          </div>
-                        </div>
-                        <div class="form-group row">
-                          <label class="control-label col-sm-3 align-self-center mb-0" for="kode_dosen">Kode Dosen :</label>
-                          <div class="col-sm-9">
-                            <select name="kode_dosen" class="form-control" id="kode_dosen" required>
-                              <option value="" disabled selected>Pilih Dosen</option>
-                              <?php foreach ($dosen as $d): ?>
-
-                                <option value="<?php echo htmlspecialchars($d['kode_dosen']); ?>">
-
-                                  <?php echo htmlspecialchars($d['kode_dosen']); ?>
-
-                                </option>
-
-                              <?php endforeach; ?>
-
-                            </select>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-primary">Save changes</button>
-                    </div>
-                    </form>
-                  </div>
+    <!-- Modal Tambah Mata Kuliah -->
+    <div class="modal fade" id="inputMatkulModal" tabindex="-1" aria-labelledby="inputMatkulModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="inputMatkulModalLabel">Form Input Mata Kuliah</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-              </div>
-              <div class="table-responsive">
-                <table id="datatable" class="table table-striped" data-toggle="data-table">
-                  <thead>
+
+                <div class="modal-body">
+                    <form action="/admin/savematkul" method="post">
+                        <?= csrf_field(); ?>
+
+                        <!-- Kode Mata Kuliah -->
+                        <div class="form-group row">
+                            <label for="kode_matkul" class="col-sm-3 col-form-label">Kode Mata Kuliah:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control <?= (session('errors.kode_matkul')) ? 'is-invalid' : ''; ?>" 
+                                    id="kode_matkul" name="kode_matkul" placeholder="Masukkan Kode Mata Kuliah" value="<?= old('kode_matkul') ?>" 
+                                    required autocomplete="off">
+                                <div class="invalid-feedback">
+                                    <?= session('errors.kode_matkul') ?>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nama Mata Kuliah -->
+                        <div class="form-group row mt-3">
+                            <label for="matkul" class="col-sm-3 col-form-label">Nama Mata Kuliah:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control <?= (session('errors.matkul')) ? 'is-invalid' : ''; ?>" 
+                                    id="matkul" name="matkul" placeholder="Masukkan Nama Mata Kuliah" value="<?= old('matkul') ?>" 
+                                    required autocomplete="off">
+                                <div class="invalid-feedback">
+                                    <?= session('errors.matkul') ?>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fakultas -->
+                        <div class="form-group row mt-3">
+                            <label for="fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control <?= (session('errors.fakultas')) ? 'is-invalid' : ''; ?>" 
+                                    id="fakultas" name="fakultas" placeholder="Masukkan Fakultas" value="<?= old('fakultas') ?>" 
+                                    required autocomplete="off">
+                                <div class="invalid-feedback">
+                                    <?= session('errors.fakultas') ?>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Program Studi -->
+                        <div class="form-group row mt-3">
+                            <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control <?= (session('errors.prodi')) ? 'is-invalid' : ''; ?>" 
+                                    id="prodi" name="prodi" placeholder="Masukkan Program Studi" value="<?= old('prodi') ?>" 
+                                    required autocomplete="off">
+                                <div class="invalid-feedback">
+                                    <?= session('errors.prodi') ?>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card-body">
+<div class="table-responsive">
+    <table id="datatable" class="table table-striped" data-toggle="data-table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Kode Matkul</th>
+                <th>Nama Matkul</th>
+                <th>Fakultas</th>
+                <th>Prodi</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php if (empty($matkul)) : ?>
+                <tr>
+                    <td colspan="6" class="text-center">Data tidak tersedia</td>
+                </tr>
+            <?php else : ?>
+                <?php $no = 1; foreach ($matkul as $m): ?>
                     <tr>
-                      <th>No.</th>
-                      <th>Kode Matkul</th>
-                      <th>Nama Matkul</th>
-                      <th>Hari</th>
-                      <th>Jam Mulai</th>
-                      <th>Jam Selesai</th>
-                      <th>Ruangan</th>
-                      <th>Kode Dosen</th>
-                      <th>Kode Jurusan</th>
-                      <th>Semester</th>
-                      <th>Aksi</th> <!-- Action column -->
+                        <td><?= $no++; ?></td>
+                        <td><?= esc($m['kode_matkul']); ?></td>
+                        <td><?= esc($m['matkul']); ?></td>
+                        <td><?= esc($m['fakultas']); ?></td>
+                        <td><?= esc($m['prodi']); ?></td>
+                        <td>
+                            <!-- Tombol Edit -->
+                            <button class="btn btn-primary btn-sm" onclick="editMatkul('<?= $m['id_matkul']; ?>', '<?= $m['kode_matkul']; ?>', '<?= $m['matkul']; ?>', '<?= $m['fakultas']; ?>', '<?= $m['prodi']; ?>')">
+                                <i class="bi bi-pencil-square"></i>
+                            </button>
+
+                            <!-- Tombol Hapus -->
+                            <a href="/admin/deleteMatkul/<?= $m['id_matkul']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
                     </tr>
-                  </thead>
-                  <tbody>
-                    <?php $no = 1; // Inisialisasi nomor urut 
-                    ?>
-                    <?php if (!empty($matkul) && is_array($matkul)): ?>
-                      <?php foreach ($matkul as $row): ?>
-                        <tr>
-                          <td><?= esc($no++); ?></td> <!-- Menampilkan nomor urut -->
-                          <td><?= esc($row['kode_matkul']); ?></td>
-                          <td><?= esc($row['nama_matkul']); ?></td>
-                          <td><?= esc($row['hari']); ?></td>
-                          <td><?= esc($row['jam_mulai']); ?></td>
-                          <td><?= esc($row['jam_selesai']); ?></td>
-                          <td><?= esc($row['ruangan']); ?></td>
-                          <td><?= esc($row['kode_dosen']); ?></td>
-                          <td><?= esc($row['kode_jurusan']); ?></td>
-                          <td><?= esc($row['semester']); ?></td>
-                          <td>
-                            <a href="#" class="btn btn-primary btn-sm editButton"
-                              data-id="<?= esc($row['id_matkul']); ?>"
-                              data-kode="<?= esc($row['kode_matkul']); ?>"
-                              data-nama="<?= esc($row['nama_matkul']); ?>"
-                              data-sks="<?= esc($row['sks']); ?>"
-                              data-hari="<?= esc($row['hari']); ?>"
-                              data-jam_mulai="<?= esc($row['jam_mulai']); ?>"
-                              data-jam_selesai="<?= esc($row['jam_selesai']); ?>"
-                              data-ruangan="<?= esc($row['ruangan']); ?>"
-                              data-dosen="<?= esc($row['kode_dosen']); ?>"
-                              data-bs-toggle="modal" data-bs-target="#editModal">
-                              <i class="fas fa-pencil-alt"></i> Edit
-                            </a>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </tbody>
+    </table>
+</div>
+</div>
+
+
+
+<!-- Modal Edit Mata Kuliah -->
+<div class="modal fade" id="editMatkulModal" tabindex="-1" aria-labelledby="editMatkulModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editMatkulModalLabel">Form Edit Mata Kuliah</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+            <form id="editMatkulForm" action="/admin/editMatkul" method="post">
+    <?= csrf_field(); ?>
+    <input type="hidden" id="edit_id_matkul" name="id_matkul">
+
+    <div class="form-group row">
+        <label for="edit_kode_matkul" class="col-sm-3 col-form-label">Kode Mata Kuliah:</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="edit_kode_matkul" name="kode_matkul" required>
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="edit_matkul" class="col-sm-3 col-form-label">Nama Mata Kuliah:</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="edit_matkul" name="matkul" required>
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="edit_fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="edit_fakultas" name="fakultas" required>
+        </div>
+    </div>
+
+    <div class="form-group row mt-3">
+        <label for="edit_prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" id="edit_prodi" name="prodi" required>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+</form>
+
+        </div>
+    </div>
+</div>
 
 
 
 
-                            <!-- Delete Button -->
-                            <a href="<?= site_url('admin/deletematkul/' . esc($row['id_matkul'])); ?>"
-                              class="btn btn-danger btn-sm"
-                              onclick="return confirm('Apakah Anda yakin ingin menghapus matkul ini?')">
-                              <i class="fas fa-trash-alt"></i> Hapus
-                            </a>
+<script>
+    function editMatkul(id, kode, matkul, fakultas, prodi) {
+        document.getElementById('edit_id_matkul').value = id;
+        document.getElementById('edit_kode_matkul').value = kode;
+        document.getElementById('edit_matkul').value = matkul;
+        document.getElementById('edit_fakultas').value = fakultas;
+        document.getElementById('edit_prodi').value = prodi;
+
+        var modal = new bootstrap.Modal(document.getElementById('editMatkulModal'));
+        modal.show();
+    }
+</script>
 
 
 
-                          </td>
-                        </tr>
-                      <?php endforeach; ?>
-                    <?php else: ?>
-                      <tr>
-                        <td colspan="9" class="text-center">Data tidak ditemukan</td>
-                      </tr>
-                    <?php endif; ?>
-                  </tbody>
-                </table>
-                <!-- Modal Edit -->
-                <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="editModalLabel">Edit Mata Kuliah</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <form id="editForm" action="/admin/updatematkul" method="post">
-                          <input type="hidden" id="edit_id_matkul" name="id_matkul">
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_kode_matkul">Kode Mata Kuliah:</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" id="edit_kode_matkul" name="kode_matkul">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_nama_matkul">Nama Mata Kuliah:</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" id="edit_nama_matkul" name="nama_matkul">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_sks">Jumlah SKS:</label>
-                            <div class="col-sm-9">
-                              <input type="number" class="form-control" id="edit_sks" name="sks">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_hari">Hari:</label>
-                            <div class="col-sm-9">
-                              <select class="form-control" id="edit_hari" name="hari">
-                                <option value="Senin">Senin</option>
-                                <option value="Selasa">Selasa</option>
-                                <option value="Rabu">Rabu</option>
-                                <option value="Kamis">Kamis</option>
-                                <option value="Jumat">Jumat</option>
-                                <option value="Sabtu">Sabtu</option>
-                                <option value="Minggu">Minggu</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_jam_mulai">Jam Mulai:</label>
-                            <div class="col-sm-9">
-                              <input type="time" class="form-control" id="edit_jam_mulai" name="jam_mulai">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_jam_selesai">Jam Selesai:</label>
-                            <div class="col-sm-9">
-                              <input type="time" class="form-control" id="edit_jam_selesai" name="jam_selesai">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_ruangan">Ruangan:</label>
-                            <div class="col-sm-9">
-                              <input type="text" class="form-control" id="edit_ruangan" name="ruangan">
-                            </div>
-                          </div>
-                          <div class="form-group row">
-                            <label class="control-label col-sm-3 align-self-center mb-0" for="edit_kode_dosen">Kode Dosen:</label>
-                            <div class="col-sm-9">
-                              <select class="form-control" id="edit_kode_dosen" name="kode_dosen">
-                                <option value="" disabled selected>Pilih Dosen</option>
-                                <?php foreach ($dosen as $d): ?>
-                                  <option value="<?= htmlspecialchars($d['kode_dosen']); ?>"><?= htmlspecialchars($d['kode_dosen']); ?></option>
-                                <?php endforeach; ?>
-                              </select>
-                            </div>
-                          </div>
-                        </form>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary" form="editForm">Save changes</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
+</table>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <!-- Footer Section Start -->
       <footer class="footer">
         <div class="footer-body">
@@ -928,24 +878,6 @@
 
   <!-- App Script -->
   <script src="../assets/js/hope-ui.js" defer></script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      document.querySelectorAll(".editButton").forEach(function(button) {
-        button.addEventListener("click", function() {
-          document.getElementById("edit_id_matkul").value = this.dataset.id;
-          document.getElementById("edit_kode_matkul").value = this.dataset.kode;
-          document.getElementById("edit_nama_matkul").value = this.dataset.nama;
-          document.getElementById("edit_sks").value = this.dataset.sks;
-          document.getElementById("edit_hari").value = this.dataset.hari;
-          document.getElementById("edit_jam_mulai").value = this.dataset.jam_mulai;
-          document.getElementById("edit_jam_selesai").value = this.dataset.jam_selesai;
-          document.getElementById("edit_ruangan").value = this.dataset.ruangan;
-          document.getElementById("edit_kode_dosen").value = this.dataset.dosen;
-        });
-      });
-    });
-  </script>
 
 </body>
 

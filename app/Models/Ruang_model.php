@@ -7,6 +7,6 @@ use CodeIgniter\Model;
 class Ruang_model extends Model
 {
     protected $table = 'ruang';
-    protected $primaryKey = 'id';
-    protected $allowedFields = ['kode_ruang', 'nama_ruang', 'kapasitas', 'jurusan'];
+    protected $primaryKey = 'id_ruang';
+    protected $allowedFields = ['gedung', 'lantai', 'ruang', 'kuota'];
 }

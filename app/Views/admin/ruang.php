@@ -28,6 +28,8 @@
       
       <!-- RTL Css -->
       <link rel="stylesheet" href="../assets/css/rtl.min.css"/>
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
       
       
   </head>
@@ -421,66 +423,89 @@
   <h4 class="card-title">Data Ruang</h4>
 </div>
 </div>
-<!-- Input Ruang Modal -->
+<!-- Tombol Tambah Data -->
 <div class="card-body">
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inputRuangModal">
-  Tambah Data
-</button>
+    <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#inputRuangModal">
+        Tambah Data
+    </button>
 
+    <!-- Modal Tambah Ruang -->
 <div class="modal fade" id="inputRuangModal" tabindex="-1" aria-labelledby="inputRuangModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title" id="inputRuangModalLabel">Form Input Ruang</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="inputRuangModalLabel">Form Input Ruang</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
 
-          <div class="modal-body">
-              <form action="/ruang/save" method="post">
-                  <?= csrf_field(); ?>
+            <div class="modal-body">
+                <form action="/admin/saveRuang" method="post">
+                    <?= csrf_field(); ?>
 
-                  <div class="form-group row">
-                      <label for="kode_ruang" class="col-sm-3 col-form-label">Kode:</label>
-                      <div class="col-sm-9">
-                          <input type="text" class="form-control" id="kode_ruang" name="kode_ruang"
-                              placeholder="Masukkan Kode Ruang" value="<?= old('kode_ruang') ?>" required>
-                      </div>
-                  </div>
+                    <!-- Gedung -->
+                    <div class="form-group row">
+                        <label for="gedung" class="col-sm-3 col-form-label">Gedung:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control <?= (session('errors.gedung')) ? 'is-invalid' : ''; ?>" 
+                                id="gedung" name="gedung" placeholder="Masukkan Gedung" value="<?= old('gedung') ?>" 
+                                required autocomplete="off">
+                            <div class="invalid-feedback">
+                                <?= session('errors.gedung') ?>
+                            </div>
+                        </div>
+                    </div>
 
-                  <div class="form-group row mt-3">
-                      <label for="nama_ruang" class="col-sm-3 col-form-label">Nama:</label>
-                      <div class="col-sm-9">
-                          <input type="text" class="form-control" id="nama_ruang" name="nama_ruang"
-                              placeholder="Masukkan Nama Ruang" value="<?= old('nama_ruang') ?>" required>
-                      </div>
-                  </div>
+                    <!-- Lantai -->
+                    <div class="form-group row mt-3">
+                        <label for="lantai" class="col-sm-3 col-form-label">Lantai:</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control <?= (session('errors.lantai')) ? 'is-invalid' : ''; ?>" 
+                                id="lantai" name="lantai" placeholder="Masukkan Lantai" value="<?= old('lantai') ?>" 
+                                required autocomplete="off">
+                            <div class="invalid-feedback">
+                                <?= session('errors.lantai') ?>
+                            </div>
+                        </div>
+                    </div>
 
-                  <div class="form-group row mt-3">
-                      <label for="kapasitas" class="col-sm-3 col-form-label">Kapasitas:</label>
-                      <div class="col-sm-9">
-                          <input type="number" class="form-control" id="kapasitas" name="kapasitas"
-                              placeholder="Masukkan Kapasitas Ruang" value="<?= old('kapasitas') ?>" required>
-                      </div>
-                  </div>
+                    <!-- Ruang -->
+                    <div class="form-group row mt-3">
+                        <label for="ruang" class="col-sm-3 col-form-label">Nama Ruang:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control <?= (session('errors.ruang')) ? 'is-invalid' : ''; ?>" 
+                                id="ruang" name="ruang" placeholder="Masukkan Nama Ruang" value="<?= old('ruang') ?>" 
+                                required autocomplete="off">
+                            <div class="invalid-feedback">
+                                <?= session('errors.ruang') ?>
+                            </div>
+                        </div>
+                    </div>
 
-                  <div class="form-group row mt-3">
-                      <label for="jurusan" class="col-sm-3 col-form-label">Jurusan:</label>
-                      <div class="col-sm-9">
-                          <input type="text" class="form-control" id="jurusan" name="jurusan"
-                              placeholder="Masukkan Nama Jurusan" value="<?= old('jurusan') ?>" required>
-                      </div>
-                  </div>
-          </div>
+                    <!-- Kuota -->
+                    <div class="form-group row mt-3">
+                        <label for="kuota" class="col-sm-3 col-form-label">Kapasitas:</label>
+                        <div class="col-sm-9">
+                            <input type="number" class="form-control <?= (session('errors.kuota')) ? 'is-invalid' : ''; ?>" 
+                                id="kuota" name="kuota" placeholder="Masukkan Kapasitas Ruang" value="<?= old('kuota') ?>" 
+                                required autocomplete="off">
+                            <div class="invalid-feedback">
+                                <?= session('errors.kuota') ?>
+                            </div>
+                        </div>
+                    </div>
 
-          <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary">Simpan</button>
-          </div>
-          </form>
-      </div>
-  </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+            </form>
+        </div>
+    </div>
 </div>
-</div>
+
+
 
       <div class="card-body">
          <div class="table-responsive">
@@ -488,28 +513,36 @@
             <thead>
   <tr>
       <th>No</th>
-      <th>Kode Ruang</th>
-      <th>Nama Ruang</th>
-      <th>Kapasitas</th>
-      <th>Jurusan</th>
+      <th>GEDUNG</th>
+      <th>LANTAI</th>
+      <th>RUANG</th>
+      <th>KUOTA</th>
       <th>Aksi</th> <!-- Pastikan jumlah kolom di <thead> sama dengan <tbody> -->
   </tr>
 </thead>
 <tbody>
-  <?php $no = 1; foreach ($ruang as $r): ?>
-  <tr>
-      <td><?= $no++; ?></td>
-      <td><?= $r['kode_ruang']; ?></td>
-      <td><?= $r['nama_ruang']; ?></td>
-      <td><?= $r['kapasitas']; ?></td>
-      <td><?= $r['jurusan']; ?></td>
-      <td>
-          <a href="/ruang/editruang/<?= $r['id']; ?>" class="btn btn-primary btn-sm">Edit</a>
-          <a href="/ruang/delete/<?= $r['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">Hapus</a>
-      </td>
-  </tr>
-  <?php endforeach; ?>
+  <?php if (!empty($ruang)) : ?>
+    <?php $no = 1; foreach ($ruang as $r) : ?>
+    <tr>
+        <td><?= $no++; ?></td>
+        <td><?= htmlspecialchars($r['gedung']); ?></td>
+        <td><?= htmlspecialchars($r['lantai']); ?></td>
+        <td><?= htmlspecialchars($r['ruang']); ?></td>
+        <td><?= htmlspecialchars($r['kuota']); ?></td>
+        <td>
+            <a href="/admin/deleteRuang/<?= $r['id_ruang']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
+                <i class="bi bi-trash"></i>
+            </a>
+        </td>
+    </tr>
+    <?php endforeach; ?>
+  <?php else : ?>
+    <tr>
+        <td colspan="6" class="text-center">Tidak ada data ruang</td>
+    </tr>
+  <?php endif; ?>
 </tbody>
+
 
 
             </table>
@@ -519,6 +552,8 @@
 </div>
 </div>
 </div>
+</div>
+  </div>
       <!-- Footer Section Start -->
       <footer class="footer">
           <div class="footer-body">
