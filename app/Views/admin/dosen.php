@@ -251,6 +251,17 @@
             </ul>
           </li>
           <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/admin/setupjadwal">
+              <i class="icon">
+                <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-20">
+                  <path opacity="0.4" d="M16.0756 2H19.4616C20.8639 2 22.0001 3.14585 22.0001 4.55996V7.97452C22.0001 9.38864 20.8639 10.5345 19.4616 10.5345H16.0756C14.6734 10.5345 13.5371 9.38864 13.5371 7.97452V4.55996C13.5371 3.14585 14.6734 2 16.0756 2Z" fill="currentColor"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53852 2H7.92449C9.32676 2 10.463 3.14585 10.463 4.55996V7.97452C10.463 9.38864 9.32676 10.5345 7.92449 10.5345H4.53852C3.13626 10.5345 2 9.38864 2 7.97452V4.55996C2 3.14585 3.13626 2 4.53852 2ZM4.53852 13.4655H7.92449C9.32676 13.4655 10.463 14.6114 10.463 16.0255V19.44C10.463 20.8532 9.32676 22 7.92449 22H4.53852C3.13626 22 2 20.8532 2 19.44V16.0255C2 14.6114 3.13626 13.4655 4.53852 13.4655ZM19.4615 13.4655H16.0755C14.6732 13.4655 13.537 14.6114 13.537 16.0255V19.44C13.537 20.8532 14.6732 22 16.0755 22H19.4615C20.8637 22 22 20.8532 22 19.44V16.0255C22 14.6114 20.8637 13.4655 19.4615 13.4655Z" fill="currentColor"></path>
+                </svg>
+              </i>
+              <span class="item-name">Setup Jadwal</span>
+            </a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#sidebar-form" role="button" aria-expanded="false" aria-controls="sidebar-form">
               <i class="icon">
                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -433,184 +444,185 @@
               </div>
             </div>
             <div class="card-body">
-             <!-- Input Modal -->
-<button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Tambah Data</button>
+              <!-- Input Modal -->
+              <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Tambah Data</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Form Input Dosen</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form action="/admin/savedosen" method="post">
-                    <?= csrf_field(); ?>
-                    
-                    <div class="form-group row">
-                        <label for="nidn" class="col-sm-3 col-form-label">NIDN:</label>
-                        <div class="col-sm-9">
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Form Input Dosen</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="/admin/savedosen" method="post">
+                        <?= csrf_field(); ?>
+
+                        <div class="form-group row">
+                          <label for="nidn" class="col-sm-3 col-form-label">NIDN:</label>
+                          <div class="col-sm-9">
                             <input type="text" class="form-control" id="nidn" name="nidn" placeholder="Masukkan NIDN" value="<?= old('nidn') ?>" required>
+                          </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row mt-3">
-                        <label for="kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
-                        <div class="col-sm-9">
+                        <div class="form-group row mt-3">
+                          <label for="kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
+                          <div class="col-sm-9">
                             <input type="text" class="form-control" id="kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" value="<?= old('kode_dosen') ?>" required>
+                          </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row mt-3">
-                        <label for="nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
-                        <div class="col-sm-9">
+                        <div class="form-group row mt-3">
+                          <label for="nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
+                          <div class="col-sm-9">
                             <input type="text" class="form-control" id="nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" value="<?= old('nama_dosen') ?>" required>
+                          </div>
                         </div>
-                    </div>
 
-                    <div class="form-group row mt-3">
-                        <label for="jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
-                        <div class="col-sm-9">
+                        <div class="form-group row mt-3">
+                          <label for="jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
+                          <div class="col-sm-9">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-Laki" <?= old('jenis_kelamin') === 'Laki-Laki' ? 'checked' : ''; ?> required>
-                                <label for="laki_laki" class="form-check-label">Laki-Laki</label>
+                              <input class="form-check-input" type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-Laki" <?= old('jenis_kelamin') === 'Laki-Laki' ? 'checked' : ''; ?> required>
+                              <label for="laki_laki" class="form-check-label">Laki-Laki</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" <?= old('jenis_kelamin') === 'Perempuan' ? 'checked' : ''; ?> required>
-                                <label for="perempuan" class="form-check-label">Perempuan</label>
+                              <input class="form-check-input" type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" <?= old('jenis_kelamin') === 'Perempuan' ? 'checked' : ''; ?> required>
+                              <label for="perempuan" class="form-check-label">Perempuan</label>
                             </div>
+                          </div>
                         </div>
-                    </div>
 
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Simpan</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
-              
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-primary">Simpan</button>
+                    </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
               <div class="table-responsive">
                 <table id="datatable" class="table table-striped" data-toggle="data-table">
-                <thead>
-        <tr>
-            <th>No</th>
-            <th>NIDN</th>
-            <th>Kode Dosen</th>
-            <th>Nama Dosen</th>
-            <th>Jenis Kelamin</th>
-            <th>Aksi</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php if (empty($dosen)) : ?>
-            <tr>
-                <td colspan="6" class="text-center">Data tidak tersedia</td>
-            </tr>
-        <?php else : ?>
-            <?php $no = 1; foreach ($dosen as $d) : ?>
-                <tr>
-                    <td><?= $no++; ?></td>
-                    <td><?= esc($d['nidn']); ?></td>
-                    <td><?= esc($d['kode_dosen']); ?></td>
-                    <td><?= esc($d['nama_dosen']); ?></td>
-                    <td><?= esc($d['jenis_kelamin']); ?></td>
-                    <td>
-                    <button class="btn btn-primary btn-sm"
-    onclick="editDosen('<?= $d['id_dosen']; ?>', '<?= $d['nidn']; ?>', '<?= $d['kode_dosen']; ?>', '<?= $d['nama_dosen']; ?>', '<?= $d['jenis_kelamin']; ?>')">
-    <i class="bi bi-pencil-square"></i>
-</button>
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>NIDN</th>
+                      <th>Kode Dosen</th>
+                      <th>Nama Dosen</th>
+                      <th>Jenis Kelamin</th>
+                      <th>Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php if (empty($dosen)) : ?>
+                      <tr>
+                        <td colspan="6" class="text-center">Data tidak tersedia</td>
+                      </tr>
+                    <?php else : ?>
+                      <?php $no = 1;
+                      foreach ($dosen as $d) : ?>
+                        <tr>
+                          <td><?= $no++; ?></td>
+                          <td><?= esc($d['nidn']); ?></td>
+                          <td><?= esc($d['kode_dosen']); ?></td>
+                          <td><?= esc($d['nama_dosen']); ?></td>
+                          <td><?= esc($d['jenis_kelamin']); ?></td>
+                          <td>
+                            <button class="btn btn-primary btn-sm"
+                              onclick="editDosen('<?= $d['id_dosen']; ?>', '<?= $d['nidn']; ?>', '<?= $d['kode_dosen']; ?>', '<?= $d['nama_dosen']; ?>', '<?= $d['jenis_kelamin']; ?>')">
+                              <i class="bi bi-pencil-square"></i>
+                            </button>
 
-    <a href="/admin/deletedosen/<?= $d['id_dosen']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
-        <i class="bi bi-trash"></i>
-    </a>
-</td>
+                            <a href="/admin/deletedosen/<?= $d['id_dosen']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
+                              <i class="bi bi-trash"></i>
+                            </a>
+                          </td>
 
-                </tr>
-            <?php endforeach; ?>
-        <?php endif; ?>
-    </tbody>
+                        </tr>
+                      <?php endforeach; ?>
+                    <?php endif; ?>
+                  </tbody>
 
 
-    <!-- Edit Modal -->
-<div class="modal fade" id="editDosenModal" tabindex="-1" aria-labelledby="editDosenModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="editDosenModalLabel">Form Edit Dosen</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form id="editDosenForm" action="/admin/updateDosen" method="post">
-                    <?= csrf_field(); ?>
-                    <input type="hidden" id="edit_id_dosen" name="id_dosen">
-                    
-                    <div class="form-group row">
-                        <label for="edit_nidn" class="col-sm-3 col-form-label">NIDN:</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="edit_nidn" name="nidn" placeholder="Masukkan NIDN" required>
+                  <!-- Edit Modal -->
+                  <div class="modal fade" id="editDosenModal" tabindex="-1" aria-labelledby="editDosenModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="editDosenModalLabel">Form Edit Dosen</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                    </div>
+                        <div class="modal-body">
+                          <form id="editDosenForm" action="/admin/updateDosen" method="post">
+                            <?= csrf_field(); ?>
+                            <input type="hidden" id="edit_id_dosen" name="id_dosen">
 
-                    <div class="form-group row mt-3">
-                        <label for="edit_kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="edit_kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group row mt-3">
-                        <label for="edit_nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="edit_nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" required>
-                        </div>
-                    </div>
-
-                    <div class="form-group row mt-3">
-                        <label for="edit_jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
-                        <div class="col-sm-9">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" id="edit_laki_laki" name="jenis_kelamin" value="Laki-Laki">
-                                <label for="edit_laki_laki" class="form-check-label">Laki-Laki</label>
+                            <div class="form-group row">
+                              <label for="edit_nidn" class="col-sm-3 col-form-label">NIDN:</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" id="edit_nidn" name="nidn" placeholder="Masukkan NIDN" required>
+                              </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" id="edit_perempuan" name="jenis_kelamin" value="Perempuan">
-                                <label for="edit_perempuan" class="form-check-label">Perempuan</label>
+
+                            <div class="form-group row mt-3">
+                              <label for="edit_kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" id="edit_kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" required>
+                              </div>
                             </div>
+
+                            <div class="form-group row mt-3">
+                              <label for="edit_nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" id="edit_nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" required>
+                              </div>
+                            </div>
+
+                            <div class="form-group row mt-3">
+                              <label for="edit_jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
+                              <div class="col-sm-9">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" id="edit_laki_laki" name="jenis_kelamin" value="Laki-Laki">
+                                  <label for="edit_laki_laki" class="form-check-label">Laki-Laki</label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" id="edit_perempuan" name="jenis_kelamin" value="Perempuan">
+                                  <label for="edit_perempuan" class="form-check-label">Perempuan</label>
+                                </div>
+                              </div>
+                            </div>
+
                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                        </form>
+                      </div>
                     </div>
-
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Update</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
+                  </div>
 
 
-<script>
-    function editDosen(id, nidn, kode_dosen, nama_dosen, jenis_kelamin) {
-        document.getElementById('edit_id_dosen').value = id;
-        document.getElementById('edit_nidn').value = nidn;
-        document.getElementById('edit_kode_dosen').value = kode_dosen;
-        document.getElementById('edit_nama_dosen').value = nama_dosen;
+                  <script>
+                    function editDosen(id, nidn, kode_dosen, nama_dosen, jenis_kelamin) {
+                      document.getElementById('edit_id_dosen').value = id;
+                      document.getElementById('edit_nidn').value = nidn;
+                      document.getElementById('edit_kode_dosen').value = kode_dosen;
+                      document.getElementById('edit_nama_dosen').value = nama_dosen;
 
-        if (jenis_kelamin === "Laki-Laki") {
-            document.getElementById('edit_laki_laki').checked = true;
-        } else if (jenis_kelamin === "Perempuan") {
-            document.getElementById('edit_perempuan').checked = true;
-        }
+                      if (jenis_kelamin === "Laki-Laki") {
+                        document.getElementById('edit_laki_laki').checked = true;
+                      } else if (jenis_kelamin === "Perempuan") {
+                        document.getElementById('edit_perempuan').checked = true;
+                      }
 
-        // Menampilkan modal edit
-        var myModal = new bootstrap.Modal(document.getElementById('editDosenModal'));
-        myModal.show();
-    }
-</script>
+                      // Menampilkan modal edit
+                      var myModal = new bootstrap.Modal(document.getElementById('editDosenModal'));
+                      myModal.show();
+                    }
+                  </script>
 
 
 
@@ -623,26 +635,26 @@
         </div>
       </div>
     </div>
-      <!-- Footer Section Start -->
-      <footer class="footer">
-        <div class="footer-body">
-          <ul class="left-panel list-inline mb-0 p-0">
-            <li class="list-inline-item"><a href="../dashboard/extra/privacy-policy.html">Privacy Policy</a></li>
-            <li class="list-inline-item"><a href="../dashboard/extra/terms-of-service.html">Terms of Use</a></li>
-          </ul>
-          <div class="right-panel">
-            ©<script>
-              document.write(new Date().getFullYear())
-            </script> Hope UI, Made with
-            <span class="">
-              <svg class="icon-15" width="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.85 2.50065C16.481 2.50065 17.111 2.58965 17.71 2.79065C21.401 3.99065 22.731 8.04065 21.62 11.5806C20.99 13.3896 19.96 15.0406 18.611 16.3896C16.68 18.2596 14.561 19.9196 12.28 21.3496L12.03 21.5006L11.77 21.3396C9.48102 19.9196 7.35002 18.2596 5.40102 16.3796C4.06102 15.0306 3.03002 13.3896 2.39002 11.5806C1.26002 8.04065 2.59002 3.99065 6.32102 2.76965C6.61102 2.66965 6.91002 2.59965 7.21002 2.56065H7.33002C7.61102 2.51965 7.89002 2.50065 8.17002 2.50065H8.28002C8.91002 2.51965 9.52002 2.62965 10.111 2.83065H10.17C10.21 2.84965 10.24 2.87065 10.26 2.88965C10.481 2.96065 10.69 3.04065 10.89 3.15065L11.27 3.32065C11.3618 3.36962 11.4649 3.44445 11.554 3.50912C11.6104 3.55009 11.6612 3.58699 11.7 3.61065C11.7163 3.62028 11.7329 3.62996 11.7496 3.63972C11.8354 3.68977 11.9247 3.74191 12 3.79965C13.111 2.95065 14.46 2.49065 15.85 2.50065ZM18.51 9.70065C18.92 9.68965 19.27 9.36065 19.3 8.93965V8.82065C19.33 7.41965 18.481 6.15065 17.19 5.66065C16.78 5.51965 16.33 5.74065 16.18 6.16065C16.04 6.58065 16.26 7.04065 16.68 7.18965C17.321 7.42965 17.75 8.06065 17.75 8.75965V8.79065C17.731 9.01965 17.8 9.24065 17.94 9.41065C18.08 9.58065 18.29 9.67965 18.51 9.70065Z" fill="currentColor"></path>
-              </svg>
-            </span> by <a href="https://iqonic.design/">IQONIC Design</a>.
-          </div>
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="footer-body">
+        <ul class="left-panel list-inline mb-0 p-0">
+          <li class="list-inline-item"><a href="../dashboard/extra/privacy-policy.html">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="../dashboard/extra/terms-of-service.html">Terms of Use</a></li>
+        </ul>
+        <div class="right-panel">
+          ©<script>
+            document.write(new Date().getFullYear())
+          </script> Hope UI, Made with
+          <span class="">
+            <svg class="icon-15" width="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.85 2.50065C16.481 2.50065 17.111 2.58965 17.71 2.79065C21.401 3.99065 22.731 8.04065 21.62 11.5806C20.99 13.3896 19.96 15.0406 18.611 16.3896C16.68 18.2596 14.561 19.9196 12.28 21.3496L12.03 21.5006L11.77 21.3396C9.48102 19.9196 7.35002 18.2596 5.40102 16.3796C4.06102 15.0306 3.03002 13.3896 2.39002 11.5806C1.26002 8.04065 2.59002 3.99065 6.32102 2.76965C6.61102 2.66965 6.91002 2.59965 7.21002 2.56065H7.33002C7.61102 2.51965 7.89002 2.50065 8.17002 2.50065H8.28002C8.91002 2.51965 9.52002 2.62965 10.111 2.83065H10.17C10.21 2.84965 10.24 2.87065 10.26 2.88965C10.481 2.96065 10.69 3.04065 10.89 3.15065L11.27 3.32065C11.3618 3.36962 11.4649 3.44445 11.554 3.50912C11.6104 3.55009 11.6612 3.58699 11.7 3.61065C11.7163 3.62028 11.7329 3.62996 11.7496 3.63972C11.8354 3.68977 11.9247 3.74191 12 3.79965C13.111 2.95065 14.46 2.49065 15.85 2.50065ZM18.51 9.70065C18.92 9.68965 19.27 9.36065 19.3 8.93965V8.82065C19.33 7.41965 18.481 6.15065 17.19 5.66065C16.78 5.51965 16.33 5.74065 16.18 6.16065C16.04 6.58065 16.26 7.04065 16.68 7.18965C17.321 7.42965 17.75 8.06065 17.75 8.75965V8.79065C17.731 9.01965 17.8 9.24065 17.94 9.41065C18.08 9.58065 18.29 9.67965 18.51 9.70065Z" fill="currentColor"></path>
+            </svg>
+          </span> by <a href="https://iqonic.design/">IQONIC Design</a>.
         </div>
-      </footer>
-      <!-- Footer Section End -->
+      </div>
+    </footer>
+    <!-- Footer Section End -->
   </main>
   <a class="btn btn-fixed-end btn-warning btn-icon btn-setting" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button" aria-controls="offcanvasExample">
     <svg width="24" viewBox="0 0 24 24" class="animated-rotate icon-24" fill="none" xmlns="http://www.w3.org/2000/svg">

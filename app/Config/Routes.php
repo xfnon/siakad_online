@@ -23,6 +23,7 @@ $routes->get('/admin/tahun', 'Admin::tahun');
 $routes->get('/admin/ruang', 'Admin::ruang');
 $routes->get('/admin/jurusan', 'Admin::jurusan');
 $routes->get('/admin/semester', 'Admin::semester');
+$routes->get('/admin/setupjadwal', 'Admin::setupjadwal');
 //adminprocess
 $routes->post('admin/savemhs', 'Admin::savemhs');
 $routes->post('admin/savedosen', 'Admin::savedosen');
@@ -30,16 +31,17 @@ $routes->post('admin/savejurusan', 'Admin::savejurusan');
 $routes->post('/admin/saveRuang', 'Admin::saveRuang');
 $routes->post('/admin/savematkul', 'Admin::saveMatkul');
 $routes->post('admin/savetahun', 'Admin::savetahun');
+$routes->post('admin/savejadwal', 'Admin::savejadwal');
 //update
 $routes->post('/admin/updatedosen', 'Admin::updatedosen');
 $routes->post('/admin/updatematkul', 'Admin::updateMatkul');
 $routes->post('/admin/updateRuang', 'Admin::updateRuang');
-$routes->post('/admin/editMatkul', 'Admin::editMatkul'); 
+$routes->post('/admin/editMatkul', 'Admin::editMatkul');
 
 //hapus
 $routes->get('/admin/deletemhs/(:segment)', 'Admin::deletemhs/$1');
 $routes->get('/admin/deletedosen/(:segment)', 'Admin::deletedosen/$1');
-$routes->get('/admin/deleteMatkul/(:num)', 'Admin::deleteMatkul/$1'); 
+$routes->get('/admin/deleteMatkul/(:num)', 'Admin::deleteMatkul/$1');
 $routes->get('/admin/deletejurusan/(:segment)', 'Admin::deletejurusan/$1');
 $routes->get('/admin/deleteRuang/(:segment)', 'Admin::deleteRuang/$1');
 
