@@ -518,9 +518,11 @@
                     <td><?= esc($d['nama_dosen']); ?></td>
                     <td><?= esc($d['jenis_kelamin']); ?></td>
                     <td>
-    <button class="btn btn-primary btn-sm" onclick="editDosen('<?= $d['id_dosen']; ?>', '<?= $d['nidn']; ?>', '<?= $d['kode_dosen']; ?>', '<?= $d['nama_dosen']; ?>', '<?= $d['jenis_kelamin']; ?>')">
-        <i class="bi bi-pencil-square"></i>
-    </button>
+                    <button class="btn btn-primary btn-sm"
+    onclick="editDosen('<?= $d['id_dosen']; ?>', '<?= $d['nidn']; ?>', '<?= $d['kode_dosen']; ?>', '<?= $d['nama_dosen']; ?>', '<?= $d['jenis_kelamin']; ?>')">
+    <i class="bi bi-pencil-square"></i>
+</button>
+
     <a href="/admin/deletedosen/<?= $d['id_dosen']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
         <i class="bi bi-trash"></i>
     </a>
@@ -532,83 +534,86 @@
     </tbody>
 
 
-<!-- Modal Edit Dosen -->
+    <!-- Edit Modal -->
 <div class="modal fade" id="editDosenModal" tabindex="-1" aria-labelledby="editDosenModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="editDosenModalLabel">Form Edit Dosen</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form id="editDosenForm" action="/admin/updatedosen" method="post">
+                <form id="editDosenForm" action="/admin/updateDosen" method="post">
                     <?= csrf_field(); ?>
                     <input type="hidden" id="edit_id_dosen" name="id_dosen">
                     
-                    <div class="mb-3">
-                        <label for="edit_nidn" class="form-label">NIDN:</label>
-                        <input type="text" class="form-control" id="edit_nidn" name="nidn" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="edit_kode_dosen" class="form-label">Kode Dosen:</label>
-                        <input type="text" class="form-control" id="edit_kode_dosen" name="kode_dosen" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="edit_nama_dosen" class="form-label">Nama Dosen:</label>
-                        <input type="text" class="form-control" id="edit_nama_dosen" name="nama_dosen" required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="edit_jenis_kelamin" class="form-label">Jenis Kelamin:</label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" id="edit_laki_laki" name="jenis_kelamin" value="Laki-Laki">
-                            <label for="edit_laki_laki" class="form-check-label">Laki-Laki</label>
+                    <div class="form-group row">
+                        <label for="edit_nidn" class="col-sm-3 col-form-label">NIDN:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="edit_nidn" name="nidn" placeholder="Masukkan NIDN" required>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" id="edit_perempuan" name="jenis_kelamin" value="Perempuan">
-                            <label for="edit_perempuan" class="form-check-label">Perempuan</label>
+                    </div>
+
+                    <div class="form-group row mt-3">
+                        <label for="edit_kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="edit_kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mt-3">
+                        <label for="edit_nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="edit_nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group row mt-3">
+                        <label for="edit_jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
+                        <div class="col-sm-9">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" id="edit_laki_laki" name="jenis_kelamin" value="Laki-Laki">
+                                <label for="edit_laki_laki" class="form-check-label">Laki-Laki</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" id="edit_perempuan" name="jenis_kelamin" value="Perempuan">
+                                <label for="edit_perempuan" class="form-check-label">Perempuan</label>
+                            </div>
                         </div>
                     </div>
 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Update Data</button>
+                <button type="submit" class="btn btn-primary">Update</button>
             </div>
             </form>
         </div>
     </div>
 </div>
 
-<script>
-    function editDosen(id_dosen, nidn, kode_dosen, nama_dosen, jenis_kelamin) {
-        // Pastikan elemen modal ada di DOM
-        var modalElement = document.getElementById('editDosenModal');
-        if (!modalElement) {
-            console.error("Modal editDosenModal tidak ditemukan di halaman.");
-            return;
-        }
 
-        // Mengisi input form dengan data yang dikirimkan
-        document.getElementById('edit_id_dosen').value = id_dosen;
+<script>
+    function editDosen(id, nidn, kode_dosen, nama_dosen, jenis_kelamin) {
+        document.getElementById('edit_id_dosen').value = id;
         document.getElementById('edit_nidn').value = nidn;
         document.getElementById('edit_kode_dosen').value = kode_dosen;
         document.getElementById('edit_nama_dosen').value = nama_dosen;
 
-        // Pilihan radio button untuk jenis kelamin
         if (jenis_kelamin === "Laki-Laki") {
             document.getElementById('edit_laki_laki').checked = true;
         } else if (jenis_kelamin === "Perempuan") {
             document.getElementById('edit_perempuan').checked = true;
         }
 
-        // Menampilkan modal dengan Bootstrap 5 API
-        var modal = new bootstrap.Modal(modalElement);
-        modal.show();
+        // Menampilkan modal edit
+        var myModal = new bootstrap.Modal(document.getElementById('editDosenModal'));
+        myModal.show();
     }
 </script>
+
+
+
 
 
                 </table>
