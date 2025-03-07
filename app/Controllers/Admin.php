@@ -10,6 +10,8 @@ use App\Models\Akun_model;
 use App\Models\Jurusan_model;
 use App\Models\Tahun_model;
 use App\Models\Ruang_model;
+use App\Models\Prodi_model;
+use App\Models\Fakultas_model;
 
 class Admin extends BaseController
 {
@@ -100,6 +102,9 @@ class Admin extends BaseController
        $dosenModel->delete($id);
        return redirect()->to('/admin/dosen')->with('success', 'Dosen berhasil dihapus.');
    }
+
+
+    //ruang
 
    public function ruang()
    {
@@ -272,10 +277,113 @@ class Admin extends BaseController
         }
     }
     
+  
+    //prodi
 
+    public function prodi()
+    {
+        $prodiModel = new Prodi_model();
+        $fakultasModel = new Fakultas_model(); // Ambil daftar fakultas untuk dropdown
 
-   
+        $data['prodi'] = $prodiModel->orderBy('id_prodi', 'ASC')->findAll();
+        $data['fakultas'] = $fakultasModel->orderBy('id_fakultas', 'ASC')->findAll();
+
+        return view('admin/prodi', $data);
+    }
+
+    public function saveProdi()
+    {
+        $prodiModel = new Prodi_model();
+
+        $prodiModel->insert([
+            'nama_prodi' => $this->request->getPost('nama_prodi'),
+            'id_fakultas' => $this->request->getPost('id_fakultas'),
+        ]);
+
+        return redirect()->to('/admin/prodi')->with('success', 'Prodi berhasil ditambahkan.');
+    }
+
+    public function editProdi()
+{
+    $prodiModel = new Prodi_model();
+    $id = $this->request->getPost('id_prodi');
+
+    // Validasi input
+    $validation = \Config\Services::validation();
+    $validation->setRules([
+        'nama_prodi' => 'required|max_length[255]',
+        'id_fakultas' => 'required|integer',
+    ]);
+
+    if (!$validation->withRequest($this->request)->run()) {
+        return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+    }
+
+    // Update data ke database
+    $prodiModel->update($id, [
+        'nama_prodi' => $this->request->getPost('nama_prodi'),
+        'id_fakultas' => $this->request->getPost('id_fakultas'),
+    ]);
+
+    return redirect()->to('/admin/prodi')->with('success', '.');
 }
+
+
+    public function deleteProdi($id)
+    {
+        $prodiModel = new Prodi_model();
+        $prodiModel->delete($id);
+
+        return redirect()->to('/admin/prodi')->with('success', '.');
+    }
+
+            
+        //fakultas
+        public function fakultas()
+        {
+            $fakultasModel = new Fakultas_model();
+            
+            // Mengambil data dengan urutan dari yang paling lama ke terbaru (ID terkecil ke terbesar)
+            $data['fakultas'] = $fakultasModel->orderBy('id_fakultas', 'ASC')->findAll();
+    
+            return view('admin/fakultas', $data);
+        }
+    
+        public function saveFakultas()
+        {
+            $fakultasModel = new Fakultas_model();
+    
+            $fakultasModel->insert([
+                'nama_fakultas' => $this->request->getPost('nama_fakultas'),
+            ]);
+    
+            return redirect()->to('/admin/fakultas')->with('success', 'Fakultas berhasil ditambahkan.');
+        }
+    
+        public function editFakultas()
+        {
+            $fakultasModel = new Fakultas_model();
+            $id = $this->request->getPost('id_fakultas');
+    
+            $fakultasModel->update($id, [
+                'nama_fakultas' => $this->request->getPost('nama_fakultas'),
+            ]);
+    
+            return redirect()->to('/admin/fakultas')->with('success', 'Fakultas berhasil diperbarui.');
+        }
+    
+        public function deleteFakultas($id)
+        {
+            $fakultasModel = new Fakultas_model();
+            $fakultasModel->delete($id);
+    
+            return redirect()->to('/admin/fakultas')->with('success', 'Fakultas berhasil dihapus.');
+        }
+
+}
+
+
+
 
 
 

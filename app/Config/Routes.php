@@ -15,7 +15,6 @@ $routes->post('auth/authentication', 'Auth::authentication');
 
 //routes admin
 $routes->get('/admin/dashboard', 'Admin::dashboard');
-$routes->get('/admin/mahasiswa', 'Admin::mahasiswa');
 $routes->get('/admin/dosen', 'Admin::dosen');
 $routes->get('/admin/matkul', 'Admin::matkul');
 $routes->get('/admin/akun', 'Admin::akun');
@@ -44,27 +43,21 @@ $routes->get('/admin/deletejurusan/(:segment)', 'Admin::deletejurusan/$1');
 $routes->get('/admin/deleteRuang/(:segment)', 'Admin::deleteRuang/$1');
 
 
-// routes mahasiswa
-$routes->get('/mahasiswa/dashboard', 'Mahasiswa::dashboard');
-$routes->get('/mahasiswa/rencanastudi', 'Mahasiswa::rencanastudi');
-$routes->get('/mahasiswa/kelas', 'Mahasiswa::kelas');
-$routes->get('/mahasiswa/jadwal', 'Mahasiswa::jadwal');
-$routes->get('/mahasiswa/hasilstudi', 'Mahasiswa::hasilstudi');
-$routes->get('/mahasiswa/transkripnilai', 'Mahasiswa::transkripnilai');
-$routes->get('/mahasiswa/panduankrs', 'Mahasiswa::panduankrs');
-$routes->get('/mahasiswa/krs/(:segment)', 'Mahasiswa::krs/$1');
-$routes->get('/mahasiswa/krs/(:segment)/(:segment)', 'Mahasiswa::krs/$1/$2');
-$routes->get('/mahasiswa/krs/(:segment)/(:segment)/(:segment)', 'Mahasiswa::krs/$1/$2/$3');
+$routes->get('/admin/fakultas', 'Admin::fakultas');
+$routes->post('/admin/saveFakultas', 'Admin::saveFakultas');
+$routes->post('/admin/editFakultas', 'Admin::editFakultas');
+$routes->get('/admin/deleteFakultas/(:num)', 'Admin::deleteFakultas/$1');
+//hapus fakul
+$routes->get('/admin/deleteFakultas/(:num)', 'Admin::deleteFakultas/$1');
+
+$routes->get('/admin/prodi', 'Admin::prodi'); // Menampilkan daftar prodi
+//$routes->post('/admin/prodi/save', 'Admin::saveProdi'); // Menyimpan prodi baru
+$routes->post('/admin/prodi/edit', 'Admin::editProdi'); // Mengedit prodi
+$routes->get('/admin/prodi/delete/(:num)', 'Admin::deleteProdi/$1');
+$routes->post('admin/saveProdi', 'Admin::saveProdi');
+
+ // Menghapus prodi
 
 
-//routes master-mhs
-$routes->get('/master-mhs/index', 'Mahasiswa::index');
-$routes->get('/master-mhs/input', 'Mahasiswa::input');
-$routes->get('/master-mhs/datamhs', 'Mahasiswa::datamhs');
-$routes->post('master-mhs/save', 'Mahasiswa::save');
-$routes->get('/master-mhs/delete/(:segment)', 'Mahasiswa::delete/$1');
-$routes->get('/master-mhs/edit/(:segment)', 'Mahasiswa::edit/$1');
-$routes->post('master-mhs/update', 'Mahasiswa::update');
 
 
-$routes->get('/blank', 'Mahasiswa::blank');
