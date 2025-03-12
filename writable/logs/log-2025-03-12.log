@@ -1,0 +1,377 @@
+CRITICAL - 2025-03-12 02:51:54 --> ErrorException: Cannot redeclare App\Controllers\Admin::dosen()
+[Method: GET, Route: admin/prodi]
+in APPPATH\Controllers\Admin.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 02:52:09 --> ErrorException: Cannot redeclare App\Controllers\Admin::dosen()
+[Method: GET, Route: admin/fakultas]
+in APPPATH\Controllers\Admin.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 02:56:39 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "setupjadwa;"
+[Method: GET, Route: admin/setupjadwa;]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('admin/setupjadwa;')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('admin/setupjadwa;')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 02:56:43 --> ErrorException: Cannot redeclare App\Controllers\Admin::dosen()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:36 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:37 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:37 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:37 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:37 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:38 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:38 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:00:38 --> ErrorException: Cannot redeclare App\Controllers\Admin::setupjadwal()
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Controllers\Admin.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-12 03:01:09 --> ErrorException: Undefined variable $matkul
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 465.
+ 1 APPPATH\Views\admin\setupjadwal.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $matkul', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 465)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(331): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:42 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:43 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:44 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:44 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:44 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:44 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:44 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:45 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:45 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:45 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:45 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:45 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:45 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:46 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:46 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:46 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:02:46 --> ErrorException: Undefined variable $dosen
+[Method: GET, Route: admin/setupjadwal]
+in APPPATH\Views\admin\setupjadwal.php on line 477.
+ 1 APPPATH\Views\admin\setupjadwal.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\setupjadwal.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/setupjadwal', [], true)
+ 5 APPPATH\Controllers\Admin.php(333): view('admin/setupjadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->setupjadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-12 03:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-12 03:13:01 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: admin/fakultas]
+in APPPATH\Views\admin\fakultas.php on line 503.
+ 1 APPPATH\Views\admin\fakultas.php(503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\fakultas.php', 503)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\fakultas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/fakultas', [], true)
+ 5 APPPATH\Controllers\Admin.php(286): view('admin/fakultas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->fakultas()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:13:31 --> ErrorException: Undefined variable $mahasiswa
+[Method: GET, Route: admin/fakultas]
+in APPPATH\Views\admin\fakultas.php on line 504.
+ 1 APPPATH\Views\admin\fakultas.php(504): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\fakultas.php', 504)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\Archive\\PKL\\laragon\\www\\siakad_online\\app\\Views\\admin\\fakultas.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/fakultas', [], true)
+ 5 APPPATH\Controllers\Admin.php(286): view('admin/fakultas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->fakultas()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-12 03:16:25 --> Error: Class "App\Models\Mahasiswa_model" not found
+[Method: GET, Route: admin/fakultas]
+in APPPATH\Controllers\Admin.php on line 281.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->fakultas()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-12 03:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 03:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-12 04:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

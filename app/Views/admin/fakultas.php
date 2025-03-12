@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Masterdata - Jurusan</title>
+  <title>Masterdata - Fakultas</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../assets/images/favicon.ico" />
@@ -90,7 +90,7 @@
         <ul class="navbar-nav iq-main-menu" id="sidebar-menu">
           <li class="nav-item static-item">
             <a class="nav-link static-item disabled" href="#" tabindex="-1">
-              <span class="default-icon">Home</span>
+              <span class="default-icon">Beranda</span>
               <span class="mini-icon">-</span>
             </a>
           </li>
@@ -103,18 +103,6 @@
                 </svg>
               </i>
               <span class="item-name">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item mt-2">
-            <a class="nav-link" aria-current="page" href="/admin/kuota" target="_blank">
-              <i class="icon">
-                <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9964 8.37513H17.7618C15.7911 8.37859 14.1947 9.93514 14.1911 11.8566C14.1884 13.7823 15.7867 15.3458 17.7618 15.3484H22V15.6543C22 19.0136 19.9636 21 16.5173 21H7.48356C4.03644 21 2 19.0136 2 15.6543V8.33786C2 4.97862 4.03644 3 7.48356 3H16.5138C19.96 3 21.9964 4.97862 21.9964 8.33786V8.37513ZM6.73956 8.36733H12.3796H12.3831H12.3902C12.8124 8.36559 13.1538 8.03019 13.152 7.61765C13.1502 7.20598 12.8053 6.87318 12.3831 6.87491H6.73956C6.32 6.87664 5.97956 7.20858 5.97778 7.61852C5.976 8.03019 6.31733 8.36559 6.73956 8.36733Z" fill="currentColor"></path>
-                  <path opacity="0.4" d="M16.0374 12.2966C16.2465 13.2478 17.0805 13.917 18.0326 13.8996H21.2825C21.6787 13.8996 22 13.5715 22 13.166V10.6344C21.9991 10.2297 21.6787 9.90077 21.2825 9.8999H17.9561C16.8731 9.90338 15.9983 10.8024 16 11.9102C16 12.0398 16.0128 12.1695 16.0374 12.2966Z" fill="currentColor"></path>
-                  <circle cx="18" cy="11.8999" r="1" fill="currentColor"></circle>
-                </svg>
-              </i>
-              <span class="item-name">Kuota Ruang</span>
             </a>
           </li>
           <li>
@@ -142,8 +130,9 @@
               </i>
             </a>
             <ul class="sub-nav collapse show" id="sidebar-auth" data-bs-parent="#sidebar-menu">
+              <!--SidebarContent!-->
               <li class="nav-item">
-                <a class="nav-link active" href="/admin/jurusan">
+                <a class="nav-link active" href="/admin/fakultas">
                   <i class="icon">
                     <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
                       <g>
@@ -151,8 +140,21 @@
                       </g>
                     </svg>
                   </i>
-                  <i class="sidenav-mini-icon"> J </i>
-                  <span class="item-name">Jurusan</span>
+                  <i class="sidenav-mini-icon"> Fa </i>
+                  <span class="item-name">Fakultas</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/admin/prodi">
+                  <i class="icon">
+                    <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
+                      <g>
+                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
+                      </g>
+                    </svg>
+                  </i>
+                  <i class="sidenav-mini-icon"> Pr </i>
+                  <span class="item-name">Prodi</span>
                 </a>
               </li>
               <li class="nav-item">
@@ -208,32 +210,6 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/admin/tahun">
-                  <i class="icon">
-                    <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
-                      <g>
-                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                      </g>
-                    </svg>
-                  </i>
-                  <i class="sidenav-mini-icon"> T </i>
-                  <span class="item-name">Tahun Ajaran</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/admin/semester">
-                  <i class="icon">
-                    <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
-                      <g>
-                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                      </g>
-                    </svg>
-                  </i>
-                  <i class="sidenav-mini-icon"> S </i>
-                  <span class="item-name">Semester</span>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="/admin/akun">
                   <i class="icon">
                     <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
@@ -246,6 +222,7 @@
                   <span class="item-name">Akun</span>
                 </a>
               </li>
+              <!--SidebarContent!-->
             </ul>
           </li>
           <li class="nav-item">
@@ -434,151 +411,117 @@
     </div>
 
 
-    
+
 
     <div class="container-fluid content-inner mt-n5 py-0">
-    <div class="row">
+      <div class="row">
         <div class="col-sm-12">
-            <div class="card">
-                <div class="card-header d-flex justify-content-between align-items-center">
-                    <div class="header-title">
-                        <h4 class="card-title">Data Fakultas</h4>
-                        <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalTambah">Tambah Data</button>
-                    </div>
-                </div>
+          <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div class="header-title">
+                <h4 class="card-title">Data Fakultas</h4>
+                <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalTambah">Tambah Data</button>
+              </div>
+            </div>
 
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table id="datatable" class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Nama Fakultas</th>
-                                    <th>Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php if (!empty($fakultas)) : ?>
-                                    <?php $no = 1; foreach ($fakultas as $row): ?>
-                                        <tr>
-                                            <td><?= $no++; ?></td>
-                                            <td><?= esc($row['nama_fakultas']); ?></td>
-                                            <td>
-                                            <button class="btn btn-primary btn-edit btn-sm" data-id="<?= $row['id_fakultas']; ?>" data-nama="<?= esc($row['nama_fakultas']); ?>">
-        <i class="bi bi-pencil-square"></i>
-    </button>
-    <a href="/admin/deleteFakultas/<?= $row['id_fakultas']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus fakultas ini?');">
-        <i class="bi bi-trash"></i>
-    </a>
-</td>
-
-                                        </tr>
-
-                                    <?php endforeach; ?>
-                                <?php else : ?>
-                                    <tr>
-                                        <td colspan="3" class="text-center">Belum ada data fakultas.</td>
-                                    </tr>
-                                <?php endif; ?>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-
+            <div class="card-body">
               <div class="table-responsive">
-                <table id="datatable" class="table table-striped" data-toggle="data-table">
+                <table id="datatable" class="table table-striped">
                   <thead>
                     <tr>
-                      <th>NIM</th>
-                      <th>Nama</th>
-                      <th>No. Telepon</th>
-                      <th>Alamat</th>
-                      <th>Tahun</th>
-                      <th>Angkatan</th>
+                      <th>No</th>
+                      <th>Nama Fakultas</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <?php foreach ($mahasiswa as $row): ?>
+                    <?php if (!empty($fakultas)) : ?>
+                      <?php $no = 1;
+                      foreach ($fakultas as $row): ?>
+                        <tr>
+                          <td><?= $no++; ?></td>
+                          <td><?= esc($row['nama_fakultas']); ?></td>
+                          <td>
+                            <button class="btn btn-primary btn-edit btn-sm" data-id="<?= $row['id_fakultas']; ?>" data-nama="<?= esc($row['nama_fakultas']); ?>">
+                              <i class="bi bi-pencil-square"></i>
+                            </button>
+                            <a href="/admin/deleteFakultas/<?= $row['id_fakultas']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus fakultas ini?');">
+                              <i class="bi bi-trash"></i>
+                            </a>
+                          </td>
+                        </tr>
+                      <?php endforeach; ?>
+                    <?php else : ?>
                       <tr>
-                        <td><?= $row['nim']; ?></td>
-                        <td><?= $row['nama']; ?></td>
-                        <td><?= $row['no_telp']; ?></td>
-                        <td><?= $row['alamat']; ?></td>
-                        <td><?= $row['tahun']; ?></td>
-                        <td><?= $row['angkatan']; ?></td>
-                        <th>
-                          <a href="/master-mhs/edit/<?= $row['id_mhs']; ?>" class="btn btn-primary">Edit</a>
-                          <a href="/admin/deletemhs/<?= $row['id_mhs']; ?>" class="btn btn-danger">Hapus</a>
-                        </th>
+                        <td colspan="3" class="text-center">Belum ada data fakultas.</td>
                       </tr>
-                    <?php endforeach; ?>
+                    <?php endif; ?>
                   </tbody>
                 </table>
               </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- Modal Tambah Fakultas (Besar & Tengah) -->
-<div class="modal fade" id="modalTambah" tabindex="-1" aria-labelledby="modalTambahLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Modal Tambah Fakultas (Besar & Tengah) -->
+    <div class="modal fade" id="modalTambah" tabindex="-1" aria-labelledby="modalTambahLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Tambah Fakultas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-header">
+            <h5 class="modal-title">Tambah Fakultas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="/admin/saveFakultas" method="post">
+            <div class="modal-body">
+              <div class="mb-3 d-flex align-items-center">
+                <label class="form-label me-3" style="min-width: 150px;">Nama Fakultas :</label>
+                <input type="text" class="form-control" name="nama_fakultas" required>
+              </div>
             </div>
-            <form action="/admin/saveFakultas" method="post">
-                <div class="modal-body">
-                    <div class="mb-3 d-flex align-items-center">
-                        <label class="form-label me-3" style="min-width: 150px;">Nama Fakultas :</label>
-                        <input type="text" class="form-control" name="nama_fakultas" required>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Simpan</button>
-                </div>
-            </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-</div>
 
 
-<!-- Modal Edit -->
-<div class="modal fade" id="modalEdit" tabindex="-1" aria-labelledby="modalEditLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
+    <!-- Modal Edit -->
+    <div class="modal fade" id="modalEdit" tabindex="-1" aria-labelledby="modalEditLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Edit Fakultas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-header">
+            <h5 class="modal-title">Edit Fakultas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="/admin/editFakultas" method="post">
+            <div class="modal-body">
+              <input type="hidden" name="id_fakultas" id="edit_id_fakultas">
+              <div class="mb-3 d-flex align-items-center">
+                <label class="form-label me-3" style="min-width: 150px;">Nama Fakultas :</label>
+                <input type="text" class="form-control" name="nama_fakultas" id="edit_nama_fakultas" required>
+              </div>
             </div>
-            <form action="/admin/editFakultas" method="post">
-                <div class="modal-body">
-                    <input type="hidden" name="id_fakultas" id="edit_id_fakultas">
-                    <div class="mb-3 d-flex align-items-center">
-                        <label class="form-label me-3" style="min-width: 150px;">Nama Fakultas :</label>
-                        <input type="text" class="form-control" name="nama_fakultas" id="edit_nama_fakultas" required>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Update</button>
-                </div>
-            </form>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-</div>
 
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var editButtons = document.querySelectorAll(".btn-edit"); // Tombol Edit
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var editButtons = document.querySelectorAll(".btn-edit"); // Tombol Edit
 
-    editButtons.forEach(function(button) {
-        button.addEventListener("click", function() {
+        editButtons.forEach(function(button) {
+          button.addEventListener("click", function() {
             var id = this.getAttribute("data-id"); // Ambil ID Fakultas
             var nama = this.getAttribute("data-nama"); // Ambil Nama Fakultas
 
@@ -587,10 +530,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
             var modal = new bootstrap.Modal(document.getElementById("modalEdit"));
             modal.show(); // Tampilkan Modal
+          });
         });
-    });
-});
-</script>
+      });
+    </script>
 
 
 

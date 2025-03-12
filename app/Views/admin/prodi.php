@@ -89,7 +89,7 @@
         <ul class="navbar-nav iq-main-menu" id="sidebar-menu">
           <li class="nav-item static-item">
             <a class="nav-link static-item disabled" href="#" tabindex="-1">
-              <span class="default-icon">Home</span>
+              <span class="default-icon">Beranda</span>
               <span class="mini-icon">-</span>
             </a>
           </li>
@@ -102,18 +102,6 @@
                 </svg>
               </i>
               <span class="item-name">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item mt-2">
-            <a class="nav-link" aria-current="page" href="/admin/kuota" target="_blank">
-              <i class="icon">
-                <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9964 8.37513H17.7618C15.7911 8.37859 14.1947 9.93514 14.1911 11.8566C14.1884 13.7823 15.7867 15.3458 17.7618 15.3484H22V15.6543C22 19.0136 19.9636 21 16.5173 21H7.48356C4.03644 21 2 19.0136 2 15.6543V8.33786C2 4.97862 4.03644 3 7.48356 3H16.5138C19.96 3 21.9964 4.97862 21.9964 8.33786V8.37513ZM6.73956 8.36733H12.3796H12.3831H12.3902C12.8124 8.36559 13.1538 8.03019 13.152 7.61765C13.1502 7.20598 12.8053 6.87318 12.3831 6.87491H6.73956C6.32 6.87664 5.97956 7.20858 5.97778 7.61852C5.976 8.03019 6.31733 8.36559 6.73956 8.36733Z" fill="currentColor"></path>
-                  <path opacity="0.4" d="M16.0374 12.2966C16.2465 13.2478 17.0805 13.917 18.0326 13.8996H21.2825C21.6787 13.8996 22 13.5715 22 13.166V10.6344C21.9991 10.2297 21.6787 9.90077 21.2825 9.8999H17.9561C16.8731 9.90338 15.9983 10.8024 16 11.9102C16 12.0398 16.0128 12.1695 16.0374 12.2966Z" fill="currentColor"></path>
-                  <circle cx="18" cy="11.8999" r="1" fill="currentColor"></circle>
-                </svg>
-              </i>
-              <span class="item-name">Kuota Ruang</span>
             </a>
           </li>
           <li>
@@ -141,8 +129,9 @@
               </i>
             </a>
             <ul class="sub-nav collapse show" id="sidebar-auth" data-bs-parent="#sidebar-menu">
+              <!--SidebarContent!-->
               <li class="nav-item">
-                <a class="nav-link active" href="/admin/jurusan">
+                <a class="nav-link" href="/admin/fakultas">
                   <i class="icon">
                     <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
                       <g>
@@ -150,8 +139,21 @@
                       </g>
                     </svg>
                   </i>
-                  <i class="sidenav-mini-icon"> J </i>
-                  <span class="item-name">Jurusan</span>
+                  <i class="sidenav-mini-icon"> Fa </i>
+                  <span class="item-name">Fakultas</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/admin/prodi">
+                  <i class="icon">
+                    <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
+                      <g>
+                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
+                      </g>
+                    </svg>
+                  </i>
+                  <i class="sidenav-mini-icon"> Pr </i>
+                  <span class="item-name">Prodi</span>
                 </a>
               </li>
               <li class="nav-item">
@@ -207,32 +209,6 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/admin/tahun">
-                  <i class="icon">
-                    <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
-                      <g>
-                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                      </g>
-                    </svg>
-                  </i>
-                  <i class="sidenav-mini-icon"> T </i>
-                  <span class="item-name">Tahun Ajaran</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/admin/semester">
-                  <i class="icon">
-                    <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
-                      <g>
-                        <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                      </g>
-                    </svg>
-                  </i>
-                  <i class="sidenav-mini-icon"> S </i>
-                  <span class="item-name">Semester</span>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="/admin/akun">
                   <i class="icon">
                     <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
@@ -245,7 +221,19 @@
                   <span class="item-name">Akun</span>
                 </a>
               </li>
+              <!--SidebarContent!-->
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/admin/setupjadwal">
+              <i class="icon">
+                <svg width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-20">
+                  <path opacity="0.4" d="M16.0756 2H19.4616C20.8639 2 22.0001 3.14585 22.0001 4.55996V7.97452C22.0001 9.38864 20.8639 10.5345 19.4616 10.5345H16.0756C14.6734 10.5345 13.5371 9.38864 13.5371 7.97452V4.55996C13.5371 3.14585 14.6734 2 16.0756 2Z" fill="currentColor"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.53852 2H7.92449C9.32676 2 10.463 3.14585 10.463 4.55996V7.97452C10.463 9.38864 9.32676 10.5345 7.92449 10.5345H4.53852C3.13626 10.5345 2 9.38864 2 7.97452V4.55996C2 3.14585 3.13626 2 4.53852 2ZM4.53852 13.4655H7.92449C9.32676 13.4655 10.463 14.6114 10.463 16.0255V19.44C10.463 20.8532 9.32676 22 7.92449 22H4.53852C3.13626 22 2 20.8532 2 19.44V16.0255C2 14.6114 3.13626 13.4655 4.53852 13.4655ZM19.4615 13.4655H16.0755C14.6732 13.4655 13.537 14.6114 13.537 16.0255V19.44C13.537 20.8532 14.6732 22 16.0755 22H19.4615C20.8637 22 22 20.8532 22 19.44V16.0255C22 14.6114 20.8637 13.4655 19.4615 13.4655Z" fill="currentColor"></path>
+                </svg>
+              </i>
+              <span class="item-name">Setup Jadwal</span>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#sidebar-form" role="button" aria-expanded="false" aria-controls="sidebar-form">
@@ -422,206 +410,207 @@
     </div>
 
 
-    
+
 
     <div class="container-fluid content-inner mt-n5 py-0">
-    <div class="row">
+      <div class="row">
         <div class="col-sm-12">
-            <div class="card">
-                <div class="card-header d-flex justify-content-between">
-                    <div class="header-title">
-                        <h4 class="card-title">Data Program Studi</h4>
-                    </div>
-                </div>
-
-                <div class="card-body">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inputProdiModal">
-                        Tambah Data
-                    </button>
-
-                    <!-- Modal Tambah Prodi -->
-<div class="modal fade" id="inputProdiModal" tabindex="-1" aria-labelledby="inputProdiModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="inputProdiModalLabel">Tambah Program Studi</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="card">
+            <div class="card-header d-flex justify-content-between">
+              <div class="header-title">
+                <h4 class="card-title">Data Program Studi</h4>
+              </div>
             </div>
 
-            <div class="modal-body">
-                
+            <div class="card-body">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#inputProdiModal">
+                Tambah Data
+              </button>
 
-                <form action="/admin/saveProdi" method="post">
-                    <?= csrf_field(); ?>
+              <!-- Modal Tambah Prodi -->
+              <div class="modal fade" id="inputProdiModal" tabindex="-1" aria-labelledby="inputProdiModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="inputProdiModalLabel">Tambah Program Studi</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
 
-                    <!-- Input Nama Prodi -->
-                    <div class="form-group row">
-                        <label for="nama_prodi" class="col-sm-3 col-form-label">Nama Program Studi:</label>
-                        <div class="col-sm-9">
+                    <div class="modal-body">
+
+
+                      <form action="/admin/saveProdi" method="post">
+                        <?= csrf_field(); ?>
+
+                        <!-- Input Nama Prodi -->
+                        <div class="form-group row">
+                          <label for="nama_prodi" class="col-sm-3 col-form-label">Nama Program Studi:</label>
+                          <div class="col-sm-9">
                             <input type="text" class="form-control" id="nama_prodi" name="nama_prodi" placeholder="Masukkan Nama Prodi" required>
+                          </div>
                         </div>
-                    </div>
 
-                    <!-- Dropdown Fakultas -->
-                    <div class="form-group row mt-3">
-                        <label for="id_fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
-                        <div class="col-sm-9">
+                        <!-- Dropdown Fakultas -->
+                        <div class="form-group row mt-3">
+                          <label for="id_fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
+                          <div class="col-sm-9">
                             <select class="form-control" id="id_fakultas" name="id_fakultas" required>
-                                <option value="">-- Pilih Fakultas --</option>
-                                <?php foreach ($fakultas as $f) : ?>
-                                    <option value="<?= esc($f['id_fakultas']); ?>">
-                                        <?= esc($f['nama_fakultas']); ?>
-                                    </option>
-                                <?php endforeach; ?>
+                              <option value="">-- Pilih Fakultas --</option>
+                              <?php foreach ($fakultas as $f) : ?>
+                                <option value="<?= esc($f['id_fakultas']); ?>">
+                                  <?= esc($f['nama_fakultas']); ?>
+                                </option>
+                              <?php endforeach; ?>
                             </select>
+                          </div>
                         </div>
+
                     </div>
 
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
-                <button type="submit" class="btn btn-primary">Simpan</button>
-            </div>
-
-                </form>
-        </div>
-    </div>
-</div>
-
-
-                <!-- Tabel Data -->
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table id="datatable" class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>No</th>
-                                    <th>Nama Program Studi</th>
-                                    <th>ID Fakultas</th>
-                                    <th>Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php if (!empty($prodi)) : ?>
-                                    <?php $no = 1; foreach ($prodi as $row): ?>
-                                        <tr>
-                                            <td><?= $no++; ?></td>
-                                            <td><?= esc($row['nama_prodi']); ?></td>
-                                            <td><?= esc($row['id_fakultas']); ?></td>
-                                            <td>
-                                                <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editProdiModal<?= $row['id_prodi']; ?>">
-                                                <i class="bi bi-pencil-square"></i>
-                                                </button>
-                                                
-                                                <a href="<?= base_url('/admin/prodi/delete/' . $row['id_prodi']) ?>" 
-   class="btn btn-danger btn-sm" 
-   onclick="return confirm('Yakin ingin menghapus data ini?')">
-   <i class="bi bi-trash"></i> <!-- Icon Hapus -->
-</a>
-
-                                            </td>
-                                        </tr>
-
-                                        <!-- Modal Edit Prodi -->
-<div class="modal fade" id="editProdiModal<?= esc($row['id_prodi']); ?>" tabindex="-1" aria-labelledby="editProdiModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content">
-            
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h5 class="modal-title" id="editProdiModalLabel">Edit Program Studi</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-
-            <!-- Modal Body -->
-            <div class="modal-body">
-                <form action="<?= base_url('/admin/prodi/edit') ?>" method="post">
-                    <?= csrf_field(); ?>
-                    <input type="hidden" name="id_prodi" value="<?= esc($row['id_prodi']); ?>">
-
-                    <!-- Nama Program Studi -->
-                    <div class="mb-3 row">
-                        <label for="nama_prodi" class="col-sm-3 col-form-label">Nama Program Studi:</label>
-                        <div class="col-sm-9">
-                            <input type="text" class="form-control" id="nama_prodi" name="nama_prodi" value="<?= esc($row['nama_prodi']); ?>" required>
-                        </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Tutup</button>
+                      <button type="submit" class="btn btn-primary">Simpan</button>
                     </div>
 
-                    <!-- Fakultas -->
-                    <div class="mb-3 row">
-                        <label for="id_fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
-                        <div class="col-sm-9">
-                            <select class="form-control" id="id_fakultas" name="id_fakultas" required>
-                                <option value="">-- Pilih Fakultas --</option>
-                                <?php foreach ($fakultas as $f) : ?>
-                                    <option value="<?= esc($f['id_fakultas']); ?>" <?= ($f['id_fakultas'] == $row['id_fakultas']) ? 'selected' : ''; ?>>
-                                        <?= esc($f['nama_fakultas']); ?>
-                                    </option>
-                                <?php endforeach; ?>
-                            </select>
-                        </div>
-                    </div>
-
-            </div> <!-- End of Modal Body -->
-
-            <!-- Modal Footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Update</button>
-            </div>
-
-            </form> <!-- End of Form -->
-
-        </div>
-    </div>
-</div>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // Event listener untuk setiap tombol edit prodi
-        document.querySelectorAll(".btn-edit-prodi").forEach(button => {
-            button.addEventListener("click", function () {
-                let idProdi = this.getAttribute("data-id");
-                let namaProdi = this.getAttribute("data-nama");
-                let idFakultas = this.getAttribute("data-fakultas");
-
-                // Mengisi nilai input di modal edit
-                document.querySelector("#editProdiModal input[name='id_prodi']").value = idProdi;
-                document.querySelector("#editProdiModal input[name='nama_prodi']").value = namaProdi;
-                document.querySelector("#editProdiModal select[name='id_fakultas']").value = idFakultas;
-
-                // Tampilkan modal edit
-                let editModal = new bootstrap.Modal(document.getElementById("editProdiModal"));
-                editModal.show();
-            });
-        });
-    });
-</script>
-
-
-
-                                                        </form>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    <?php endforeach; ?>
-                                <?php else : ?>
-                                    <tr>
-                                        <td colspan="4" class="text-center">Belum ada data program studi.</td>
-                                    </tr>
-                                <?php endif; ?>
-                            </tbody>
-                        </table>
-                    </div>
+                    </form>
+                  </div>
                 </div>
-                
+              </div>
+
+
+              <!-- Tabel Data -->
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table id="datatable" class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>No</th>
+                        <th>Nama Program Studi</th>
+                        <th>ID Fakultas</th>
+                        <th>Aksi</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <?php if (!empty($prodi)) : ?>
+                        <?php $no = 1;
+                        foreach ($prodi as $row): ?>
+                          <tr>
+                            <td><?= $no++; ?></td>
+                            <td><?= esc($row['nama_prodi']); ?></td>
+                            <td><?= esc($row['id_fakultas']); ?></td>
+                            <td>
+                              <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editProdiModal<?= $row['id_prodi']; ?>">
+                                <i class="bi bi-pencil-square"></i>
+                              </button>
+
+                              <a href="<?= base_url('/admin/prodi/delete/' . $row['id_prodi']) ?>"
+                                class="btn btn-danger btn-sm"
+                                onclick="return confirm('Yakin ingin menghapus data ini?')">
+                                <i class="bi bi-trash"></i> <!-- Icon Hapus -->
+                              </a>
+
+                            </td>
+                          </tr>
+
+                          <!-- Modal Edit Prodi -->
+                          <div class="modal fade" id="editProdiModal<?= esc($row['id_prodi']); ?>" tabindex="-1" aria-labelledby="editProdiModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                              <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="editProdiModalLabel">Edit Program Studi</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
+                                <!-- Modal Body -->
+                                <div class="modal-body">
+                                  <form action="<?= base_url('/admin/prodi/edit') ?>" method="post">
+                                    <?= csrf_field(); ?>
+                                    <input type="hidden" name="id_prodi" value="<?= esc($row['id_prodi']); ?>">
+
+                                    <!-- Nama Program Studi -->
+                                    <div class="mb-3 row">
+                                      <label for="nama_prodi" class="col-sm-3 col-form-label">Nama Program Studi:</label>
+                                      <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="nama_prodi" name="nama_prodi" value="<?= esc($row['nama_prodi']); ?>" required>
+                                      </div>
+                                    </div>
+
+                                    <!-- Fakultas -->
+                                    <div class="mb-3 row">
+                                      <label for="id_fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
+                                      <div class="col-sm-9">
+                                        <select class="form-control" id="id_fakultas" name="id_fakultas" required>
+                                          <option value="">-- Pilih Fakultas --</option>
+                                          <?php foreach ($fakultas as $f) : ?>
+                                            <option value="<?= esc($f['id_fakultas']); ?>" <?= ($f['id_fakultas'] == $row['id_fakultas']) ? 'selected' : ''; ?>>
+                                              <?= esc($f['nama_fakultas']); ?>
+                                            </option>
+                                          <?php endforeach; ?>
+                                        </select>
+                                      </div>
+                                    </div>
+
+                                </div> <!-- End of Modal Body -->
+
+                                <!-- Modal Footer -->
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                  <button type="submit" class="btn btn-primary">Update</button>
+                                </div>
+
+                                </form> <!-- End of Form -->
+
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                              // Event listener untuk setiap tombol edit prodi
+                              document.querySelectorAll(".btn-edit-prodi").forEach(button => {
+                                button.addEventListener("click", function() {
+                                  let idProdi = this.getAttribute("data-id");
+                                  let namaProdi = this.getAttribute("data-nama");
+                                  let idFakultas = this.getAttribute("data-fakultas");
+
+                                  // Mengisi nilai input di modal edit
+                                  document.querySelector("#editProdiModal input[name='id_prodi']").value = idProdi;
+                                  document.querySelector("#editProdiModal input[name='nama_prodi']").value = namaProdi;
+                                  document.querySelector("#editProdiModal select[name='id_fakultas']").value = idFakultas;
+
+                                  // Tampilkan modal edit
+                                  let editModal = new bootstrap.Modal(document.getElementById("editProdiModal"));
+                                  editModal.show();
+                                });
+                              });
+                            });
+                          </script>
+
+
+
+                          </form>
+                </div>
+              </div>
             </div>
+
+          <?php endforeach; ?>
+        <?php else : ?>
+          <tr>
+            <td colspan="4" class="text-center">Belum ada data program studi.</td>
+          </tr>
+        <?php endif; ?>
+        </tbody>
+        </table>
+          </div>
         </div>
+
+      </div>
     </div>
-</div>
+    </div>
+    </div>
 
 
 
