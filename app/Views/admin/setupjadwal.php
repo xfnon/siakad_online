@@ -132,8 +132,9 @@
                             </i>
                         </a>
                         <ul class="sub-nav collapse" id="sidebar-auth" data-bs-parent="#sidebar-menu">
+                            <!--SidebarContent!-->
                             <li class="nav-item">
-                                <a class="nav-link" href="/admin/jurusan">
+                                <a class="nav-link" href="/admin/fakultas">
                                     <i class="icon">
                                         <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
                                             <g>
@@ -141,8 +142,21 @@
                                             </g>
                                         </svg>
                                     </i>
-                                    <i class="sidenav-mini-icon"> J </i>
-                                    <span class="item-name">Jurusan</span>
+                                    <i class="sidenav-mini-icon"> Fa </i>
+                                    <span class="item-name">Fakultas</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/admin/prodi">
+                                    <i class="icon">
+                                        <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
+                                            <g>
+                                                <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
+                                            </g>
+                                        </svg>
+                                    </i>
+                                    <i class="sidenav-mini-icon"> Pr </i>
+                                    <span class="item-name">Prodi</span>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -198,32 +212,6 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/admin/tahun">
-                                    <i class="icon">
-                                        <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
-                                            <g>
-                                                <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                                            </g>
-                                        </svg>
-                                    </i>
-                                    <i class="sidenav-mini-icon"> T </i>
-                                    <span class="item-name">Tahun Ajaran</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/admin/semester">
-                                    <i class="icon">
-                                        <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
-                                            <g>
-                                                <circle cx="12" cy="12" r="8" fill="currentColor"></circle>
-                                            </g>
-                                        </svg>
-                                    </i>
-                                    <i class="sidenav-mini-icon"> S </i>
-                                    <span class="item-name">Semester</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="/admin/akun">
                                     <i class="icon">
                                         <svg class="icon-10" xmlns="http://www.w3.org/2000/svg" width="10" viewBox="0 0 24 24" fill="currentColor">
@@ -236,6 +224,7 @@
                                     <span class="item-name">Akun</span>
                                 </a>
                             </li>
+                            <!--SidebarContent!-->
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -580,7 +569,9 @@
                                                     <td><?= esc($d['sks']); ?></td>
                                                     <td><?= esc($d['hari']) . ', ' . esc($d['jam_mulai']) . ' - ' . esc($d['jam_selesai']); ?></td>
                                                     <td><?= esc($d['semester']); ?></td>
-                                                    <td>
+                                                    <td><a href="/admin/deletejadwal/<?= $d['id_jadwal']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
+                                                            <i class="bi bi-trash"></i>
+                                                        </a>
                                                     </td>
 
                                                 </tr>

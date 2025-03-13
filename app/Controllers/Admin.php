@@ -213,6 +213,8 @@ class Admin extends BaseController
     }
 
 
+
+
     //MASTER PRODI
     public function prodi()
     {
@@ -269,6 +271,8 @@ class Admin extends BaseController
 
         return redirect()->to('/admin/prodi')->with('success', '.');
     }
+
+
 
 
 
@@ -363,5 +367,13 @@ class Admin extends BaseController
         ]);
 
         return redirect()->to('/admin/jadwal')->with('success', 'Jadwal berhasil disimpan.');
+    }
+
+    public function deletejadwal($id)
+    {
+        $jadwalModel = new Jadwal_model();
+        $jadwalModel->delete($id);
+
+        return redirect()->to('/admin/setupjadwal')->with('success', 'Jadwal berhasil dihapus.');
     }
 }
