@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 13, 2025 at 01:20 AM
+-- Generation Time: Mar 17, 2025 at 02:41 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.14
 
@@ -20,6 +20,28 @@ SET time_zone = "+00:00";
 --
 -- Database: `siakad-online`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `akun`
+--
+
+CREATE TABLE `akun` (
+  `id_akun` int NOT NULL,
+  `nim` int NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `level` enum('admin','dosen','mahasiswa') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `akun`
+--
+
+INSERT INTO `akun` (`id_akun`, `nim`, `password`, `level`) VALUES
+(1, 1, '$2y$10$nkTTTMMRZMccA9xDyVki2e0WbS2wUVR9PK5eS4ACY0XJTM4tXAceC', 'mahasiswa'),
+(2, 2, '$2y$10$epk7G4EDbR1Tr6szcB0GJus0B45y9QE2jsyPExapAI9/dC3oTK4Nq', 'dosen'),
+(3, 3, '$2y$10$dU.Z/YhE6omn4N8mKcCFL.2pHj1M7NhJFbeTqaeBhoAq8rVVjdOcO', 'admin');
 
 -- --------------------------------------------------------
 
@@ -85,8 +107,7 @@ INSERT INTO `jadwal` (`id_jadwal`, `matkul`, `dosen`, `gedung`, `ruang`, `sks`, 
 (2, 'Basis Data', 'Prof. Siti Aminah', 'Gedung A', 'Ruang 202', 3, 'Selasa', '10:00:00', '11:45:00', 2),
 (3, 'Kalkulus', 'Dr. Agus Wijaya', 'Gedung B', 'Ruang 103', 4, 'Rabu', '08:00:00', '09:45:00', 1),
 (4, 'Fisika Dasar', 'Dr. Dewi Lestari', 'Gedung B', 'Ruang 305', 3, 'Kamis', '13:00:00', '14:45:00', 1),
-(5, 'Manajemen Bisnis', 'Dr. Rahmat Hidayat', 'Gedung C', 'Ruang 210', 3, 'Jumat', '09:00:00', '10:45:00', 3),
-(8, 'Pemrograman Web', 'Dr. Budi Santoso', 'Gedung A', '1', 1, 'Senin', '07:00:00', '07:45:00', 1);
+(5, 'Manajemen Bisnis', 'Dr. Rahmat Hidayat', 'Gedung C', 'Ruang 210', 3, 'Jumat', '09:00:00', '10:45:00', 3);
 
 -- --------------------------------------------------------
 
@@ -105,6 +126,13 @@ CREATE TABLE `mahasiswa` (
   `angkatan` int NOT NULL,
   `semester` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `mahasiswa`
+--
+
+INSERT INTO `mahasiswa` (`id_mahasiswa`, `nim`, `nama`, `jk`, `no_telp`, `alamat`, `prodi`, `angkatan`, `semester`) VALUES
+(1, 123, 's', 'l', '123', 's', 's', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -186,6 +214,12 @@ INSERT INTO `ruang` (`id_ruang`, `gedung`, `lantai`, `ruang`, `kuota`) VALUES
 --
 
 --
+-- Indexes for table `akun`
+--
+ALTER TABLE `akun`
+  ADD PRIMARY KEY (`id_akun`);
+
+--
 -- Indexes for table `dosen`
 --
 ALTER TABLE `dosen`
@@ -245,6 +279,12 @@ ALTER TABLE `ruang`
 --
 
 --
+-- AUTO_INCREMENT for table `akun`
+--
+ALTER TABLE `akun`
+  MODIFY `id_akun` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
 -- AUTO_INCREMENT for table `dosen`
 --
 ALTER TABLE `dosen`
@@ -266,7 +306,7 @@ ALTER TABLE `jadwal`
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id_mahasiswa` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id_mahasiswa` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `matkul`
