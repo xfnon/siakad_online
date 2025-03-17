@@ -21,6 +21,99 @@ class Admin extends BaseController
         echo view('admin/dashboard');
     }
 
+    //MASTER MAHASISWA 
+    public function mahasiswa()
+    {
+        $mahasiswaModel = new Mahasiswa_model();
+        $data['mahasiswa'] = $mahasiswaModel->findAll();
+        return view('admin/mahasiswa', $data);
+    }
+
+    public function saveMahasiswa()
+    {
+        // Validasi input
+        $validation = \Config\Services::validation();
+        $validation->setRules([
+            'nim' => 'required|is_unique[mahasiswa.nim]',
+            'nama' => 'required',
+            'jk' => 'required',
+            'no_telp' => 'required',
+            'alamat' => 'required',
+            'prodi' => 'required',
+            'angkatan' => 'required|numeric',
+            'semester' => 'required|numeric',
+        ]);
+
+        if (!$this->validate($validation->getRules())) {
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+        }
+
+        // Simpan ke database
+        $mahasiswaModel = new \App\Models\Mahasiswa_model();
+        $mahasiswaModel->insert([
+            'nim' => $this->request->getPost('nim'),
+            'nama' => $this->request->getPost('nama'),
+            'jk' => $this->request->getPost('jk'),
+            'no_telp' => $this->request->getPost('no_telp'),
+            'alamat' => $this->request->getPost('alamat'),
+            'prodi' => $this->request->getPost('prodi'),
+            'angkatan' => $this->request->getPost('angkatan'),
+            'semester' => $this->request->getPost('semester'),
+        ]);
+
+        // Redirect dengan pesan sukses
+        return redirect()->to('/admin/mahasiswa')->with('success', 'Data mahasiswa berhasil ditambahkan.');
+    }
+    public function updateMahasiswa()
+    {
+        if (!$this->validate([
+            'id_mahasiswa' => 'required|numeric',
+            'nim' => 'required|numeric',
+            'nama' => 'required',
+            'jk' => 'required|in_list[Laki-Laki,Perempuan]',
+            'no_telp' => 'required|numeric',
+            'alamat' => 'required',
+            'prodi' => 'required',
+            'angkatan' => 'required|numeric',
+            'semester' => 'required|numeric',
+        ])) {
+            return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+        }
+
+        $mahasiswaModel = new Mahasiswa_model();
+        $id = $this->request->getPost('id_mahasiswa');
+
+        if (!$mahasiswaModel->find($id)) {
+            return redirect()->back()->with('error', 'Mahasiswa tidak ditemukan.');
+        }
+
+        $mahasiswaModel->update($id, [
+            'nim' => $this->request->getPost('nim'),
+            'nama' => $this->request->getPost('nama'),
+            'jk' => $this->request->getPost('jk'),
+            'no_telp' => $this->request->getPost('no_telp'),
+            'alamat' => $this->request->getPost('alamat'),
+            'prodi' => $this->request->getPost('prodi'),
+            'angkatan' => $this->request->getPost('angkatan'),
+            'semester' => $this->request->getPost('semester'),
+        ]);
+
+        return redirect()->to('/admin/mahasiswa')->with('success', 'Mahasiswa berhasil diperbarui.');
+    }
+
+    public function deleteMahasiswa($id)
+    {
+        $mahasiswaModel = new Mahasiswa_model();
+
+        if (!$mahasiswaModel->find($id)) {
+            return redirect()->to('/admin/mahasiswa')->with('error', 'Mahasiswa tidak ditemukan.');
+        }
+
+        $mahasiswaModel->delete($id);
+        return redirect()->to('/admin/mahasiswa')->with('success', 'Mahasiswa berhasil dihapus.');
+    }
+
+
 
 
     // MASTER DOSEN

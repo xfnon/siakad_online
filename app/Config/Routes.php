@@ -10,8 +10,9 @@ $routes->get('/', 'Home::index');
 //routes login
 $routes->get('/login', 'Auth::login');
 $routes->get('/register', 'Auth::register');
+$routes->post('/logout', 'Auth::logout');
 $routes->post('auth/create', 'Auth::create');
-$routes->post('auth/authentication', 'Auth::authentication');
+$routes->post('auth/auth', 'Auth::auth');
 
 
 
@@ -26,10 +27,11 @@ $routes->get('/admin/jurusan', 'Admin::jurusan');
 $routes->get('/admin/semester', 'Admin::semester');
 $routes->get('/admin/setupjadwal', 'Admin::setupjadwal');
 $routes->get('/admin/fakultas', 'Admin::fakultas');
+$routes->get('/admin/mahasiswa', 'Admin::mahasiswa');
 $routes->get('/admin/prodi', 'Admin::prodi'); // Menampilkan daftar prodi
 
 //adminprocess
-$routes->post('admin/savemhs', 'Admin::savemhs');
+$routes->post('admin/savemhs', 'Admin::saveMahasiswa');
 $routes->post('admin/savedosen', 'Admin::savedosen');
 $routes->post('admin/savejurusan', 'Admin::savejurusan');
 $routes->post('/admin/saveRuang', 'Admin::saveRuang');
@@ -44,11 +46,12 @@ $routes->post('/admin/prodi/edit', 'Admin::editProdi'); // Mengedit prodi
 $routes->post('/admin/updatedosen', 'Admin::updatedosen');
 $routes->post('/admin/updatematkul', 'Admin::updateMatkul');
 $routes->post('/admin/updateRuang', 'Admin::updateRuang');
+$routes->post('/admin/updateMahasiswa', 'Admin::updateMahasiswa');
 $routes->post('/admin/editMatkul', 'Admin::editMatkul');
 $routes->post('/admin/editFakultas', 'Admin::editFakultas');
 
 //admindel
-$routes->get('/admin/deletemhs/(:segment)', 'Admin::deletemhs/$1');
+$routes->get('/admin/deletemahasiswa/(:segment)', 'Admin::deletemahasiswa/$1');
 $routes->get('/admin/deletedosen/(:segment)', 'Admin::deletedosen/$1');
 $routes->get('/admin/deleteMatkul/(:num)', 'Admin::deleteMatkul/$1');
 $routes->get('/admin/deletejurusan/(:segment)', 'Admin::deletejurusan/$1');
@@ -67,3 +70,7 @@ $routes->get('/dosen/persetujuan', 'Dosen::persetujuan');
 $routes->get('/dosen/konfirmasi', 'Dosen::konfirmasi');
 $routes->get('/dosen/absensi', 'Dosen::absensi');
 $routes->get('/dosen/penilaian', 'Dosen::penilaian');
+
+
+//routes mahasiswa
+$routes->get('/mahasiswa/dashboard', 'Mahasiswa::dashboard');

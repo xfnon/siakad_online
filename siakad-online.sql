@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Mar 04, 2025 at 04:46 AM
+-- Generation Time: Mar 13, 2025 at 01:20 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.3.14
 
@@ -35,6 +35,17 @@ CREATE TABLE `dosen` (
   `jenis_kelamin` enum('Laki-Laki','Perempuan') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- Dumping data for table `dosen`
+--
+
+INSERT INTO `dosen` (`id_dosen`, `nidn`, `kode_dosen`, `nama_dosen`, `jenis_kelamin`) VALUES
+(1, '123456789', 'DSN001', 'Dr. Budi Santoso', 'Laki-Laki'),
+(2, '987654321', 'DSN002', 'Prof. Siti Aminah', 'Perempuan'),
+(3, '112233445', 'DSN003', 'Dr. Agus Wijaya', 'Laki-Laki'),
+(4, '556677889', 'DSN004', 'Dr. Dewi Lestari', 'Perempuan'),
+(5, '998877665', 'DSN005', 'Dr. Rahmat Hidayat', 'Laki-Laki');
+
 -- --------------------------------------------------------
 
 --
@@ -58,11 +69,24 @@ CREATE TABLE `jadwal` (
   `dosen` varchar(40) NOT NULL,
   `gedung` varchar(40) NOT NULL,
   `ruang` varchar(40) NOT NULL,
+  `sks` int NOT NULL,
   `hari` enum('Senin','Selasa','Rabu','Kamis','Jumat','Sabtu') NOT NULL,
   `jam_mulai` time NOT NULL,
   `jam_selesai` time NOT NULL,
   `semester` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `jadwal`
+--
+
+INSERT INTO `jadwal` (`id_jadwal`, `matkul`, `dosen`, `gedung`, `ruang`, `sks`, `hari`, `jam_mulai`, `jam_selesai`, `semester`) VALUES
+(1, 'Pemrograman Web', 'Dr. Budi Santoso', 'Gedung A', 'Ruang 101', 3, 'Senin', '08:00:00', '09:45:00', 2),
+(2, 'Basis Data', 'Prof. Siti Aminah', 'Gedung A', 'Ruang 202', 3, 'Selasa', '10:00:00', '11:45:00', 2),
+(3, 'Kalkulus', 'Dr. Agus Wijaya', 'Gedung B', 'Ruang 103', 4, 'Rabu', '08:00:00', '09:45:00', 1),
+(4, 'Fisika Dasar', 'Dr. Dewi Lestari', 'Gedung B', 'Ruang 305', 3, 'Kamis', '13:00:00', '14:45:00', 1),
+(5, 'Manajemen Bisnis', 'Dr. Rahmat Hidayat', 'Gedung C', 'Ruang 210', 3, 'Jumat', '09:00:00', '10:45:00', 3),
+(8, 'Pemrograman Web', 'Dr. Budi Santoso', 'Gedung A', '1', 1, 'Senin', '07:00:00', '07:45:00', 1);
 
 -- --------------------------------------------------------
 
@@ -95,6 +119,17 @@ CREATE TABLE `matkul` (
   `fakultas` varchar(40) NOT NULL,
   `prodi` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `matkul`
+--
+
+INSERT INTO `matkul` (`id_matkul`, `kode_matkul`, `matkul`, `fakultas`, `prodi`) VALUES
+(1, 'MK001', 'Pemrograman Web', 'Fakultas Teknik', 'Teknik Informatika'),
+(2, 'MK002', 'Basis Data', 'Fakultas Teknik', 'Sistem Informasi'),
+(3, 'MK003', 'Kalkulus', 'Fakultas MIPA', 'Matematika'),
+(4, 'MK004', 'Fisika Dasar', 'Fakultas MIPA', 'Fisika'),
+(5, 'MK005', 'Manajemen Bisnis', 'Fakultas Ekonomi', 'Manajemen');
 
 -- --------------------------------------------------------
 
@@ -134,6 +169,17 @@ CREATE TABLE `ruang` (
   `ruang` varchar(40) NOT NULL,
   `kuota` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+--
+-- Dumping data for table `ruang`
+--
+
+INSERT INTO `ruang` (`id_ruang`, `gedung`, `lantai`, `ruang`, `kuota`) VALUES
+(1, 'Gedung A', '1', 'Ruang 101', 30),
+(2, 'Gedung A', '2', 'Ruang 202', 40),
+(3, 'Gedung B', '1', 'Ruang 103', 35),
+(4, 'Gedung B', '3', 'Ruang 305', 50),
+(5, 'Gedung C', '2', 'Ruang 210', 45);
 
 --
 -- Indexes for dumped tables
@@ -202,7 +248,7 @@ ALTER TABLE `ruang`
 -- AUTO_INCREMENT for table `dosen`
 --
 ALTER TABLE `dosen`
-  MODIFY `id_dosen` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id_dosen` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `fakultas`
@@ -214,7 +260,7 @@ ALTER TABLE `fakultas`
 -- AUTO_INCREMENT for table `jadwal`
 --
 ALTER TABLE `jadwal`
-  MODIFY `id_jadwal` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id_jadwal` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `mahasiswa`
@@ -226,7 +272,7 @@ ALTER TABLE `mahasiswa`
 -- AUTO_INCREMENT for table `matkul`
 --
 ALTER TABLE `matkul`
-  MODIFY `id_matkul` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id_matkul` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `nilai`
@@ -244,7 +290,7 @@ ALTER TABLE `prodi`
 -- AUTO_INCREMENT for table `ruang`
 --
 ALTER TABLE `ruang`
-  MODIFY `id_ruang` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id_ruang` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables

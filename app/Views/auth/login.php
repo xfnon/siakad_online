@@ -80,7 +80,7 @@
                            </a>
                            <h2 class="mb-2 mt-2 text-center">Sign In</h2>
                            <p class="text-center">Mohon Masukkan NIM dan Password anda.</p>
-                           <form action="auth/authentication" method="post">
+                           <form action="auth/auth" method="post">
                               <div class="row">
                                  <div class="col-lg-12">
                                     <div class="form-group">
