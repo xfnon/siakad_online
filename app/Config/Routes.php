@@ -17,18 +17,18 @@ $routes->post('auth/auth', 'Auth::auth');
 
 
 //routes admin
-$routes->get('/admin/dashboard', 'Admin::dashboard');
-$routes->get('/admin/dosen', 'Admin::dosen');
-$routes->get('/admin/matkul', 'Admin::matkul');
-$routes->get('/admin/akun', 'Admin::akun');
-$routes->get('/admin/tahun', 'Admin::tahun');
-$routes->get('/admin/ruang', 'Admin::ruang');
-$routes->get('/admin/jurusan', 'Admin::jurusan');
-$routes->get('/admin/semester', 'Admin::semester');
-$routes->get('/admin/setupjadwal', 'Admin::setupjadwal');
-$routes->get('/admin/fakultas', 'Admin::fakultas');
-$routes->get('/admin/mahasiswa', 'Admin::mahasiswa');
-$routes->get('/admin/prodi', 'Admin::prodi'); // Menampilkan daftar prodi
+$routes->get('/admin/dashboard', 'Admin::dashboard', ['filter' => 'auth:admin']);
+$routes->get('/admin/dosen', 'Admin::dosen', ['filter' => 'auth:admin']);
+$routes->get('/admin/matkul', 'Admin::matkul', ['filter' => 'auth:admin']);
+$routes->get('/admin/akun', 'Admin::akun', ['filter' => 'auth:admin']);
+$routes->get('/admin/tahun', 'Admin::tahun', ['filter' => 'auth:admin']);
+$routes->get('/admin/ruang', 'Admin::ruang', ['filter' => 'auth:admin']);
+$routes->get('/admin/jurusan', 'Admin::jurusan', ['filter' => 'auth:admin']);
+$routes->get('/admin/semester', 'Admin::semester', ['filter' => 'auth:admin']);
+$routes->get('/admin/setupjadwal', 'Admin::setupjadwal', ['filter' => 'auth:admin']);
+$routes->get('/admin/fakultas', 'Admin::fakultas', ['filter' => 'auth:admin']);
+$routes->get('/admin/mahasiswa', 'Admin::mahasiswa', ['filter' => 'auth:admin']);
+$routes->get('/admin/prodi', 'Admin::prodi', ['filter' => 'auth:admin']);
 
 //adminprocess
 $routes->post('admin/savemhs', 'Admin::saveMahasiswa');
@@ -65,11 +65,11 @@ $routes->get('/admin/deletejadwal/(:num)', 'Admin::deletejadwal/$1');
 
 //routes dosen
 
-$routes->get('/dosen/dashboard', 'Dosen::dashboard');
-$routes->get('/dosen/persetujuan', 'Dosen::persetujuan');
-$routes->get('/dosen/konfirmasi', 'Dosen::konfirmasi');
-$routes->get('/dosen/absensi', 'Dosen::absensi');
-$routes->get('/dosen/penilaian', 'Dosen::penilaian');
+$routes->get('/dosen/dashboard', 'Dosen::dashboard', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/persetujuan', 'Dosen::persetujuan', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/konfirmasi', 'Dosen::konfirmasi', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/absensi', 'Dosen::absensi', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/penilaian', 'Dosen::penilaian', ['filter' => 'auth:dosen']);
 
 
 //routes mahasiswa

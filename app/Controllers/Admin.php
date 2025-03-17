@@ -18,12 +18,27 @@ class Admin extends BaseController
     //dashboard
     public function dashboard()
     {
-        echo view('admin/dashboard');
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+        return view('admin/dashboard', $data);
     }
 
     //MASTER MAHASISWA 
     public function mahasiswa()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+
         $mahasiswaModel = new Mahasiswa_model();
         $data['mahasiswa'] = $mahasiswaModel->findAll();
         return view('admin/mahasiswa', $data);
@@ -119,6 +134,14 @@ class Admin extends BaseController
     // MASTER DOSEN
     public function dosen()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+
         $dosenModel = new Dosen_model();
         $data['dosen'] = $dosenModel->findAll();
         return view('admin/dosen', $data);
@@ -197,6 +220,13 @@ class Admin extends BaseController
     //MASTER RUANG
     public function ruang()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $ruangModel = new Ruang_model();
         $data['ruang'] = $ruangModel->findAll();
 
@@ -225,6 +255,13 @@ class Admin extends BaseController
     //MASTER MATKUL
     public function matkul()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $matkulModel = new Matkul_model();
         $data['matkul'] = $matkulModel->findAll();
 
@@ -311,6 +348,13 @@ class Admin extends BaseController
     //MASTER PRODI
     public function prodi()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $prodiModel = new Prodi_model();
         $fakultasModel = new Fakultas_model(); // Ambil daftar fakultas untuk dropdown
 
@@ -372,6 +416,13 @@ class Admin extends BaseController
     //MASTER FAKULTAS
     public function fakultas()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
 
         $fakultasModel = new Fakultas_model();
         $data['fakultas'] = $fakultasModel->orderBy('id_fakultas', 'ASC')->findAll();
@@ -415,6 +466,13 @@ class Admin extends BaseController
     //SETUP JADWAL
     public function setupjadwal()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $dosenModel = new Dosen_model();
         $data['dosen'] = $dosenModel->findAll();
 

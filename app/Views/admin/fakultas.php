@@ -74,7 +74,7 @@
 
 
 
-        <h4 class="logo-title">Hope UI</h4>
+        <h4 class="logo-title">SIAKAD</h4>
       </a>
       <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
         <i class="icon">
@@ -369,8 +369,8 @@
                   <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                   <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                   <div class="caption ms-3 d-none d-md-block ">
-                    <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                    <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                    <h6 class="mb-0 caption-title"> <?= esc($nim); ?></h6>
+                    <p class="mb-0 caption-sub-title"> <?= esc($level); ?></p>
                   </div>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -378,7 +378,11 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                  <li>
+                    <form action="/logout" method="post">
+                      <button type="submit" class="dropdown-item">Logout</button>
+                    </form>
+                  </li>
                 </ul>
               </li>
             </ul>
