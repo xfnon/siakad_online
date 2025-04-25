@@ -1,0 +1,2224 @@
+DEBUG - 2025-04-11 00:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 00:13:55 --> ErrorException: Undefined variable $jadwal
+[Method: GET, Route: mahasiswa/rencanastudi]
+in APPPATH\Views\mahasiswa\rencanastudi.php on line 350.
+ 1 APPPATH\Views\mahasiswa\rencanastudi.php(350): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jadwal', 'C:\\laragon\\www\\siakad-online\\app\\Views\\mahasiswa\\rencanastudi.php', 350)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\mahasiswa\\rencanastudi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/rencanastudi', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(32): view('mahasiswa/rencanastudi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->rencanastudi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 00:31:41 --> ErrorException: Undefined variable $fakultas
+[Method: GET, Route: admin/matkul]
+in APPPATH\Views\admin\matkul.php on line 477.
+ 1 APPPATH\Views\admin\matkul.php(477): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $fakultas', 'C:\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php', 477)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\admin\\matkul.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/matkul', [], true)
+ 5 APPPATH\Controllers\Admin.php(273): view('admin/matkul', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->matkul()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 00:43:09 --> mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 00:43:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+[Method: POST, Route: mahasiswa/konfirmasiKrs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:43:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:43:09 --> [Caused by] mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 00:44:06 --> mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 00:44:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+[Method: POST, Route: mahasiswa/konfirmasiKrs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:44:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:44:06 --> [Caused by] mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 00:44:15 --> mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 00:44:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+[Method: POST, Route: mahasiswa/konfirmasiKrs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:44:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:44:15 --> [Caused by] mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 00:45:22 --> mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 00:45:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+[Method: POST, Route: mahasiswa/konfirmasiKrs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:45:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:45:22 --> [Caused by] mysqli_sql_exception: Table 'siakad-online.sks' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sks`
+WHERE `id_sks` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sks`
+WHERE `id_sks` = :id_sks:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(140): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 00:49:18 --> mysqli_sql_exception: Unknown column 'id_jadwal' in 'field list' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Mahasiswa.php(150): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 00:49:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_jadwal' in 'field list'
+[Method: POST, Route: mahasiswa/konfirmasiKrs]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (:nim:, :id_jadwal:, :status:, :sks:, :matkul:)', [...], false)
+ 2 APPPATH\Controllers\Mahasiswa.php(150): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:49:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_jadwal' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (\'111\', \'1\', \'pending\', \'3\', \'Pemrograman Web\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (\'111\', \'1\', \'pending\', \'3\', \'Pemrograman Web\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (:nim:, :id_jadwal:, :status:, :sks:, :matkul:)', [...], false)
+ 4 APPPATH\Controllers\Mahasiswa.php(150): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 00:49:18 --> [Caused by] mysqli_sql_exception: Unknown column 'id_jadwal' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (\'111\', \'1\', \'pending\', \'3\', \'Pemrograman Web\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (\'111\', \'1\', \'pending\', \'3\', \'Pemrograman Web\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (\'111\', \'1\', \'pending\', \'3\', \'Pemrograman Web\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pengambilan` (`nim`, `id_jadwal`, `status`, `sks`, `matkul`) VALUES (:nim:, :id_jadwal:, :status:, :sks:, :matkul:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(150): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->konfirmasiKrs()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 00:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 00:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 01:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 01:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 01:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 01:02:45 --> ErrorException: Undefined variable $nim
+[Method: GET, Route: dosen/konfirmasi]
+in APPPATH\Views\dosen\konfirmasi.php on line 334.
+ 1 APPPATH\Views\dosen\konfirmasi.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\konfirmasi.php', 334)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Dosen.php(19): view('dosen/konfirmasi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 01:03:27 --> ErrorException: Undefined variable $nim
+[Method: GET, Route: dosen/konfirmasi]
+in APPPATH\Views\dosen\konfirmasi.php on line 334.
+ 1 APPPATH\Views\dosen\konfirmasi.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\konfirmasi.php', 334)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Dosen.php(19): view('dosen/konfirmasi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 01:03:53 --> ArgumentCountError: Too few arguments to function App\Controllers\Dosen::konfirmasi(), 0 passed in C:\laragon\www\siakad-online\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: dosen/konfirmasi]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 01:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 01:04:22 --> ArgumentCountError: Too few arguments to function App\Controllers\Dosen::konfirmasi(), 0 passed in C:\laragon\www\siakad-online\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: dosen/konfirmasi]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasi()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 01:04:35 --> ErrorException: Undefined variable $nim
+[Method: GET, Route: dosen/konfirmasi]
+in APPPATH\Views\dosen\konfirmasi.php on line 334.
+ 1 APPPATH\Views\dosen\konfirmasi.php(334): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nim', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\konfirmasi.php', 334)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\konfirmasi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/konfirmasi', [], true)
+ 5 APPPATH\Controllers\Dosen.php(19): view('dosen/konfirmasi')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 01:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 01:06:41 --> ErrorException: Undefined variable $mahasiswaList
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Views\dosen\persetujuan.php on line 355.
+ 1 APPPATH\Views\dosen\persetujuan.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswaList', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php', 355)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/persetujuan', [], true)
+ 5 APPPATH\Controllers\Dosen.php(14): view('dosen/persetujuan')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:07:49 --> mysqli_sql_exception: Table 'siakad-online.persetujuan_krs' doesn't exist in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:07:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.persetujuan_krs' doesn't exist
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:07:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'siakad-online.persetujuan_krs' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:07:49 --> [Caused by] mysqli_sql_exception: Table 'siakad-online.persetujuan_krs' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuan_krs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuan_krs` ON `pengambilan`.`nim` = `persetujuan_krs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:10:45 --> mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:10:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:45 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:10:46 --> mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:10:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:46 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:10:46 --> mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:10:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:46 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:10:47 --> mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:10:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:47 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:10:47 --> mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:10:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:47 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:10:47 --> mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause' in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:10:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:10:47 --> [Caused by] mysqli_sql_exception: Unknown column 'persetujuankrs.nim' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:14 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:14 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:15 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:15 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:15 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:15 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:16 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:16 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:16 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:16 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:16 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:16 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:17 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:17 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:17 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:17 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:17 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:17 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:18 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:18 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:18 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:18 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:18 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 01:22:19 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasis...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasis...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasis...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasis...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-11 01:22:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 2 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 4 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-11 01:22:19 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.mahasiswa.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `mahasiswa`.`nim`, `mahasiswa`.`nama`, `persetujuankrs`.`status`
+FROM `pengambilan`
+JOIN `mahasiswa` ON `pengambilan`.`nim` = `mahasiswa`.`nim`
+JOIN `persetujuankrs` ON `pengambilan`.`nim` = `persetujuankrs`.`nim`
+GROUP BY `mahasiswa`.`nim`', [], false)
+ 5 APPPATH\Controllers\Dosen.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-11 01:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

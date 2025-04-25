@@ -114,7 +114,7 @@
             </a>
           </li>
           <li class="nav-item mt-2">
-            <a class="nav-link" aria-current="page" href="/mahasiswa/rencanastudi">
+            <a class="nav-link" aria-current="page" href="/mahasiswa/krs">
               <i class="icon">
                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.4" d="M18.8088 9.021C18.3573 9.021 17.7592 9.011 17.0146 9.011C15.1987 9.011 13.7055 7.508 13.7055 5.675V2.459C13.7055 2.206 13.5026 2 13.253 2H7.96363C5.49517 2 3.5 4.026 3.5 6.509V17.284C3.5 19.889 5.59022 22 8.16958 22H16.0453C18.5058 22 20.5 19.987 20.5 17.502V9.471C20.5 9.217 20.298 9.012 20.0465 9.013C19.6247 9.016 19.1168 9.021 18.8088 9.021Z" fill="currentColor"></path>
@@ -127,7 +127,7 @@
             </a>
           </li>
           <li class="nav-item mt-2">
-            <a class="nav-link active" aria-current="page" href="/mahasiswa/kelas">
+            <a class="nav-link active" aria-current="page" href="/mahasiswa/krs">
               <i class="icon">
                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path opacity="0.4" d="M2 11.0786C2.05 13.4166 2.19 17.4156 2.21 17.8566C2.281 18.7996 2.642 19.7526 3.204 20.4246C3.986 21.3676 4.949 21.7886 6.292 21.7886C8.148 21.7986 10.194 21.7986 12.181 21.7986C14.176 21.7986 16.112 21.7986 17.747 21.7886C19.071 21.7886 20.064 21.3566 20.836 20.4246C21.398 19.7526 21.759 18.7896 21.81 17.8566C21.83 17.4856 21.93 13.1446 21.99 11.0786H2Z" fill="currentColor"></path>
@@ -205,6 +205,7 @@
         <!-- Sidebar Menu End -->
       </div>
     </div>
+    
     <div class="sidebar-footer"></div>
   </aside>
   <main class="main-content">
@@ -280,6 +281,9 @@
                     <p class="mb-0 caption-sub-title">Marketing Administrator</p>
                   </div>
                 </a>
+
+                
+
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="../dashboard/app/user-profile.html">Profile</a></li>
                   <li><a class="dropdown-item" href="../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li>
@@ -299,8 +303,8 @@
             <div class="col-md-12">
               <div class="flex-wrap d-flex justify-content-between align-items-center">
                 <div>
-                  <h1>Daftar Kelas yang Anda Ambil</h1>
-                  <p>Pantau daftar kelas yang telah Anda pilih dan lihat detail informasi tentang dosen serta jadwal kuliah</p>
+                  <h1>Hello Devs!</h1>
+                  <p>Selamat Datang di Aplikasi SIAKAD.</p>
                 </div>
               </div>
             </div>
@@ -317,11 +321,71 @@
       </div> <!-- Nav Header Component End -->
       <!--Nav End-->
     </div>
-    <div class="conatiner-fluid content-inner mt-n5 py-0">
-      <div class="row">
+    <?php
+// Pastikan session dimulai
+if (!session()->has('nim')) {
+    header('Location: ' . base_url('login'));
+    exit;
+}
 
-      </div>
+$nim = session()->get('nim');
+?>
+
+<div class="container-fluid content-inner mt-n5 py-0">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="card-title">Kelas yang Saya Ikuti</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Mata Kuliah</th>
+                  <th>Dosen</th>
+                  <th>Gedung</th>
+                  <th>Ruang</th>
+                  <th>Hari</th>
+                  <th>Jam</th>
+                  <th>Semester</th>
+                </tr>
+              </thead>
+              <tbody>
+                <?php if (!empty($kelas)): ?>
+                  <?php foreach ($kelas as $k): ?>
+                    <tr>
+                      <td><?= esc($k['matkul']) ?></td>
+                      <td><?= esc($k['dosen']) ?></td>
+                      <td><?= esc($k['gedung']) ?></td>
+                      <td><?= esc($k['ruang']) ?></td>
+                      <td><?= esc($k['hari']) ?></td>
+                      <td><?= esc($k['jam_mulai']) . ' - ' . esc($k['jam_selesai']) ?></td>
+                      <td><?= esc($k['semester']) ?></td>
+                    </tr>
+                  <?php endforeach; ?>
+                <?php else: ?>
+                  <tr>
+                    <td colspan="7" class="text-center">Belum ada kelas yang disetujui.</td>
+                  </tr>
+                <?php endif; ?>
+              </tbody>
+            </table>
+          </div>
+        </div> <!-- /.card-body -->
+      </div> <!-- /.card -->
     </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
 
 
     <!-- Footer Section Start -->

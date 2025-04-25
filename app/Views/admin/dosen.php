@@ -397,7 +397,7 @@
             <div class="col-md-12">
               <div class="flex-wrap d-flex justify-content-between align-items-center">
                 <div>
-                  <h1>Hello Devs!</h1>
+                  <h1>Hello  <?= esc($nim); ?></h1>
                   <p>Selamat Datang di Aplikasi SIAKAD.</p>
                 </div>
               </div>
@@ -415,207 +415,190 @@
       </div> <!-- Nav Header Component End -->
       <!--Nav End-->
     </div>
-    <div class="conatiner-fluid content-inner mt-n5 py-0">
-      <div class="row">
+    <div class="container-fluid content-inner mt-n5 py-0">
+    <div class="row">
         <div class="col-sm-12">
-          <div class="card">
-            <div class="card-header d-flex justify-content-between">
-              <div class="header-title">
-                <h4 class="card-title">Data Dosen</h4>
-              </div>
-            </div>
-            <div class="card-body">
-              <!-- Input Modal -->
-              <button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Tambah Data</button>
-
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Form Input Dosen</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Data Dosen</h4>
                     </div>
-                    <div class="modal-body">
-                      <form action="/admin/savedosen" method="post">
-                        <?= csrf_field(); ?>
-
-                        <div class="form-group row">
-                          <label for="nidn" class="col-sm-3 col-form-label">NIDN:</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" id="nidn" name="nidn" placeholder="Masukkan NIDN" value="<?= old('nidn') ?>" required>
-                          </div>
-                        </div>
-
-                        <div class="form-group row mt-3">
-                          <label for="kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" id="kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" value="<?= old('kode_dosen') ?>" required>
-                          </div>
-                        </div>
-
-                        <div class="form-group row mt-3">
-                          <label for="nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" id="nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" value="<?= old('nama_dosen') ?>" required>
-                          </div>
-                        </div>
-
-                        <div class="form-group row mt-3">
-                          <label for="jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
-                          <div class="col-sm-9">
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-Laki" <?= old('jenis_kelamin') === 'Laki-Laki' ? 'checked' : ''; ?> required>
-                              <label for="laki_laki" class="form-check-label">Laki-Laki</label>
-                            </div>
-                            <div class="form-check">
-                              <input class="form-check-input" type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" <?= old('jenis_kelamin') === 'Perempuan' ? 'checked' : ''; ?> required>
-                              <label for="perempuan" class="form-check-label">Perempuan</label>
-                            </div>
-                          </div>
-                        </div>
-
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                      <button type="submit" class="btn btn-primary">Simpan</button>
-                    </div>
-                    </form>
-                  </div>
                 </div>
-              </div>
+                <div class="card-body">
+                    <!-- Tombol Buka Modal -->
+<button type="button" class="btn btn-primary mb-4" data-bs-toggle="modal" data-bs-target="#addDosenModal">
+    Tambah Data
+</button>
 
-              <div class="table-responsive">
-                <table id="datatable" class="table table-striped" data-toggle="data-table">
-                  <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>NIDN</th>
-                      <th>Kode Dosen</th>
-                      <th>Nama Dosen</th>
-                      <th>Jenis Kelamin</th>
-                      <th>Aksi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <?php if (empty($dosen)) : ?>
-                      <tr>
-                        <td colspan="6" class="text-center">Data tidak tersedia</td>
-                      </tr>
-                    <?php else : ?>
-                      <?php $no = 1;
-                      foreach ($dosen as $d) : ?>
-                        <tr>
-                          <td><?= $no++; ?></td>
-                          <td><?= esc($d['nidn']); ?></td>
-                          <td><?= esc($d['kode_dosen']); ?></td>
-                          <td><?= esc($d['nama_dosen']); ?></td>
-                          <td><?= esc($d['jenis_kelamin']); ?></td>
-                          <td>
-                            <button class="btn btn-primary btn-sm"
-                              onclick="editDosen('<?= $d['id_dosen']; ?>', '<?= $d['nidn']; ?>', '<?= $d['kode_dosen']; ?>', '<?= $d['nama_dosen']; ?>', '<?= $d['jenis_kelamin']; ?>')">
-                              <i class="bi bi-pencil-square"></i>
-                            </button>
-
-                            <a href="/admin/deletedosen/<?= $d['id_dosen']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?')">
-                              <i class="bi bi-trash"></i>
-                            </a>
-                          </td>
-
-                        </tr>
-                      <?php endforeach; ?>
-                    <?php endif; ?>
-                  </tbody>
-
-
-                  <!-- Edit Modal -->
-                  <div class="modal fade" id="editDosenModal" tabindex="-1" aria-labelledby="editDosenModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="editDosenModalLabel">Form Edit Dosen</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- Modal Tambah Dosen -->
+<div class="modal fade" id="addDosenModal" tabindex="-1" aria-labelledby="addDosenModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <form action="/admin/saveDosen" method="post">
+                <?= csrf_field(); ?>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addDosenModalLabel">Form Input Dosen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- NIDN -->
+                    <div class="form-group row">
+                        <label for="nidn" class="col-sm-3 col-form-label">NIDN:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="nidn" name="nidn" placeholder="Masukkan NIDN" value="<?= old('nidn') ?>" required>
                         </div>
-                        <div class="modal-body">
-                          <form id="editDosenForm" action="/admin/updateDosen" method="post">
-                            <?= csrf_field(); ?>
-                            <input type="hidden" id="edit_id_dosen" name="id_dosen">
-
-                            <div class="form-group row">
-                              <label for="edit_nidn" class="col-sm-3 col-form-label">NIDN:</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" id="edit_nidn" name="nidn" placeholder="Masukkan NIDN" required>
-                              </div>
-                            </div>
-
-                            <div class="form-group row mt-3">
-                              <label for="edit_kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" id="edit_kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" required>
-                              </div>
-                            </div>
-
-                            <div class="form-group row mt-3">
-                              <label for="edit_nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
-                              <div class="col-sm-9">
-                                <input type="text" class="form-control" id="edit_nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" required>
-                              </div>
-                            </div>
-
-                            <div class="form-group row mt-3">
-                              <label for="edit_jenis_kelamin" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
-                              <div class="col-sm-9">
-                                <div class="form-check">
-                                  <input class="form-check-input" type="radio" id="edit_laki_laki" name="jenis_kelamin" value="Laki-Laki">
-                                  <label for="edit_laki_laki" class="form-check-label">Laki-Laki</label>
-                                </div>
-                                <div class="form-check">
-                                  <input class="form-check-input" type="radio" id="edit_perempuan" name="jenis_kelamin" value="Perempuan">
-                                  <label for="edit_perempuan" class="form-check-label">Perempuan</label>
-                                </div>
-                              </div>
-                            </div>
-
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                          <button type="submit" class="btn btn-primary">Update</button>
-                        </div>
-                        </form>
-                      </div>
                     </div>
-                  </div>
+
+                    <!-- Password -->
+                    <div class="form-group row mt-3">
+                        <label for="password" class="col-sm-3 col-form-label">Password:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="password" name="password" placeholder="Masukkan Password" required>
+                        </div>
+                    </div>
+
+                    <!-- Kode Dosen -->
+                    <div class="form-group row mt-3">
+                        <label for="kode_dosen" class="col-sm-3 col-form-label">Kode Dosen:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="kode_dosen" name="kode_dosen" placeholder="Masukkan Kode Dosen" value="<?= old('kode_dosen') ?>" required>
+                        </div>
+                    </div>
+
+                    <!-- Nama Dosen -->
+                    <div class="form-group row mt-3">
+                        <label for="nama_dosen" class="col-sm-3 col-form-label">Nama Dosen:</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="nama_dosen" name="nama_dosen" placeholder="Masukkan Nama Dosen" value="<?= old('nama_dosen') ?>" required>
+                        </div>
+                    </div>
+
+                    <!-- Jenis Kelamin -->
+                    <div class="form-group row mt-3">
+                        <label class="col-sm-3 col-form-label">Jenis Kelamin:</label>
+                        <div class="col-sm-9">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-Laki" <?= old('jenis_kelamin') === 'Laki-Laki' ? 'checked' : ''; ?> required>
+                                <label for="laki_laki" class="form-check-label">Laki-Laki</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" <?= old('jenis_kelamin') === 'Perempuan' ? 'checked' : ''; ?> required>
+                                <label for="perempuan" class="form-check-label">Perempuan</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Matakuliah -->
+                    <div class="form-group row mt-3">
+                        <label for="matkul" class="col-sm-3 col-form-label">Matakuliah:</label>
+                        <div class="col-sm-9">
+                            <select class="form-control" id="matkul" name="matkul" required>
+                                <option value="">-- Pilih Matakuliah --</option>
+                                <?php foreach ($matkul as $m) : ?>
+                                    <option value="<?= esc($m['id_matkul']); ?>"><?= esc($m['matkul']); ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tombol Simpan dan Close -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
-                  <script>
-                    function editDosen(id, nidn, kode_dosen, nama_dosen, jenis_kelamin) {
-                      document.getElementById('edit_id_dosen').value = id;
-                      document.getElementById('edit_nidn').value = nidn;
-                      document.getElementById('edit_kode_dosen').value = kode_dosen;
-                      document.getElementById('edit_nama_dosen').value = nama_dosen;
+<div class="table-responsive">
+    <table id="datatable" class="table table-striped">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>NIDN</th>
+                <th>Kode Dosen</th>
+                <th>Nama Dosen</th>
+                <th>Jenis Kelamin</th>
+                <th>Matakuliah</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php $no = 1; foreach ($dosen as $d) : ?>
+                <tr>
+                    <td><?= $no++; ?></td>
+                    <td><?= esc($d['nidn']); ?></td>
+                    <td><?= esc($d['kode_dosen']); ?></td>
+                    <td><?= esc($d['nama_dosen']); ?></td>
+                    <td><?= esc($d['jenis_kelamin']); ?></td>
+                    <td>
+                        <?php
+                            $matkul_name = 'Tidak ditemukan';
+                            foreach ($matkul as $m) {
+                                if ($m['id_matkul'] == $d['matkul_diampu']) {
+                                    $matkul_name = $m['matkul'];
+                                    break;
+                                }
+                            }
+                            echo esc($matkul_name);
+                        ?>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm"
+                            onclick="editDosen(
+                                <?= $d['id_dosen']; ?>,
+                                '<?= esc($d['nidn']); ?>',
+                                '<?= esc($d['kode_dosen']); ?>',
+                                '<?= esc($d['nama_dosen']); ?>',
+                                '<?= esc($d['jenis_kelamin']); ?>',
+                                <?= isset($d['matkul_diampu']) ? $d['matkul_diampu'] : 'null'; ?>,
+                                '<?= esc($d['password'] ?? ''); ?>'
+                            )">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
 
-                      if (jenis_kelamin === "Laki-Laki") {
-                        document.getElementById('edit_laki_laki').checked = true;
-                      } else if (jenis_kelamin === "Perempuan") {
-                        document.getElementById('edit_perempuan').checked = true;
-                      }
+                        <a href="<?= base_url('/admin/deletedosen/' . $d['id_dosen']); ?>" class="btn btn-danger btn-sm"
+                           onclick="return confirm('Yakin ingin menghapus data dosen ini?')">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+<script>
+    function editDosen(id, nidn, kode_dosen, nama_dosen, jenis_kelamin, id_matkul, password = '') {
+        document.getElementById('edit_id_dosen').value = id;
+        document.getElementById('edit_nidn').value = nidn;
+        document.getElementById('edit_kode_dosen').value = kode_dosen;
+        document.getElementById('edit_nama_dosen').value = nama_dosen;
+        document.getElementById('edit_id_matkul').value = id_matkul;
+        document.getElementById('password').value = password;
 
-                      // Menampilkan modal edit
-                      var myModal = new bootstrap.Modal(document.getElementById('editDosenModal'));
-                      myModal.show();
-                    }
-                  </script>
+        // Set radio button
+        if (jenis_kelamin === 'Laki-Laki') {
+            document.getElementById('edit_laki_laki').checked = true;
+        } else if (jenis_kelamin === 'Perempuan') {
+            document.getElementById('edit_perempuan').checked = true;
+        }
 
+        const myModal = new bootstrap.Modal(document.getElementById('editDosenModal'));
+        myModal.show();
+    }
+</script>
 
-
-
-
-                </table>
-              </div>
+</div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+</div>
+
+
     <!-- Footer Section Start -->
     <footer class="footer">
       <div class="footer-body">

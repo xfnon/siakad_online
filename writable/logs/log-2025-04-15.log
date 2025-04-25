@@ -1,0 +1,507 @@
+DEBUG - 2025-04-15 03:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 03:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 03:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 03:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 03:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 03:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:46:51 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:48:09 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:48:10 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:48:10 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:48:10 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:48:11 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:49:03 --> Error: Class "App\Models\Pengajuankrs_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:49:17 --> ErrorException: Undefined variable $pengajuan
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Views\dosen\persetujuan.php on line 355.
+ 1 APPPATH\Views\dosen\persetujuan.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengajuan', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php', 355)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/persetujuan', [], true)
+ 5 APPPATH\Controllers\Dosen.php(14): view('dosen/persetujuan')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 04:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 04:56:57 --> ErrorException: Trait "App\Controllers\App\Models\Pengambilan_model" not found
+[Method: GET, Route: dosen/persetujuan]
+in APPPATH\Controllers\Dosen.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-04-15 04:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-15 04:58:05 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `p`.`nim...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nim...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nim...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-15 04:58:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 2 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 04:58:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 4 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 04:58:06 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 5 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 04:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-15 04:58:07 --> mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `p`.`nim...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nim...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nim...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-15 04:58:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 2 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 04:58:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 4 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 04:58:07 --> [Caused by] mysqli_sql_exception: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.m.nama' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 5 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dosen.php(18): App\Models\Pengambilan_model->getPengajuanPending()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 05:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-15 05:36:03 --> mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.p.id_pengambilan' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by in C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\siakad-online\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `p`.`id_...', 0)
+#1 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_...')
+#2 C:\laragon\www\siakad-online\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_...')
+#3 C:\laragon\www\siakad-online\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_...', Array, false)
+#4 C:\laragon\www\siakad-online\app\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\siakad-online\app\Controllers\Dosen.php(17): App\Models\Pengambilan_model->getPengajuanPending()
+#6 C:\laragon\www\siakad-online\system\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+#7 C:\laragon\www\siakad-online\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+#8 C:\laragon\www\siakad-online\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\siakad-online\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\siakad-online\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\siakad-online\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-15 05:36:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.p.id_pengambilan' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+[Method: GET, Route: dosen/persetujuan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 2 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Dosen.php(17): App\Models\Pengambilan_model->getPengajuanPending()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 05:36:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.p.id_pengambilan' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 4 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Dosen.php(17): App\Models\Pengambilan_model->getPengajuanPending()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 05:36:03 --> [Caused by] mysqli_sql_exception: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'siakad-online.p.id_pengambilan' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = \'pending\'
+GROUP BY `p`.`nim`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `p`.`id_pengambilan`, `p`.`nim`, `m`.`nama`, `p`.`status`
+FROM `pengambilan` `p`
+JOIN `mahasiswa` `m` ON `m`.`nim` = `p`.`nim`
+WHERE `p`.`status` = :p.status:
+GROUP BY `p`.`nim`', [...], false)
+ 5 APPPATH\Models\Pengambilan_model.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dosen.php(17): App\Models\Pengambilan_model->getPengajuanPending()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->persetujuan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 05:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 05:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 06:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 06:06:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dosen/persetujuan_detail.php"
+[Method: GET, Route: dosen/konfirmasiKrs/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/persetujuan_detail.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/persetujuan_detail', [], true)
+ 3 APPPATH\Controllers\Dosen.php(36): view('dosen/persetujuan_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasiKrs('5')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-15 06:08:43 --> ErrorException: Undefined variable $pengajuan
+[Method: GET, Route: dosen/konfirmasiKrs/5]
+in APPPATH\Views\dosen\persetujuan.php on line 354.
+ 1 APPPATH\Views\dosen\persetujuan.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengajuan', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php', 354)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/persetujuan', [], true)
+ 5 APPPATH\Controllers\Dosen.php(36): view('dosen/persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasiKrs('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 06:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 06:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 06:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 06:11:28 --> ErrorException: Undefined variable $pengajuan
+[Method: GET, Route: dosen/konfirmasiKrs/5]
+in APPPATH\Views\dosen\persetujuan.php on line 354.
+ 1 APPPATH\Views\dosen\persetujuan.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengajuan', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php', 354)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/persetujuan', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('dosen/persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasiKrs('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 06:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 12:51:43 --> ErrorException: Undefined variable $pengajuan
+[Method: GET, Route: dosen/konfirmasiKrs/5]
+in APPPATH\Views\dosen\persetujuan.php on line 354.
+ 1 APPPATH\Views\dosen\persetujuan.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengajuan', 'C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php', 354)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\dosen\\persetujuan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dosen/persetujuan', [], true)
+ 5 APPPATH\Controllers\Dosen.php(44): view('dosen/persetujuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dosen->konfirmasiKrs('5')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 12:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-15 12:52:51 --> ErrorException: Undefined array key "nama_fakultas"
+[Method: GET, Route: admin/prodi]
+in APPPATH\Views\admin\prodi.php on line 504.
+ 1 APPPATH\Views\admin\prodi.php(504): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_fakultas"', 'C:\\laragon\\www\\siakad-online\\app\\Views\\admin\\prodi.php', 504)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\siakad-online\\app\\Views\\admin\\prodi.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/prodi', [], true)
+ 5 APPPATH\Controllers\Admin.php(368): view('admin/prodi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->prodi()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-15 12:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-15 12:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -397,7 +397,7 @@
                         <div class="col-md-12">
                             <div class="flex-wrap d-flex justify-content-between align-items-center">
                                 <div>
-                                    <h1>Hello Devs!</h1>
+                                    <h1>Hello  <?= esc($nim); ?></h1>
                                     <p>Selamat Datang di Aplikasi SIAKAD.</p>
                                 </div>
                             </div>
@@ -421,7 +421,7 @@
                     <div class="card">
                         <div class="card-header d-flex justify-content-between">
                             <div class="header-title">
-                                <h4 class="card-title">Data Dosen</h4>
+                                <h4 class="card-title">Data Mahasiswa</h4>
                             </div>
                         </div>
                         <div class="card-body">
@@ -432,27 +432,31 @@
                                 <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Form Input Dosen</h5>
+                                            <h5 class="modal-title" id="exampleModalLabel">Form Input Mahasiswa</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
+
                                         <div class="modal-body">
                                             <form action="/admin/savemhs" method="post">
                                                 <?= csrf_field(); ?>
-
                                                 <div class="form-group row">
                                                     <label for="nim" class="col-sm-3 col-form-label">NIM:</label>
                                                     <div class="col-sm-9">
                                                         <input type="text" class="form-control" id="nim" name="nim" placeholder="Masukkan NIM" value="<?= old('nim') ?>" required>
                                                     </div>
                                                 </div>
-
+                                                <div class="form-group row">
+                                                    <label for="nim" class="col-sm-3 col-form-label">Password:</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control" id="password" name="password" placeholder="Masukkan Password" value="<?= old('password') ?>" required>
+                                                    </div>
+                                                </div>
                                                 <div class="form-group row mt-3">
                                                     <label for="nama" class="col-sm-3 col-form-label">Nama:</label>
                                                     <div class="col-sm-9">
                                                         <input type="text" class="form-control" id="nama" name="nama" placeholder="Masukkan Nama" value="<?= old('nama') ?>" required>
                                                     </div>
                                                 </div>
-
                                                 <div class="form-group row mt-3">
                                                     <label for="jk" class="col-sm-3 col-form-label">Jenis Kelamin:</label>
                                                     <div class="col-sm-9">
@@ -466,7 +470,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
                                                 <div class="form-group row mt-3">
                                                     <label for="no_telp" class="col-sm-3 col-form-label">No. Telepon:</label>
                                                     <div class="col-sm-9">
@@ -482,11 +485,19 @@
                                                 </div>
 
                                                 <div class="form-group row mt-3">
-                                                    <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
-                                                    <div class="col-sm-9">
-                                                        <input type="text" class="form-control" id="prodi" name="prodi" placeholder="Masukkan Program Studi" value="<?= old('prodi') ?>" required>
-                                                    </div>
-                                                </div>
+    <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+    <div class="col-sm-9">
+        <select class="form-control" id="prodi" name="prodi" required>
+            <option value="">-- Pilih Program Studi --</option>
+            <?php foreach ($prodi as $p) : ?>
+                <option value="<?= esc($p['nama_prodi']) ?>" <?= old('prodi') == $p['nama_prodi'] ? 'selected' : '' ?>>
+                    <?= esc($p['nama_prodi']) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+    </div>
+</div>
+
 
                                                 <div class="form-group row mt-3">
                                                     <label for="angkatan" class="col-sm-3 col-form-label">Angkatan:</label>
@@ -501,13 +512,12 @@
                                                         <input type="number" class="form-control" id="semester" name="semester" placeholder="Masukkan Semester" value="<?= old('semester') ?>" required>
                                                     </div>
                                                 </div>
-
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-primary">Simpan</button>
-                                        </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Simpan</button>
+                                            </div>
                                         </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -618,11 +628,19 @@
                                                     </div>
 
                                                     <div class="form-group row mt-3">
-                                                        <label for="edit_prodi" class="col-sm-3 col-form-label">Program Studi:</label>
-                                                        <div class="col-sm-9">
-                                                            <input type="text" class="form-control" id="edit_prodi" name="prodi" placeholder="Masukkan Program Studi" required>
-                                                        </div>
-                                                    </div>
+    <label for="edit_prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+    <div class="col-sm-9">
+        <select class="form-control" id="edit_prodi" name="prodi" required>
+            <option value="">-- Pilih Program Studi --</option>
+            <?php foreach ($prodi as $p) : ?>
+                <option value="<?= esc($p['nama_prodi']) ?>">
+                    <?= esc($p['nama_prodi']) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+    </div>
+</div>
+
 
                                                     <div class="form-group row mt-3">
                                                         <label for="edit_angkatan" class="col-sm-3 col-form-label">Angkatan:</label>

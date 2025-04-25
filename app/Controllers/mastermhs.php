@@ -2,6 +2,8 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\Mahasiswa_model;
+use App\Models\Fakultas_model;
+use App\Models\Prodi_model;
 
 class Mahasiswa extends BaseController
 {
@@ -18,11 +20,17 @@ class Mahasiswa extends BaseController
 	}
 
 	public function datamhs()
-	{
-		$model = new Mahasiswa_model();
-        $data['mahasiswa'] = $model->getMahasiswa();
-		echo view('master-mhs/datamhs', $data);
-	}
+{
+    $mahasiswaModel = new Mahasiswa_model();
+    $fakultasModel = new Fakultas_model();
+    $prodiModel    = new Prodi_model();
+
+    $data['mahasiswa'] = $mahasiswaModel->getMahasiswa();
+    $data['fakultas']  = $fakultasModel->findAll();
+    $data['prodi']     = $prodiModel->findAll();
+
+    echo view('mahasiswa/datamhs', $data);
+}
 
 	public function save()
     {

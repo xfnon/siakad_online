@@ -378,7 +378,7 @@
             <div class="col-md-12">
               <div class="flex-wrap d-flex justify-content-between align-items-center">
                 <div>
-                  <h1>Hello Devs!</h1>
+                  <h1>Hello  <?= esc($nim); ?></h1>
                   <p>Selamat Datang di Aplikasi SIAKAD.</p>
                 </div>
               </div>

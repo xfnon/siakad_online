@@ -11,7 +11,6 @@ use App\Models\Prodi_model;
 use App\Models\Fakultas_model;
 use App\Models\Jadwal_model;
 
-
 class Admin extends BaseController
 {
 
@@ -29,56 +28,64 @@ class Admin extends BaseController
     }
 
     //MASTER MAHASISWA 
-    public function mahasiswa()
-    {
-        $session = session();
+public function mahasiswa()
+{
+    $session = session();
 
-        // Kirim data session ke view
-        $data = [
-            'nim'   => $session->get('nim'),
-            'level' => $session->get('level')
-        ];
+    // Kirim data session ke view
+    $data = [
+        'nim'   => $session->get('nim'),
+        'level' => $session->get('level')
+    ];
 
-        $mahasiswaModel = new Mahasiswa_model();
-        $data['mahasiswa'] = $mahasiswaModel->findAll();
-        return view('admin/mahasiswa', $data);
-    }
+    $mahasiswaModel = new Mahasiswa_model();
+    $prodiModel = new \App\Models\Prodi_model(); // Pastikan model ini sudah dibuat
+
+    $data['mahasiswa'] = $mahasiswaModel->findAll();
+    $data['prodi'] = $prodiModel->findAll(); // Ambil semua data prodi untuk dropdown
+
+    return view('admin/mahasiswa', $data);
+}
 
     public function saveMahasiswa()
-    {
-        // Validasi input
-        $validation = \Config\Services::validation();
-        $validation->setRules([
-            'nim' => 'required|is_unique[mahasiswa.nim]',
-            'nama' => 'required',
-            'jk' => 'required',
-            'no_telp' => 'required',
-            'alamat' => 'required',
-            'prodi' => 'required',
-            'angkatan' => 'required|numeric',
-            'semester' => 'required|numeric',
-        ]);
+{
+    $nim = $this->request->getPost('nim');
+    $nama = $this->request->getPost('nama');
+    $jk = $this->request->getPost('jk');
+    $no_telp = $this->request->getPost('no_telp');
+    $alamat = $this->request->getPost('alamat');
+    $prodi = $this->request->getPost('prodi');
+    $angkatan = $this->request->getPost('angkatan');
+    $semester = $this->request->getPost('semester');
+    $password = $this->request->getPost('password');
 
-        if (!$this->validate($validation->getRules())) {
-            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
-        }
+    $mahasiswaModel = new \App\Models\Mahasiswa_model();
+    $akunModel = new \App\Models\Akun_model();
 
-        // Simpan ke database
-        $mahasiswaModel = new \App\Models\Mahasiswa_model();
-        $mahasiswaModel->insert([
-            'nim' => $this->request->getPost('nim'),
-            'nama' => $this->request->getPost('nama'),
-            'jk' => $this->request->getPost('jk'),
-            'no_telp' => $this->request->getPost('no_telp'),
-            'alamat' => $this->request->getPost('alamat'),
-            'prodi' => $this->request->getPost('prodi'),
-            'angkatan' => $this->request->getPost('angkatan'),
-            'semester' => $this->request->getPost('semester'),
-        ]);
+    // Simpan ke tabel mahasiswa
+    $mahasiswaModel->insert([
+        'nim'       => $nim,
+        'nama'      => $nama,
+        'jk'        => $jk,
+        'no_telp'   => $no_telp,
+        'alamat'    => $alamat,
+        'prodi'     => $prodi,
+        'angkatan'  => $angkatan,
+        'semester'  => $semester,
+    ]);
 
-        // Redirect dengan pesan sukses
-        return redirect()->to('/admin/mahasiswa')->with('success', 'Data mahasiswa berhasil ditambahkan.');
-    }
+    // Simpan ke tabel akun
+    $akunModel->insert([
+        'nim'       => $nim,
+        'password'  => password_hash($password, PASSWORD_DEFAULT),
+        'level'     => 'mahasiswa'
+    ]);
+
+    return redirect()->to('/admin/mahasiswa')->with('success', 'Data mahasiswa dan akun berhasil ditambahkan.');
+}
+
+    
+
     public function updateMahasiswa()
     {
         if (!$this->validate([
@@ -135,45 +142,85 @@ class Admin extends BaseController
     public function dosen()
     {
         $session = session();
-
+    
         // Kirim data session ke view
         $data = [
             'nim'   => $session->get('nim'),
             'level' => $session->get('level')
         ];
-
+    
         $dosenModel = new Dosen_model();
+        $matkulModel = new \App\Models\Matkul_model(); // Tambahkan model matkul
+        
         $data['dosen'] = $dosenModel->findAll();
+        $data['matkul'] = $matkulModel->findAll(); // Kirim data matkul ke view
+    
         return view('admin/dosen', $data);
     }
+    
 
     public function saveDosen()
     {
-        // Validasi input
         $validation = \Config\Services::validation();
         $validation->setRules([
-            'nidn' => 'required|is_unique[dosen.nidn]',
+            'nidn' => 'required|is_unique[dosen.nidn]|is_unique[akun.nim]',
             'kode_dosen' => 'required',
             'nama_dosen' => 'required',
             'jenis_kelamin' => 'required',
+            'password' => 'required|min_length[6]',
+            'matkul' => 'required' // input: array of matkul id
         ]);
-
+    
         if (!$this->validate($validation->getRules())) {
             return redirect()->back()->withInput()->with('errors', $validation->getErrors());
         }
-
-        // Simpan ke database
+    
+        $nidn          = $this->request->getPost('nidn');
+        $kode_dosen    = $this->request->getPost('kode_dosen');
+        $nama_dosen    = $this->request->getPost('nama_dosen');
+        $jenis_kelamin = $this->request->getPost('jenis_kelamin');
+        $password      = $this->request->getPost('password');
+        $matkul_ids    = $this->request->getPost('matkul'); // array of id_matkul
+    
         $dosenModel = new \App\Models\Dosen_model();
+        $akunModel  = new \App\Models\Akun_model();
+        $db         = \Config\Database::connect();
+    
+        // Transaksi untuk menghindari separuh data tersimpan
+        $db->transStart();
+    
         $dosenModel->insert([
-            'nidn' => $this->request->getPost('nidn'),
-            'kode_dosen' => $this->request->getPost('kode_dosen'),
-            'nama_dosen' => $this->request->getPost('nama_dosen'),
-            'jenis_kelamin' => $this->request->getPost('jenis_kelamin'),
+            'nidn'           => $nidn,
+            'kode_dosen'     => $kode_dosen,
+            'nama_dosen'     => $nama_dosen,
+            'jenis_kelamin'  => $jenis_kelamin,
         ]);
-
-        // Redirect dengan pesan sukses
-        return redirect()->to('/admin/dosen')->with('success', 'Data dosen berhasil ditambahkan.');
+        $id_dosen = $dosenModel->getInsertID();
+    
+        $akunModel->insert([
+            'nim'      => $nidn,
+            'password' => password_hash($password, PASSWORD_DEFAULT),
+            'level'    => 'dosen'
+        ]);
+    
+        // Simpan relasi ke tabel pivot dosen_matkul
+        foreach ($matkul_ids as $id_matkul) {
+            $db->table('dosen_matkul')->insert([
+                'id_dosen' => $id_dosen,
+                'id_matkul' => $id_matkul
+            ]);
+        }
+    
+        $db->transComplete();
+    
+        if ($db->transStatus() === false) {
+            return redirect()->back()->withInput()->with('error', 'Gagal menyimpan data dosen dan matkul.');
+        }
+    
+        return redirect()->to('/admin/dosen')->with('success', 'Data dosen dan matkul berhasil ditambahkan.');
     }
+    
+
 
     public function updatedosen()
     {
@@ -257,18 +304,23 @@ class Admin extends BaseController
     {
         $session = session();
 
-        // Kirim data session ke view
+        // Kirim data session dan data lainnya ke view
         $data = [
-            'nim'   => $session->get('nim'),
-            'level' => $session->get('level')
+            'nim'     => $session->get('nim'),
+            'level'   => $session->get('level')
         ];
-        $matkulModel = new Matkul_model();
-        $data['matkul'] = $matkulModel->findAll();
 
-        $ruangModel = new Ruang_model();
-        $dosenModel = new Dosen_model();
-        $data['ruang'] = $ruangModel->findAll();
-        $data['dosen'] = $dosenModel->findAll();
+        $matkulModel    = new Matkul_model();
+        $ruangModel     = new Ruang_model();
+        $dosenModel     = new Dosen_model();
+        $fakultasModel  = new Fakultas_model();
+        $prodiModel     = new Prodi_model();
+
+        $data['matkul']   = $matkulModel->findAll();
+        $data['ruang']    = $ruangModel->findAll();
+        $data['dosen']    = $dosenModel->findAll();
+        $data['fakultas'] = $fakultasModel->findAll();
+        $data['prodi']    = $prodiModel->findAll();
 
         return view('admin/matkul', $data);
     }
@@ -328,19 +380,18 @@ class Admin extends BaseController
         $matkulModel = new Matkul_model();
 
         try {
-            // Cek apakah data ada
             $matkul = $matkulModel->find($id);
             if (!$matkul) {
                 return redirect()->to('/admin/matkul')->with('error', 'Mata kuliah tidak ditemukan.');
             }
 
-            // Hapus data
             $matkulModel->delete($id);
             return redirect()->to('/admin/matkul')->with('success', 'Mata kuliah berhasil dihapus.');
         } catch (\Exception $e) {
             return redirect()->to('/admin/matkul')->with('error', 'Gagal menghapus mata kuliah.');
         }
     }
+
 
 
 
@@ -517,7 +568,8 @@ class Admin extends BaseController
             'semester' => $this->request->getPost('semester'),
         ]);
 
-        return redirect()->to('/admin/jadwal')->with('success', 'Jadwal berhasil disimpan.');
+        return redirect()->to('/admin/setupjadwal')->with('success', 'Jadwal berhasil disimpan.');
+
     }
 
     public function deletejadwal($id)
@@ -527,4 +579,46 @@ class Admin extends BaseController
 
         return redirect()->to('/admin/setupjadwal')->with('success', 'Jadwal berhasil dihapus.');
     }
+
+    public function tambahdosen()
+    {
+        $dosenModel = new Dosen_model();
+        $matkulModel = new Matkul_model();
+
+        $data['dosen'] = $dosenModel->findAll();
+        $data['matkul'] = $matkulModel->findAll();
+
+        return view('admin/dosen', $data);
+    }
+
+    public function simpanDosen()
+{
+    $dosenModel = new \App\Models\Dosen_model();
+    $akunModel = new \App\Models\Akun_model();
+
+    $dataDosen = [
+        'nidn'          => $this->request->getPost('nidn'),
+        'kode_dosen'    => $this->request->getPost('kode_dosen'),
+        'nama_dosen'    => $this->request->getPost('nama_dosen'),
+        'jenis_kelamin' => $this->request->getPost('jenis_kelamin'),
+        'matkul_diampu' => $this->request->getPost('matkul'),
+        'password'      => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
+    ];
+
+    $dosenModel->insert($dataDosen);
+
+    $dataAkun = [
+        'nim'      => $this->request->getPost('nidn'),
+        'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
+        'level'    => 'dosen',
+    ];
+
+    $akunModel->insert($dataAkun);
+
+    return redirect()->to('/admin/dosen')->with('success', 'Data dosen berhasil disimpan');
 }
+
+
+
+}
+

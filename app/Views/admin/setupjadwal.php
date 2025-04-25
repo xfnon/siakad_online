@@ -397,7 +397,7 @@
                         <div class="col-md-12">
                             <div class="flex-wrap d-flex justify-content-between align-items-center">
                                 <div>
-                                    <h1>Hello Devs!</h1>
+                                    <h1>Hello  <?= esc($nim); ?></h1>
                                     <p>Selamat Datang di Aplikasi SIAKAD.</p>
                                 </div>
                             </div>
@@ -435,7 +435,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <form action="/admin/savejadwal" method="post">
+                                            <form action="admin/savejadwal" method="post">
                                                 <?= csrf_field(); ?>
 
                                                 <div class="form-group row">

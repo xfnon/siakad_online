@@ -74,7 +74,7 @@
 
 
 
-            <h4 class="logo-title">Hope UI</h4>
+            <h4 class="logo-title">SiAKAD</h4>
          </a>
          <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
             <i class="icon">
@@ -173,7 +173,7 @@
                   </a>
                </li>
                <li class="nav-item mt-2">
-                  <a class="nav-link" aria-current="page" href="/mahasiswa/panduankrs">
+                  <a class="nav-link active" aria-current="page" href="/dosen/penilaian">
                      <i class="icon">
                         <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <path opacity="0.4" d="M16.34 1.99976H7.67C4.28 1.99976 2 4.37976 2 7.91976V16.0898C2 19.6198 4.28 21.9998 7.67 21.9998H16.34C19.73 21.9998 22 19.6198 22 16.0898V7.91976C22 4.37976 19.73 1.99976 16.34 1.99976Z" fill="currentColor"></path>
@@ -331,95 +331,104 @@
          <!--Nav End-->
       </div>
       <div class="container-fluid content-inner mt-n5 py-0">
-    <div class="row">
+  <div class="row">
     <div class="col-sm-12">
-   <div class="card">
-      <div class="card-header d-flex justify-content-between">
-         <div class="header-title">
-            <h4 class="card-title">Absensi Mahasiswa</h4>
-         </div>
-         <button class="btn btn-primary btn-sm" id="save-button">
-            <i class="bi bi-save"></i> Simpan
-         </button>
-      </div>
-      <div class="card-body">
-         <p>Daftar kehadiran mahasiswa pada mata kuliah tertentu.</p>
-         <div class="table-responsive">
-            <table id="datatable" class="table table-striped">
-               <thead>
+      <form method="post" action="/dosen/simpan_nilai">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between">
+            <div class="header-title">
+              <h4 class="card-title">Daftar Nilai Mahasiswa</h4>
+            </div>
+            <button type="submit" class="btn btn-success btn-sm">Simpan</button>
+          </div>
+          <div class="card-body">
+            <p>Silakan ubah nilai di kolom. Grade akan otomatis diperbarui.</p>
+            <div class="table-responsive">
+              <table id="datatable" class="table table-striped">
+                <thead>
                   <tr>
-                     <th>Nama Mahasiswa</th>
-                     <th>NIM</th>
-                     <th>Pertemuan</th>
-                     <th>Tanggal</th>
-                     <th>Status Kehadiran</th>
-                     <th>Aksi</th>
+                    <th>No</th>
+                    <th>NIM</th>
+                    <th>Nama</th>
+                    <th>Hadir (%)</th>
+                    <th>Nilai</th>
+                    <th>Grade</th>
+                    <th>Lulus</th>
                   </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>Ahmad Fauzi</td>
-                     <td>210123456</td>
-                     <td>Pertemuan 1</td>
-                     <td class="tanggal">2025-03-11</td>
-                     <td class="status">
-                        <span class="badge bg-success">Hadir</span>
-                     </td>
-                     <td>
-                        <button class="btn btn-warning btn-sm toggle-status">
-                           <i class="bi bi-arrow-repeat"></i>
-                        </button>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>Siti Rahma</td>
-                     <td>210123457</td>
-                     <td>Pertemuan 1</td>
-                     <td class="tanggal">2025-03-11</td>
-                     <td class="status">
-                        <span class="badge bg-success">Hadir</span>
-                     </td>
-                     <td>
-                        <button class="btn btn-warning btn-sm toggle-status">
-                           <i class="bi bi-arrow-repeat"></i>
-                        </button>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-      </div>
-   </div>
+                </thead>
+                <tbody>
+                  <?php $i = 1; ?>
+                  <?php foreach ($mahasiswa as $mhs): ?>
+                    <tr>
+                      <td><?= $i++; ?></td>
+                      <td><?= $mhs->nim; ?></td>
+                      <td><?= $mhs->nama_mahasiswa; ?></td>
+                      <td>
+                        <input type="number" name="kehadiran[]" value="0" class="form-control">
+                      </td>
+                      <td>
+                        <input type="number" name="nilai[]" value="0" class="form-control nilai-input" data-index="<?= $i-1 ?>">
+                      </td>
+                      <td id="grade-<?= $i-1 ?>">-</td>
+                      <td id="lulus-<?= $i-1 ?>">-</td>
+                      <input type="hidden" name="id_pengambilan[]" value="<?= $mhs->id_pengambilan ?>">
+                      <input type="hidden" name="id_matkul" value="<?= $id_matkul ?>">
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 <script>
-   document.querySelectorAll('.toggle-status').forEach(button => {
-      button.addEventListener('click', function () {
-         let row = this.closest('tr');
-         let statusCell = row.querySelector('.status span');
+function getGrade(nilai) {
+  if (nilai >= 4) return 'A';
+  else if (nilai >= 3.75) return 'A-';
+  else if (nilai >= 3.5) return 'A/B';
+  else if (nilai >= 3.25) return 'B+';
+  else if (nilai >= 3) return 'B';
+  else if (nilai >= 2.75) return 'B-';
+  else if (nilai >= 2.5) return 'B/C';
+  else if (nilai >= 2.25) return 'C+';
+  else if (nilai >= 2) return 'C';
+  else if (nilai >= 1.75) return 'C-';
+  else if (nilai >= 1.5) return 'C/D';
+  else if (nilai >= 1.25) return 'D+';
+  else if (nilai >= 1) return 'D';
+  else return 'E';
+}
 
-         if (statusCell.classList.contains('bg-success')) {
-            statusCell.classList.remove('bg-success');
-            statusCell.classList.add('bg-danger');
-            statusCell.textContent = 'Absen';
-         } else {
-            statusCell.classList.remove('bg-danger');
-            statusCell.classList.add('bg-success');
-            statusCell.textContent = 'Hadir';
-         }
-      });
-   });
+function isLulus(grade) {
+  const lulusGrade = ['A', 'A-', 'A/B', 'B+', 'B', 'B-', 'B/C', 'C+', 'C'];
+  return lulusGrade.includes(grade);
+}
 
-   document.getElementById('save-button').addEventListener('click', function () {
-      alert('Data absensi telah disimpan!');
-   });
+document.querySelectorAll('.nilai-input').forEach(input => {
+  input.addEventListener('input', function () {
+    const index = this.dataset.index;
+    const nilai = parseFloat(this.value) || 0;
+    const grade = getGrade(nilai);
+    const lulus = isLulus(grade) ? 'Ya' : 'Tidak';
+
+    document.getElementById('grade-' + index).textContent = grade;
+    document.getElementById('lulus-' + index).textContent = lulus;
+  });
+});
 </script>
 
 
 
 
-    </div>
-</div>
+
+
+
+
+
 
 
       <!-- Footer Section Start -->

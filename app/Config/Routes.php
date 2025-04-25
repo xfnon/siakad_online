@@ -29,6 +29,9 @@ $routes->get('/admin/setupjadwal', 'Admin::setupjadwal', ['filter' => 'auth:admi
 $routes->get('/admin/fakultas', 'Admin::fakultas', ['filter' => 'auth:admin']);
 $routes->get('/admin/mahasiswa', 'Admin::mahasiswa', ['filter' => 'auth:admin']);
 $routes->get('/admin/prodi', 'Admin::prodi', ['filter' => 'auth:admin']);
+$routes->post('admin/admin/savejadwal', 'Admin::saveJadwal');
+$routes->get('admin/jadwal', 'Admin::jadwal');
+
 
 //adminprocess
 $routes->post('admin/savemhs', 'Admin::saveMahasiswa');
@@ -41,6 +44,7 @@ $routes->post('admin/savejadwal', 'Admin::savejadwal');
 $routes->post('/admin/saveFakultas', 'Admin::saveFakultas');
 $routes->post('admin/saveProdi', 'Admin::saveProdi');
 $routes->post('/admin/prodi/edit', 'Admin::editProdi'); // Mengedit prodi
+
 
 //updateprocess
 $routes->post('/admin/updatedosen', 'Admin::updatedosen');
@@ -63,14 +67,41 @@ $routes->get('/admin/deletejadwal/(:num)', 'Admin::deletejadwal/$1');
 
 
 
-//routes dosen
-
+// Routes untuk dosen
 $routes->get('/dosen/dashboard', 'Dosen::dashboard', ['filter' => 'auth:dosen']);
 $routes->get('/dosen/persetujuan', 'Dosen::persetujuan', ['filter' => 'auth:dosen']);
-$routes->get('/dosen/konfirmasi', 'Dosen::konfirmasi', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/konfirmasi', 'Dosen::konfirmasi', ['filter' => 'auth:dosen']); // Tanpa parameter (opsional)
 $routes->get('/dosen/absensi', 'Dosen::absensi', ['filter' => 'auth:dosen']);
 $routes->get('/dosen/penilaian', 'Dosen::penilaian', ['filter' => 'auth:dosen']);
 
 
+// Route dengan parameter NIM
+$routes->get('/dosen/konfirmasi/(:segment)', 'Dosen::konfirmasi/$1', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/setujuiKrs/(:segment)', 'Dosen::setujuiKrs/$1', ['filter' => 'auth:dosen']);
+$routes->get('/dosen/tolakKrs/(:segment)', 'Dosen::tolakKrs/$1', ['filter' => 'auth:dosen']);
+
+
+
+
+
+
+
 //routes mahasiswa
 $routes->get('/mahasiswa/dashboard', 'Mahasiswa::dashboard');
+$routes->get('/mahasiswa/rencanastudi', 'Mahasiswa::rencanastudi');
+$routes->post('mahasiswa/konfirmasiKrs', 'Mahasiswa::konfirmasiKrs');
+// Route untuk dosen melihat detail pengajuan KRS
+$routes->get('mahasiswa/jadwal', 'Mahasiswa::jadwal');
+$routes->get('/mahasiswa/transkripnilai', 'Mahasiswa::transkripnilai');
+$routes->get('/mahasiswa/hasilstudi', 'Mahasiswa::hasilstudi');
+
+
+
+$routes->get('/admin/dosen', 'Admin::dosen');
+$routes->post('/admin/saveDosen', 'Admin::simpanDosen');
+
+
+$routes->get('dosen/penilaian/(:num)', 'Dosen::penilaian/$1');
+
+$routes->post('dosen/simpanNilai', 'Dosen::simpanNilai');
+$routes->get('dosen/nilai/(:num)', 'DosenController::nilaiMahasiswa/$1');

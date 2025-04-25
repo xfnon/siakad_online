@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 
 class Fakultas_model extends Model
 {
-    protected $table = 'fakultas';  // Nama tabel di database
-    protected $primaryKey = 'id_fakultas'; // Primary key tabel
-    protected $allowedFields = ['nama_fakultas']; // Kolom yang boleh diisi
+    protected $table = 'fakultas';
+    protected $primaryKey = 'id_fakultas';
+    protected $allowedFields = ['nama_fakultas'];
 }
 

@@ -7,28 +7,28 @@
    <title>Dashboard - SIAKAD</title>
 
    <!-- Favicon -->
-   <link rel="shortcut icon" href="../assets/images/favicon.ico" />
+   <link rel="shortcut icon" href="../../../assets/images/favicon.ico" />
 
    <!-- Library / Plugin Css Build -->
-   <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
+   <link rel="stylesheet" href="../../../assets/css/core/libs.min.css" />
 
    <!-- Aos Animation Css -->
-   <link rel="stylesheet" href="../assets/vendor/aos/dist/aos.css" />
+   <link rel="stylesheet" href="../../../assets/vendor/aos/dist/aos.css" />
 
    <!-- Hope Ui Design System Css -->
-   <link rel="stylesheet" href="../assets/css/hope-ui.min.css?v=2.0.0" />
+   <link rel="stylesheet" href="../../../assets/css/hope-ui.min.css?v=2.0.0" />
 
    <!-- Custom Css -->
-   <link rel="stylesheet" href="../assets/css/custom.min.css?v=2.0.0" />
+   <link rel="stylesheet" href="../../../assets/css/custom.min.css?v=2.0.0" />
 
    <!-- Dark Css -->
-   <link rel="stylesheet" href="../assets/css/dark.min.css" />
+   <link rel="stylesheet" href="../../../assets/css/dark.min.css" />
 
    <!-- Customizer Css -->
-   <link rel="stylesheet" href="../assets/css/customizer.min.css" />
+   <link rel="stylesheet" href="../../../assets/css/customizer.min.css" />
 
    <!-- RTL Css -->
-   <link rel="stylesheet" href="../assets/css/rtl.min.css" />
+   <link rel="stylesheet" href="../../../assets/css/rtl.min.css" />
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -46,7 +46,7 @@
 
    <aside class="sidebar sidebar-default sidebar-white sidebar-base navs-rounded-all ">
       <div class="sidebar-header d-flex align-items-center justify-content-start">
-         <a href="../dashboard/index.html" class="navbar-brand">
+         <a href="../../../dashboard/index.html" class="navbar-brand">
             <!--Logo start-->
             <!--logo End-->
 
@@ -216,7 +216,7 @@
          <!--Nav Start-->
          <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar">
             <div class="container-fluid navbar-inner">
-               <a href="../dashboard/index.html" class="navbar-brand">
+               <a href="../../../dashboard/index.html" class="navbar-brand">
                   <!--Logo start-->
                   <!--logo End-->
 
@@ -244,7 +244,7 @@
 
 
 
-                  <h4 class="logo-title">Hope UI</h4>
+                  <h4 class="logo-title">SiAKAD</h4>
                </a>
                <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
                   <i class="icon">
@@ -273,24 +273,24 @@
                   <ul class="mb-2 navbar-nav ms-auto align-items-center navbar-list mb-lg-0">
                      <li class="nav-item dropdown">
                         <a class="py-0 nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                           <img src="../assets/images/avatars/01.png" alt="User-Profile" class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded">
-                           <img src="../assets/images/avatars/avtar_1.png" alt="User-Profile" class="theme-color-purple-img img-fluid avatar avatar-50 avatar-rounded">
-                           <img src="../assets/images/avatars/avtar_2.png" alt="User-Profile" class="theme-color-blue-img img-fluid avatar avatar-50 avatar-rounded">
-                           <img src="../assets/images/avatars/avtar_4.png" alt="User-Profile" class="theme-color-green-img img-fluid avatar avatar-50 avatar-rounded">
-                           <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
-                           <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
+                           <img src="../../../assets/images/avatars/01.png" alt="User-Profile" class="theme-color-default-img img-fluid avatar avatar-50 avatar-rounded">
+                           <img src="../../../assets/images/avatars/avtar_1.png" alt="User-Profile" class="theme-color-purple-img img-fluid avatar avatar-50 avatar-rounded">
+                           <img src="../../../assets/images/avatars/avtar_2.png" alt="User-Profile" class="theme-color-blue-img img-fluid avatar avatar-50 avatar-rounded">
+                           <img src="../../../assets/images/avatars/avtar_4.png" alt="User-Profile" class="theme-color-green-img img-fluid avatar avatar-50 avatar-rounded">
+                           <img src="../../../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
+                           <img src="../../../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                            <div class="caption ms-3 d-none d-md-block ">
                               <h6 class="mb-0 caption-title">Austin Robertson</h6>
                               <p class="mb-0 caption-sub-title">Marketing Administrator</p>
                            </div>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                           <li><a class="dropdown-item" href="../dashboard/app/user-profile.html">Profile</a></li>
-                           <li><a class="dropdown-item" href="../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li>
+                           <li><a class="dropdown-item" href="../../../dashboard/app/user-profile.html">Profile</a></li>
+                           <li><a class="dropdown-item" href="../../../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li>
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                           <li><a class="dropdown-item" href="../../../dashboard/auth/sign-in.html">Logout</a></li>
                         </ul>
                      </li>
                   </ul>
@@ -320,12 +320,12 @@
                </div>
             </div>
             <div class="iq-header-img">
-               <img src="../assets/images/dashboard/top-header.png" alt="header" class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX">
-               <img src="../assets/images/dashboard/top-header1.png" alt="header" class="theme-color-purple-img img-fluid w-100 h-100 animated-scaleX">
-               <img src="../assets/images/dashboard/top-header2.png" alt="header" class="theme-color-blue-img img-fluid w-100 h-100 animated-scaleX">
-               <img src="../assets/images/dashboard/top-header3.png" alt="header" class="theme-color-green-img img-fluid w-100 h-100 animated-scaleX">
-               <img src="../assets/images/dashboard/top-header4.png" alt="header" class="theme-color-yellow-img img-fluid w-100 h-100 animated-scaleX">
-               <img src="../assets/images/dashboard/top-header5.png" alt="header" class="theme-color-pink-img img-fluid w-100 h-100 animated-scaleX">
+               <img src="../../../assets/images/dashboard/top-header.png" alt="header" class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX">
+               <img src="../../../assets/images/dashboard/top-header1.png" alt="header" class="theme-color-purple-img img-fluid w-100 h-100 animated-scaleX">
+               <img src="../../../assets/images/dashboard/top-header2.png" alt="header" class="theme-color-blue-img img-fluid w-100 h-100 animated-scaleX">
+               <img src="../../../assets/images/dashboard/top-header3.png" alt="header" class="theme-color-green-img img-fluid w-100 h-100 animated-scaleX">
+               <img src="../../../assets/images/dashboard/top-header4.png" alt="header" class="theme-color-yellow-img img-fluid w-100 h-100 animated-scaleX">
+               <img src="../../../assets/images/dashboard/top-header5.png" alt="header" class="theme-color-pink-img img-fluid w-100 h-100 animated-scaleX">
             </div>
          </div> <!-- Nav Header Component End -->
          <!--Nav End-->
@@ -342,122 +342,77 @@
       <div class="card-body">
          <div class="row">
             <div class="col-md-6">
-               <table>
-                  <tr>
-                     <td><strong>Nama Mahasiswa</strong></td>
-                     <td>: AHMAD FAUZI</td>
-                  </tr>
-                  <tr>
-                     <td><strong>NIM Mahasiswa</strong></td>
-                     <td>: 210123456</td>
-                  </tr>
-                  <tr>
-                     <td><strong>Program Studi</strong></td>
-                     <td>: 62201 - Akuntansi (S1)</td>
-                  </tr>
-               </table>
+
+
+
             </div>
          </div>
-         <div class="table-responsive">
-            <table id="datatable" class="table table-striped" data-toggle="data-table">
-               <thead>
-                  <tr>
-                     <th>No.</th>
-                     <th>Kode</th>
-                     <th>Nama Mata Kuliah</th>
-                     <th>SKS</th>
-                     <th>Kelas</th>
-                  </tr>
-               </thead>
-               <tbody>
-               <tbody>
-   <tr>
-      <td>1</td>
-      <td>ADA305</td>
-      <td>Seminar Penelitian</td>
-      <td>3</td>
-      <td>B</td>
-   </tr>
-   <tr>
-      <td>2</td>
-      <td>ADA306</td>
-      <td>Seminar Penelitian (Perpajakan)</td>
-      <td>3</td>
-      <td>A</td>
-   </tr>
-   <tr>
-      <td>3</td>
-      <td>MKU101</td>
-      <td>Pancasila</td>
-      <td>2</td>
-      <td>C</td>
-   </tr>
-   <tr>
-      <td>4</td>
-      <td>MKU102</td>
-      <td>Kewarganegaraan</td>
-      <td>2</td>
-      <td>D</td>
-   </tr>
-   <tr>
-      <td>5</td>
-      <td>MKU103</td>
-      <td>Bahasa Indonesia</td>
-      <td>2</td>
-      <td>B</td>
-   </tr>
-   <tr>
-      <td>6</td>
-      <td>EKON201</td>
-      <td>Ekonomi Mikro</td>
-      <td>3</td>
-      <td>A</td>
-   </tr>
-   <tr>
-      <td>7</td>
-      <td>EKON202</td>
-      <td>Ekonomi Makro</td>
-      <td>3</td>
-      <td>C</td>
-   </tr>
-   <tr>
-      <td>8</td>
-      <td>MAN301</td>
-      <td>Manajemen Keuangan</td>
-      <td>3</td>
-      <td>B</td>
-   </tr>
-   <tr>
-      <td>9</td>
-      <td>MAN302</td>
-      <td>Manajemen Sumber Daya Manusia</td>
-      <td>3</td>
-      <td>A</td>
-   </tr>
-</tbody>
-<tfoot>
-   <tr>
-      <td colspan="3"><strong>TOTAL SKS</strong></td>
-      <td colspan="2"><strong>24</strong></td>
-   </tr>
-</tfoot>
-            </table>
-         </div>
-         <button class="btn btn-success">
-   <i class="bi bi-check-circle"></i> Setujui
-</button>
-<button class="btn btn-danger">
-   <i class="bi bi-x-circle"></i> Tolak
-</button>
+           <!-- Tabel KRS -->
+           <div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama Mata Kuliah</th>
+                <th>SKS</th>
+                <th>Dosen</th>
+                <th>Hari</th>
+                <th>Jam</th>
+                <th>Semester</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php 
+            $no = 1; 
+            $totalSKS = 0;
+            foreach ($pengambilan as $row): 
+                $totalSKS += $row['sks'];
+            ?>
+           <tr>
+    <td><?= $no++ ?></td>
+    <td><?= esc($row['matkul']) ?></td>
+    <td><?= esc($row['sks']) ?></td>
+    <td><?= esc($row['nama_dosen']) ?></td>
+    <td><?= esc($row['hari']) ?></td>
+    <td><?= esc($row['jam_mulai']) ?> - <?= esc($row['jam_selesai']) ?></td>
+    <td><?= esc($row['semester']) ?></td>
+</tr>
 
-      </div>
-   </div>
+
+            <?php endforeach; ?>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><strong>TOTAL SKS</strong></td>
+                <td colspan="6"><strong><?= $totalSKS ?></strong></td>
+            </tr>
+        </tfoot>
+    </table>
 </div>
 
 
+        <!-- Tombol Aksi -->
+        <td>
+    <?php if ($row['status'] === 'pending'): ?>
+        <!-- Tombol Setujui -->
+        <a href="<?= base_url('dosen/setujuiKrs/' . $row['nim']) ?>" class="btn btn-success btn-sm">
+            <i class="bi bi-check-circle"></i> Setujui
+        </a>
+        <!-- Tombol Tolak -->
+        <a href="<?= base_url('dosen/tolakKrs/' . $row['nim']) ?>" class="btn btn-danger btn-sm">
+            <i class="bi bi-x-circle"></i> Tolak
+        </a>
+    <?php endif; ?>
+</td>
+
+
+
 
     </div>
     </div>
+    </div>  
+    </div>
+      </div>
 </div>
 
 
@@ -465,8 +420,8 @@
       <footer class="footer">
          <div class="footer-body">
             <ul class="left-panel list-inline mb-0 p-0">
-               <li class="list-inline-item"><a href="../dashboard/extra/privacy-policy.html">Privacy Policy</a></li>
-               <li class="list-inline-item"><a href="../dashboard/extra/terms-of-service.html">Terms of Use</a></li>
+               <li class="list-inline-item"><a href="../../../dashboard/extra/privacy-policy.html">Privacy Policy</a></li>
+               <li class="list-inline-item"><a href="../../../dashboard/extra/terms-of-service.html">Terms of Use</a></li>
             </ul>
             <div class="right-panel">
                ©<script>
@@ -569,13 +524,13 @@
                <h5 class="mb-3 mt-4">Scheme Direction</h5>
                <div class="d-grid gap-3 grid-cols-2 mb-4">
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/01.png" alt="ltr" class="mode dark-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="dir-mode" data-name="dir" data-value="ltr">
-                     <img src="../assets/images/settings/light/01.png" alt="ltr" class="mode light-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="dir-mode" data-name="dir" data-value="ltr">
+                     <img src="../../../assets/images/settings/dark/01.png" alt="ltr" class="mode dark-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="dir-mode" data-name="dir" data-value="ltr">
+                     <img src="../../../assets/images/settings/light/01.png" alt="ltr" class="mode light-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="dir-mode" data-name="dir" data-value="ltr">
                      <span class=" mt-2"> LTR </span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/02.png" alt="" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="dir-mode" data-name="dir" data-value="rtl">
-                     <img src="../assets/images/settings/light/02.png" alt="" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="dir-mode" data-name="dir" data-value="rtl">
+                     <img src="../../../assets/images/settings/dark/02.png" alt="" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="dir-mode" data-name="dir" data-value="rtl">
+                     <img src="../../../assets/images/settings/light/02.png" alt="" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="dir-mode" data-name="dir" data-value="rtl">
                      <span class="mt-2 "> RTL </span>
                   </div>
                </div>
@@ -600,18 +555,18 @@
                <h5 class="mt-4 mb-3">Sidebar Types</h5>
                <div class="d-grid gap-3 grid-cols-3 mb-4">
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/03.png" alt="mini" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-mini">
-                     <img src="../assets/images/settings/light/03.png" alt="mini" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-mini">
+                     <img src="../../../assets/images/settings/dark/03.png" alt="mini" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-mini">
+                     <img src="../../../assets/images/settings/light/03.png" alt="mini" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-mini">
                      <span class="mt-2">Mini</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/04.png" alt="hover" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-hover" data-extra-value="sidebar-mini">
-                     <img src="../assets/images/settings/light/04.png" alt="hover" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-hover" data-extra-value="sidebar-mini">
+                     <img src="../../../assets/images/settings/dark/04.png" alt="hover" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-hover" data-extra-value="sidebar-mini">
+                     <img src="../../../assets/images/settings/light/04.png" alt="hover" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-hover" data-extra-value="sidebar-mini">
                      <span class="mt-2">Hover</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/05.png" alt="boxed" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-boxed">
-                     <img src="../assets/images/settings/light/05.png" alt="boxed" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-boxed">
+                     <img src="../../../assets/images/settings/dark/05.png" alt="boxed" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-boxed">
+                     <img src="../../../assets/images/settings/light/05.png" alt="boxed" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-type" data-value="sidebar-boxed">
                      <span class="mt-2">Boxed</span>
                   </div>
                </div>
@@ -619,23 +574,23 @@
                <h5 class="mt-4 mb-3">Sidebar Active Style</h5>
                <div class="d-grid gap-3 grid-cols-2 mb-4">
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/06.png" alt="rounded-one-side" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded">
-                     <img src="../assets/images/settings/light/06.png" alt="rounded-one-side" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded">
+                     <img src="../../../assets/images/settings/dark/06.png" alt="rounded-one-side" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded">
+                     <img src="../../../assets/images/settings/light/06.png" alt="rounded-one-side" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded">
                      <span class="mt-2">Rounded One Side</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/07.png" alt="rounded-all" class="mode dark-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded-all">
-                     <img src="../assets/images/settings/light/07.png" alt="rounded-all" class="mode light-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded-all">
+                     <img src="../../../assets/images/settings/dark/07.png" alt="rounded-all" class="mode dark-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded-all">
+                     <img src="../../../assets/images/settings/light/07.png" alt="rounded-all" class="mode light-img img-fluid btn-border p-0 flex-column active mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-rounded-all">
                      <span class="mt-2">Rounded All</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/08.png" alt="pill-one-side" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill">
-                     <img src="../assets/images/settings/light/09.png" alt="pill-one-side" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill">
+                     <img src="../../../assets/images/settings/dark/08.png" alt="pill-one-side" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill">
+                     <img src="../../../assets/images/settings/light/09.png" alt="pill-one-side" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill">
                      <span class="mt-2">Pill One Side</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/09.png" alt="pill-all" class="mode dark-img img-fluid btn-border p-0 flex-column" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill-all">
-                     <img src="../assets/images/settings/light/08.png" alt="pill-all" class="mode light-img img-fluid btn-border p-0 flex-column" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill-all">
+                     <img src="../../../assets/images/settings/dark/09.png" alt="pill-all" class="mode dark-img img-fluid btn-border p-0 flex-column" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill-all">
+                     <img src="../../../assets/images/settings/light/08.png" alt="pill-all" class="mode light-img img-fluid btn-border p-0 flex-column" data-setting="sidebar" data-name="sidebar-item" data-value="navs-pill-all">
                      <span class="mt-2">Pill All</span>
                   </div>
                </div>
@@ -643,23 +598,23 @@
                <h5 class="mt-4 mb-3">Navbar Style</h5>
                <div class="d-grid gap-3 grid-cols-2 ">
                   <div class=" text-center">
-                     <img src="../assets/images/settings/dark/11.png" alt="image" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="nav-glass">
-                     <img src="../assets/images/settings/light/10.png" alt="image" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="nav-glass">
+                     <img src="../../../assets/images/settings/dark/11.png" alt="image" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="nav-glass">
+                     <img src="../../../assets/images/settings/light/10.png" alt="image" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="nav-glass">
                      <span class="mt-2">Glass</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/10.png" alt="color" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar-header" data-name="navbar-type" data-value="navs-bg-color">
-                     <img src="../assets/images/settings/light/11.png" alt="color" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar-header" data-name="navbar-type" data-value="navs-bg-color">
+                     <img src="../../../assets/images/settings/dark/10.png" alt="color" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar-header" data-name="navbar-type" data-value="navs-bg-color">
+                     <img src="../../../assets/images/settings/light/11.png" alt="color" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar-header" data-name="navbar-type" data-value="navs-bg-color">
                      <span class="mt-2">Color</span>
                   </div>
                   <div class=" text-center">
-                     <img src="../assets/images/settings/dark/12.png" alt="sticky" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-sticky">
-                     <img src="../assets/images/settings/light/12.png" alt="sticky" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-sticky">
+                     <img src="../../../assets/images/settings/dark/12.png" alt="sticky" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-sticky">
+                     <img src="../../../assets/images/settings/light/12.png" alt="sticky" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-sticky">
                      <span class="mt-2">Sticky</span>
                   </div>
                   <div class="text-center">
-                     <img src="../assets/images/settings/dark/13.png" alt="transparent" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-transparent">
-                     <img src="../assets/images/settings/light/13.png" alt="transparent" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-transparent">
+                     <img src="../../../assets/images/settings/dark/13.png" alt="transparent" class="mode dark-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-transparent">
+                     <img src="../../../assets/images/settings/light/13.png" alt="transparent" class="mode light-img img-fluid btn-border p-0 flex-column mb-2" data-setting="navbar" data-target=".iq-navbar" data-name="navbar-type" data-value="navs-transparent">
                      <span class="mt-2">Transparent</span>
                   </div>
                   <div class="btn btn-border active col-span-full mt-4 d-block" data-setting="navbar" data-name="navbar-default" data-value="default">
@@ -672,35 +627,35 @@
    </div>
 
    <!-- Library Bundle Script -->
-   <script src="../assets/js/core/libs.min.js"></script>
+   <script src="../../../assets/js/core/libs.min.js"></script>
 
    <!-- External Library Bundle Script -->
-   <script src="../assets/js/core/external.min.js"></script>
+   <script src="../../../assets/js/core/external.min.js"></script>
 
    <!-- Widgetchart Script -->
-   <script src="../assets/js/charts/widgetcharts.js"></script>
+   <script src="../../../assets/js/charts/widgetcharts.js"></script>
 
    <!-- mapchart Script -->
-   <script src="../assets/js/charts/vectore-chart.js"></script>
-   <script src="../assets/js/charts/dashboard.js"></script>
+   <script src="../../../assets/js/charts/vectore-chart.js"></script>
+   <script src="../../../assets/js/charts/dashboard.js"></script>
 
    <!-- fslightbox Script -->
-   <script src="../assets/js/plugins/fslightbox.js"></script>
+   <script src="../../../assets/js/plugins/fslightbox.js"></script>
 
    <!-- Settings Script -->
-   <script src="../assets/js/plugins/setting.js"></script>
+   <script src="../../../assets/js/plugins/setting.js"></script>
 
    <!-- Slider-tab Script -->
-   <script src="../assets/js/plugins/slider-tabs.js"></script>
+   <script src="../../../assets/js/plugins/slider-tabs.js"></script>
 
    <!-- Form Wizard Script -->
-   <script src="../assets/js/plugins/form-wizard.js"></script>
+   <script src="../../../assets/js/plugins/form-wizard.js"></script>
 
    <!-- AOS Animation Plugin-->
-   <script src="../assets/vendor/aos/dist/aos.js"></script>
+   <script src="../../../assets/vendor/aos/dist/aos.js"></script>
 
    <!-- App Script -->
-   <script src="../assets/js/hope-ui.js" defer></script>
+   <script src="../../../assets/js/hope-ui.js" defer></script>
 
 </body>
 

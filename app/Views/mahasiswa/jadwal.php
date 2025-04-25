@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>SIAKAD - Jadwal Kuliah</title>
+  <title>SIAKAD - Jadwal Perkuliahan</title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="../assets/images/favicon.ico" />
@@ -72,7 +72,7 @@
 
 
 
-        <h4 class="logo-title">Hope UI</h4>
+        <h4 class="logo-title">SiAKAD</h4>
       </a>
       <div class="sidebar-toggle" data-toggle="sidebar" data-active="true">
         <i class="icon">
@@ -124,19 +124,6 @@
                 </svg>
               </i>
               <span class="item-name">Rencana Studi</span>
-            </a>
-          </li>
-          <li class="nav-item mt-2">
-            <a class="nav-link" aria-current="page" href="/mahasiswa/kelas">
-              <i class="icon">
-                <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path opacity="0.4" d="M2 11.0786C2.05 13.4166 2.19 17.4156 2.21 17.8566C2.281 18.7996 2.642 19.7526 3.204 20.4246C3.986 21.3676 4.949 21.7886 6.292 21.7886C8.148 21.7986 10.194 21.7986 12.181 21.7986C14.176 21.7986 16.112 21.7986 17.747 21.7886C19.071 21.7886 20.064 21.3566 20.836 20.4246C21.398 19.7526 21.759 18.7896 21.81 17.8566C21.83 17.4856 21.93 13.1446 21.99 11.0786H2Z" fill="currentColor"></path>
-                  <path d="M11.2451 15.3843V16.6783C11.2451 17.0923 11.5811 17.4283 11.9951 17.4283C12.4091 17.4283 12.7451 17.0923 12.7451 16.6783V15.3843C12.7451 14.9703 12.4091 14.6343 11.9951 14.6343C11.5811 14.6343 11.2451 14.9703 11.2451 15.3843Z" fill="currentColor"></path>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.211 14.5565C10.111 14.9195 9.762 15.1515 9.384 15.1015C6.833 14.7455 4.395 13.8405 2.337 12.4815C2.126 12.3435 2 12.1075 2 11.8555V8.38949C2 6.28949 3.712 4.58149 5.817 4.58149H7.784C7.972 3.12949 9.202 2.00049 10.704 2.00049H13.286C14.787 2.00049 16.018 3.12949 16.206 4.58149H18.183C20.282 4.58149 21.99 6.28949 21.99 8.38949V11.8555C21.99 12.1075 21.863 12.3425 21.654 12.4815C19.592 13.8465 17.144 14.7555 14.576 15.1105C14.541 15.1155 14.507 15.1175 14.473 15.1175C14.134 15.1175 13.831 14.8885 13.746 14.5525C13.544 13.7565 12.821 13.1995 11.99 13.1995C11.148 13.1995 10.433 13.7445 10.211 14.5565ZM13.286 3.50049H10.704C10.031 3.50049 9.469 3.96049 9.301 4.58149H14.688C14.52 3.96049 13.958 3.50049 13.286 3.50049Z" fill="currentColor"></path>
-                  <circle cx="18" cy="11.8999" r="1" fill="currentColor"></circle>
-                </svg>
-              </i>
-              <span class="item-name">Kelas Saya</span>
             </a>
           </li>
           <li class="nav-item mt-2">
@@ -299,13 +286,14 @@
             <div class="col-md-12">
               <div class="flex-wrap d-flex justify-content-between align-items-center">
                 <div>
-                  <h1>Lihat Jadwal Perkuliahan</h1>
-                  <p>Pastikan Anda mengetahui jadwal kuliah dengan melihat daftar hari, jam, dan lokasi perkuliahan yang telah terdaftar.</p>
+                  <h1>Daftar Matakuliah Yang Anda Ambil</h1>
+                  <p>Pantau daftar kuliah yang telah Anda pilih dan lihat detail informasi tentang dosen serta jadwal kuliah</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
         <div class="iq-header-img">
           <img src="../assets/images/dashboard/top-header.png" alt="header" class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX">
           <img src="../assets/images/dashboard/top-header1.png" alt="header" class="theme-color-purple-img img-fluid w-100 h-100 animated-scaleX">
@@ -317,130 +305,71 @@
       </div> <!-- Nav Header Component End -->
       <!--Nav End-->
     </div>
-
-    <!--MainContent-->
-    <div class="conatiner-fluid content-inner mt-n5 py-0">
-      <div class="row">
-        <div class="row">
-          <!-- Card 1 -->
-          <div class="col-lg-6 col-md-12">
-            <div class="card shadow-sm mb-4">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Struktur Data</h5>
-                <p class="text-muted mb-2"><i class="bi bi-code-square"></i> Kode MK: TI102</p>
-                <hr>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-calendar-week fs-5 text-primary me-2"></i>
-                  <span><strong>Hari:</strong> Senin</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-clock fs-5 text-warning me-2"></i>
-                  <span><strong>Jam:</strong> 07:30 - 09:30</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-person-badge fs-5 text-success me-2"></i>
-                  <span><strong>Dosen:</strong> Dr. Siti Rohmah</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-door-open fs-5 text-danger me-2"></i>
-                  <span><strong>Ruang:</strong> Kelas B2</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-award fs-5 text-info me-2"></i>
-                  <span><strong>SKS:</strong> 3</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="col-lg-6 col-md-12">
-            <div class="card shadow-sm mb-4">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Basis Data</h5>
-                <p class="text-muted mb-2"><i class="bi bi-code-square"></i> Kode MK: TI201</p>
-                <hr>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-calendar-week fs-5 text-primary me-2"></i>
-                  <span><strong>Hari:</strong> Selasa</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-clock fs-5 text-warning me-2"></i>
-                  <span><strong>Jam:</strong> 08:00 - 10:00</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-person-badge fs-5 text-success me-2"></i>
-                  <span><strong>Dosen:</strong> Dr. Ahmad Yusuf</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-door-open fs-5 text-danger me-2"></i>
-                  <span><strong>Ruang:</strong> Kelas A3</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-award fs-5 text-info me-2"></i>
-                  <span><strong>SKS:</strong> 3</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="col-lg-6 col-md-12">
-            <div class="card shadow-sm mb-4">
-              <div class="card-body">
-                <h5 class="card-title fw-bold">Pemrograman Web</h5>
-                <p class="text-muted mb-2"><i class="bi bi-code-square"></i> Kode MK: TI1202</p>
-                <hr>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-calendar-week fs-5 text-primary me-2"></i>
-                  <span><strong>Hari:</strong> Rabu</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-clock fs-5 text-warning me-2"></i>
-                  <span><strong>Jam:</strong> 10:00 - 12:00</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-person-badge fs-5 text-success me-2"></i>
-                  <span><strong>Dosen:</strong> Dr. Budi Santoso</span>
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                  <i class="bi bi-door-open fs-5 text-danger me-2"></i>
-                  <span><strong>Ruang:</strong> Lab Komputer 2</span>
-                </div>
-                <div class="d-flex align-items-center">
-                  <i class="bi bi-award fs-5 text-info me-2"></i>
-                  <span><strong>SKS:</strong> 3</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Bootstrap Icons -->
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
-          </div>
+    <div class="container-fluid content-inner mt-n5 py-0">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="card-title">Jadwal Kuliah Saya</h4>
         </div>
-
-
-        <!-- Footer Section Start -->
-        <footer class="footer">
-          <div class="footer-body">
-            <ul class="left-panel list-inline mb-0 p-0">
-              <li class="list-inline-item"><a href="../dashboard/extra/privacy-policy.html">Privacy Policy</a></li>
-              <li class="list-inline-item"><a href="../dashboard/extra/terms-of-service.html">Terms of Use</a></li>
-            </ul>
-            <div class="right-panel">
-              ©<script>
-                document.write(new Date().getFullYear())
-              </script> Hope UI, Made with
-              <span class="">
-                <svg class="icon-15" width="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.85 2.50065C16.481 2.50065 17.111 2.58965 17.71 2.79065C21.401 3.99065 22.731 8.04065 21.62 11.5806C20.99 13.3896 19.96 15.0406 18.611 16.3896C16.68 18.2596 14.561 19.9196 12.28 21.3496L12.03 21.5006L11.77 21.3396C9.48102 19.9196 7.35002 18.2596 5.40102 16.3796C4.06102 15.0306 3.03002 13.3896 2.39002 11.5806C1.26002 8.04065 2.59002 3.99065 6.32102 2.76965C6.61102 2.66965 6.91002 2.59965 7.21002 2.56065H7.33002C7.61102 2.51965 7.89002 2.50065 8.17002 2.50065H8.28002C8.91002 2.51965 9.52002 2.62965 10.111 2.83065H10.17C10.21 2.84965 10.24 2.87065 10.26 2.88965C10.481 2.96065 10.69 3.04065 10.89 3.15065L11.27 3.32065C11.3618 3.36962 11.4649 3.44445 11.554 3.50912C11.6104 3.55009 11.6612 3.58699 11.7 3.61065C11.7163 3.62028 11.7329 3.62996 11.7496 3.63972C11.8354 3.68977 11.9247 3.74191 12 3.79965C13.111 2.95065 14.46 2.49065 15.85 2.50065ZM18.51 9.70065C18.92 9.68965 19.27 9.36065 19.3 8.93965V8.82065C19.33 7.41965 18.481 6.15065 17.19 5.66065C16.78 5.51965 16.33 5.74065 16.18 6.16065C16.04 6.58065 16.26 7.04065 16.68 7.18965C17.321 7.42965 17.75 8.06065 17.75 8.75965V8.79065C17.731 9.01965 17.8 9.24065 17.94 9.41065C18.08 9.58065 18.29 9.67965 18.51 9.70065Z" fill="currentColor"></path>
-                </svg>
-              </span> by <a href="https://iqonic.design/">IQONIC Design</a>.
-            </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+        <th>Hari</th>
+        <th>Jam</th>
+        <th>Mata Kuliah</th>
+        <th>Dosen</th>
+        <th>Ruang</th>
+        <th>Gedung</th>
+        <th>Semester</th>
+    </tr>
+    <?php foreach($jadwal as $j): ?>
+    <tr>
+        <td><?= $j->hari ?></td>
+        <td><?= $j->jam_mulai ?> - <?= $j->jam_selesai ?></td>
+        <td><?= $j->matkul ?></td>
+        <td><?= $j->dosen ?></td>
+        <td><?= $j->ruang ?></td>
+        <td><?= $j->gedung ?></td>
+        <td><?= $j->semester ?></td>
+    </tr>
+    <?php endforeach; ?>
+    </tbody>
+            </table>
           </div>
-        </footer>
-        <!-- Footer Section End -->
+        </div> 
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <!-- Footer Section Start -->
+    <footer class="footer">
+      <div class="footer-body">
+        <ul class="left-panel list-inline mb-0 p-0">
+          <li class="list-inline-item"><a href="../dashboard/extra/privacy-policy.html">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="../dashboard/extra/terms-of-service.html">Terms of Use</a></li>
+        </ul>
+        <div class="right-panel">
+          ©<script>
+            document.write(new Date().getFullYear())
+          </script> Hope UI, Made with
+          <span class="">
+            <svg class="icon-15" width="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.85 2.50065C16.481 2.50065 17.111 2.58965 17.71 2.79065C21.401 3.99065 22.731 8.04065 21.62 11.5806C20.99 13.3896 19.96 15.0406 18.611 16.3896C16.68 18.2596 14.561 19.9196 12.28 21.3496L12.03 21.5006L11.77 21.3396C9.48102 19.9196 7.35002 18.2596 5.40102 16.3796C4.06102 15.0306 3.03002 13.3896 2.39002 11.5806C1.26002 8.04065 2.59002 3.99065 6.32102 2.76965C6.61102 2.66965 6.91002 2.59965 7.21002 2.56065H7.33002C7.61102 2.51965 7.89002 2.50065 8.17002 2.50065H8.28002C8.91002 2.51965 9.52002 2.62965 10.111 2.83065H10.17C10.21 2.84965 10.24 2.87065 10.26 2.88965C10.481 2.96065 10.69 3.04065 10.89 3.15065L11.27 3.32065C11.3618 3.36962 11.4649 3.44445 11.554 3.50912C11.6104 3.55009 11.6612 3.58699 11.7 3.61065C11.7163 3.62028 11.7329 3.62996 11.7496 3.63972C11.8354 3.68977 11.9247 3.74191 12 3.79965C13.111 2.95065 14.46 2.49065 15.85 2.50065ZM18.51 9.70065C18.92 9.68965 19.27 9.36065 19.3 8.93965V8.82065C19.33 7.41965 18.481 6.15065 17.19 5.66065C16.78 5.51965 16.33 5.74065 16.18 6.16065C16.04 6.58065 16.26 7.04065 16.68 7.18965C17.321 7.42965 17.75 8.06065 17.75 8.75965V8.79065C17.731 9.01965 17.8 9.24065 17.94 9.41065C18.08 9.58065 18.29 9.67965 18.51 9.70065Z" fill="currentColor"></path>
+            </svg>
+          </span> by <a href="https://iqonic.design/">IQONIC Design</a>.
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
   </main>
   <a class="btn btn-fixed-end btn-warning btn-icon btn-setting" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" role="button" aria-controls="offcanvasExample">
     <svg width="24" viewBox="0 0 24 24" class="animated-rotate icon-24" fill="none" xmlns="http://www.w3.org/2000/svg">

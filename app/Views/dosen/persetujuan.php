@@ -332,42 +332,71 @@
       </div>
       <div class="container-fluid content-inner mt-n5 py-0">
     <div class="row">
-    <div class="col-sm-12">
-         <div class="card">
-            <div class="card-header d-flex justify-content-between">
-               <div class="header-title">
-                  <h4 class="card-title">Persetujuan KRS</h4>
-               </div>
-            </div>
-            <div class="card-body">
-               <p>Daftar mahasiswa yang mengajukan KRS untuk disetujui.</p>
-               <div class="table-responsive">
-                  <table id="datatable" class="table table-striped" data-toggle="data-table">
-                     <thead>
-                        <tr>
-                           <th>Nama Mahasiswa</th>
-                           <th>NIM</th>
-                           <th>Status</th>
-                           <th>Aksi</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>Ahmad Fauzi</td>
-                           <td>210123456</td>
-                           <td>Menunggu Persetujuan</td>
-                           <td>
-                            <a href="/dosen/konfirmasi" class="btn btn-info btn-sm">
-                            <i class="bi bi-eye"></i>
-                            </a>
-                            </td>
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between">
+                    <div class="header-title">
+                        <h4 class="card-title">Persetujuan KRS</h4>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>Daftar mahasiswa yang mengajukan KRS untuk disetujui.</p>
+                    <div class="table-responsive">
+                    <table id="datatable" class="table table-striped">
+    <thead>
+        <tr>
+            <th>NIM</th>
+            <th>Status</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+    <?php if (!empty($pengajuan)) : ?>
+        <?php foreach ($pengajuan as $row): ?>
+        <tr>
+            <td><?= esc($row['nim']) ?></td>
+            <td>
+                <?php if ($row['status'] === 'pending'): ?>
+                    <span class="badge bg-warning text-dark">Menunggu Persetujuan</span>
+                <?php elseif ($row['status'] === 'disetujui'): ?>
+                    <span class="badge bg-success">Disetujui</span>
+                <?php elseif ($row['status'] === 'ditolak'): ?>
+                    <span class="badge bg-danger">Ditolak</span>
+                <?php endif; ?>
+            </td>
+               <td>
+                  <?php if (!empty($row['nim'])): ?>
+                     <a href="<?= base_url('dosen/konfirmasi/' . $row['nim']) ?>" class="btn btn-info btn-sm" title="Lihat KRS">
+    <i class="bi bi-eye"></i>
+</a>
 
-                        </tr>
-                     </tbody>
-                  </table>
-               </div>
+
+
+
+
+                <?php else: ?>
+                    <span class="text-danger">NIM tidak valid</span>
+                <?php endif; ?>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+    <?php else : ?>
+        <tr>
+            <td colspan="3">Tidak ada data pengajuan.</td>
+        </tr>
+    <?php endif; ?>
+</tbody>
+
+
+</table>
+
+                    </div>
+                </div>
             </div>
-         </div>
+        </div>
+    </div>
+</div>
+
 
     </div>
     </div>
@@ -622,6 +651,18 @@
 
    <!-- App Script -->
    <script src="../assets/js/hope-ui.js" defer></script>
+
+   <script>
+    const statusCell = document.querySelector("#status");
+    const statusText = statusCell.textContent.trim();
+
+    if (statusText === "Menunggu Persetujuan") {
+        statusCell.innerHTML = `<span class="badge bg-warning text-dark">${statusText}</span>`;
+    } else if (statusText === "Disetujui") {
+        statusCell.innerHTML = `<span class="badge bg-success">${statusText}</span>`;
+    }
+</script>
+
 
 </body>
 
