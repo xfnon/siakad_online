@@ -263,8 +263,8 @@
                   <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                   <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                   <div class="caption ms-3 d-none d-md-block ">
-                    <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                    <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                    <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                    <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                   </div>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -273,7 +273,11 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                  <li>
+                    <form action="/logout" method="post">
+                      <button type="submit" class="dropdown-item">Logout</button>
+                    </form>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -293,7 +297,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="iq-header-img">
           <img src="../assets/images/dashboard/top-header.png" alt="header" class="theme-color-default-img img-fluid w-100 h-100 animated-scaleX">
           <img src="../assets/images/dashboard/top-header1.png" alt="header" class="theme-color-purple-img img-fluid w-100 h-100 animated-scaleX">
@@ -306,44 +310,44 @@
       <!--Nav End-->
     </div>
     <div class="container-fluid content-inner mt-n5 py-0">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="card">
-        <div class="card-header">
-          <h4 class="card-title">Jadwal Kuliah Saya</h4>
-        </div>
-        <div class="card-body">
-          <div class="table-responsive">
-            <table class="table table-bordered table-striped">
-            <thead>
-            <tr>
-        <th>Hari</th>
-        <th>Jam</th>
-        <th>Mata Kuliah</th>
-        <th>Dosen</th>
-        <th>Ruang</th>
-        <th>Gedung</th>
-        <th>Semester</th>
-    </tr>
-    <?php foreach($jadwal as $j): ?>
-    <tr>
-        <td><?= $j->hari ?></td>
-        <td><?= $j->jam_mulai ?> - <?= $j->jam_selesai ?></td>
-        <td><?= $j->matkul ?></td>
-        <td><?= $j->dosen ?></td>
-        <td><?= $j->ruang ?></td>
-        <td><?= $j->gedung ?></td>
-        <td><?= $j->semester ?></td>
-    </tr>
-    <?php endforeach; ?>
-    </tbody>
-            </table>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Jadwal Kuliah Saya</h4>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th>Hari</th>
+                      <th>Jam</th>
+                      <th>Mata Kuliah</th>
+                      <th>Dosen</th>
+                      <th>Ruang</th>
+                      <th>Gedung</th>
+                      <th>Semester</th>
+                    </tr>
+                    <?php foreach ($jadwal as $j): ?>
+                      <tr>
+                        <td><?= $j->hari ?></td>
+                        <td><?= $j->jam_mulai ?> - <?= $j->jam_selesai ?></td>
+                        <td><?= $j->matkul ?></td>
+                        <td><?= $j->dosen ?></td>
+                        <td><?= $j->ruang ?></td>
+                        <td><?= $j->gedung ?></td>
+                        <td><?= $j->semester ?></td>
+                      </tr>
+                    <?php endforeach; ?>
+                    </tbody>
+                </table>
+              </div>
+            </div>
           </div>
-        </div> 
-      </div> 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
 
 

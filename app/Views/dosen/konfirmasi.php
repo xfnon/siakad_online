@@ -280,8 +280,8 @@
                            <img src="../../../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                            <img src="../../../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                            <div class="caption ms-3 d-none d-md-block ">
-                              <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                              <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                              <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                              <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                            </div>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -290,7 +290,11 @@
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../../../dashboard/auth/sign-in.html">Logout</a></li>
+                           <li>
+                              <form action="/logout" method="post">
+                                 <button type="submit" class="dropdown-item">Logout</button>
+                              </form>
+                           </li>
                         </ul>
                      </li>
                   </ul>
@@ -303,7 +307,7 @@
                   <div class="col-md-12">
                      <div class="flex-wrap d-flex justify-content-between align-items-center">
                         <div>
-                           <h1>Hello Devs!</h1>
+                           <h1>Hello <?= esc($nim); ?>!</h1>
                            <p>Selamat datang di aplikasi SIAKAD Kampus</p>
                         </div>
                         <div>
@@ -331,89 +335,89 @@
          <!--Nav End-->
       </div>
       <div class="container-fluid content-inner mt-n5 py-0">
-    <div class="row">
-    <div class="col-sm-12">
-   <div class="card">
-      <div class="card-header d-flex justify-content-between">
-         <div class="header-title">
-            <h4 class="card-title">Edit Persetujuan KRS Mahasiswa - Per Mata Kuliah</h4>
-         </div>
-      </div>
-      <div class="card-body">
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Edit Persetujuan KRS Mahasiswa - Per Mata Kuliah</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="row">
+                        <div class="col-md-6">
 
 
 
+                        </div>
+                     </div>
+                     <!-- Tabel KRS -->
+                     <div class="table-responsive">
+                        <table class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th>No.</th>
+                                 <th>Nama Mata Kuliah</th>
+                                 <th>SKS</th>
+                                 <th>Dosen</th>
+                                 <th>Hari</th>
+                                 <th>Jam</th>
+                                 <th>Semester</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <?php
+                              $no = 1;
+                              $totalSKS = 0;
+                              foreach ($pengambilan as $row):
+                                 $totalSKS += $row['sks'];
+                              ?>
+                                 <tr>
+                                    <td><?= $no++ ?></td>
+                                    <td><?= esc($row['matkul']) ?></td>
+                                    <td><?= esc($row['sks']) ?></td>
+                                    <td><?= esc($row['nama_dosen']) ?></td>
+                                    <td><?= esc($row['hari']) ?></td>
+                                    <td><?= esc($row['jam_mulai']) ?> - <?= esc($row['jam_selesai']) ?></td>
+                                    <td><?= esc($row['semester']) ?></td>
+                                 </tr>
+
+
+                              <?php endforeach; ?>
+                           </tbody>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="2"><strong>TOTAL SKS</strong></td>
+                                 <td colspan="6"><strong><?= $totalSKS ?></strong></td>
+                              </tr>
+                           </tfoot>
+                        </table>
+                     </div>
+
+
+                     <!-- Tombol Aksi -->
+                     <td>
+                        <?php if ($row['status'] === 'pending'): ?>
+                           <!-- Tombol Setujui -->
+                           <a href="<?= base_url('dosen/setujuiKrs/' . $row['nim']) ?>" class="btn btn-success btn-sm">
+                              <i class="bi bi-check-circle"></i> Setujui
+                           </a>
+                           <!-- Tombol Tolak -->
+                           <a href="<?= base_url('dosen/tolakKrs/' . $row['nim']) ?>" class="btn btn-danger btn-sm">
+                              <i class="bi bi-x-circle"></i> Tolak
+                           </a>
+                        <?php endif; ?>
+                     </td>
+
+
+
+
+                  </div>
+               </div>
             </div>
          </div>
-           <!-- Tabel KRS -->
-           <div class="table-responsive">
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>No.</th>
-                <th>Nama Mata Kuliah</th>
-                <th>SKS</th>
-                <th>Dosen</th>
-                <th>Hari</th>
-                <th>Jam</th>
-                <th>Semester</th>
-            </tr>
-        </thead>
-        <tbody>
-            <?php 
-            $no = 1; 
-            $totalSKS = 0;
-            foreach ($pengambilan as $row): 
-                $totalSKS += $row['sks'];
-            ?>
-           <tr>
-    <td><?= $no++ ?></td>
-    <td><?= esc($row['matkul']) ?></td>
-    <td><?= esc($row['sks']) ?></td>
-    <td><?= esc($row['nama_dosen']) ?></td>
-    <td><?= esc($row['hari']) ?></td>
-    <td><?= esc($row['jam_mulai']) ?> - <?= esc($row['jam_selesai']) ?></td>
-    <td><?= esc($row['semester']) ?></td>
-</tr>
-
-
-            <?php endforeach; ?>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2"><strong>TOTAL SKS</strong></td>
-                <td colspan="6"><strong><?= $totalSKS ?></strong></td>
-            </tr>
-        </tfoot>
-    </table>
-</div>
-
-
-        <!-- Tombol Aksi -->
-        <td>
-    <?php if ($row['status'] === 'pending'): ?>
-        <!-- Tombol Setujui -->
-        <a href="<?= base_url('dosen/setujuiKrs/' . $row['nim']) ?>" class="btn btn-success btn-sm">
-            <i class="bi bi-check-circle"></i> Setujui
-        </a>
-        <!-- Tombol Tolak -->
-        <a href="<?= base_url('dosen/tolakKrs/' . $row['nim']) ?>" class="btn btn-danger btn-sm">
-            <i class="bi bi-x-circle"></i> Tolak
-        </a>
-    <?php endif; ?>
-</td>
-
-
-
-
-    </div>
-    </div>
-    </div>  
-    </div>
       </div>
-</div>
+      </div>
 
 
       <!-- Footer Section Start -->

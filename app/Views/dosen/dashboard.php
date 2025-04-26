@@ -278,8 +278,8 @@
                            <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                            <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                            <div class="caption ms-3 d-none d-md-block ">
-                              <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                              <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                              <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                              <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                            </div>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -288,7 +288,11 @@
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                           <li>
+                              <form action="/logout" method="post">
+                                 <button type="submit" class="dropdown-item">Logout</button>
+                              </form>
+                           </li>
                         </ul>
                      </li>
                   </ul>
@@ -301,7 +305,7 @@
                   <div class="col-md-12">
                      <div class="flex-wrap d-flex justify-content-between align-items-center">
                         <div>
-                           <h1>Hello Devs!</h1>
+                           <h1>Hello <?= esc($nim); ?>!</h1>
                            <p>Selamat datang di aplikasi SIAKAD Kampus</p>
                         </div>
                         <div>

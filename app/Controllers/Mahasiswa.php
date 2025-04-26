@@ -7,18 +7,34 @@ use App\Models\Mahasiswa_model;
 use App\Models\Matkul_model;
 use App\Models\Dosen_model;
 use App\Models\Ruang_model;
-use App\Models\Jadwal_model; 
+use App\Models\Jadwal_model;
 
 class Mahasiswa extends BaseController
 {
     // Dashboard
     public function dashboard()
     {
-        echo view('mahasiswa/dashboard');
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+        echo view('mahasiswa/dashboard', $data);
     }
 
     public function rencanastudi()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $ruangModel  = new Ruang_model();
         $dosenModel  = new Dosen_model();
         $matkulModel = new Matkul_model();
@@ -35,34 +51,71 @@ class Mahasiswa extends BaseController
 
     public function jadwal()
     {
-        $session = session(); // ambil session service
-        $nim = $session->get('nim'); // pastikan session menyimpan nim
-    
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $pengambilanModel = new \App\Models\Pengambilan_model();
         $data['jadwal'] = $pengambilanModel->getJadwalDisetujui($nim);
-    
+
         return view('mahasiswa/jadwal', $data);
     }
-    
-    
+
+
 
     public function hasilstudi()
     {
-        echo view('mahasiswa/hasilstudi');
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+        echo view('mahasiswa/hasilstudi', $data);
     }
 
     public function transkripnilai()
     {
-        echo view('mahasiswa/transkripnilai');
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+        echo view('mahasiswa/transkripnilai', $data);
     }
 
     public function panduankrs()
     {
-        echo view('mahasiswa/panduankrs');
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
+        echo view('mahasiswa/panduankrs', $data);
     }
 
     public function datamhs()
     {
+        $session = session();
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         $model = new Mahasiswa_model();
         $data['mahasiswa'] = $model->getMahasiswa();
         echo view('mahasiswa/datamhs', $data);
@@ -70,6 +123,7 @@ class Mahasiswa extends BaseController
 
     public function save()
     {
+
         $model = new Mahasiswa_model();
         $data = [
             'nim'       => $this->request->getPost('nim'),
@@ -128,21 +182,21 @@ class Mahasiswa extends BaseController
     {
         $session = session();
         $nim = $session->get('nim');
-    
+
         if (!$nim) {
             return redirect()->to('mahasiswa/rencanastudi')->with('error', 'Silakan login terlebih dahulu.');
         }
-    
+
         $selected = $this->request->getPost('id_sks');
-    
+
         if ($selected && is_array($selected)) {
             $db = \Config\Database::connect();
             $builder = $db->table('pengambilan');
-    
+
             foreach ($selected as $id_sks) {
                 $sks = $this->request->getPost("sks_$id_sks");
                 $matkul = $this->request->getPost("matkul_$id_sks");
-    
+
                 $data = [
                     'nim' => $nim,
                     'id_sks' => $id_sks,
@@ -150,82 +204,78 @@ class Mahasiswa extends BaseController
                     'sks' => $sks,
                     'matkul' => $matkul
                 ];
-    
+
                 $builder->insert($data);
             }
-    
+
             return redirect()->to('mahasiswa/rencanastudi')->with('success', 'KRS berhasil diajukan.');
         } else {
             return redirect()->to('mahasiswa/rencanastudi')->with('error', 'Tidak ada mata kuliah yang dipilih.');
         }
     }
-    
+
     // Method untuk menampilkan pengajuan KRS yang pending
     public function konfirmasi()
     {
         $session = session();
         $nim = $session->get('nim');
-    
+
         if (!$nim) {
             return redirect()->to('mahasiswa/rencanastudi')->with('error', 'Silakan login terlebih dahulu.');
         }
-    
+
         $db = \Config\Database::connect();
         $builder = $db->table('pengambilan');
-    
+
         // Mengambil data mahasiswa yang mengajukan KRS dengan status 'pending'
         $builder->select('mahasiswa.nama, mahasiswa.nim, prodi.kode_prodi, prodi.nama_prodi');
         $builder->join('mahasiswa', 'mahasiswa.nim = pengambilan.nim');
         $builder->join('prodi', 'prodi.id_prodi = mahasiswa.id_prodi');
         $builder->where('pengambilan.status', 'pending'); // Pastikan statusnya 'pending'
         $builder->groupBy('mahasiswa.nim'); // Mengelompokkan berdasarkan nim mahasiswa untuk mencegah duplikasi
-    
+
         $query = $builder->get();
         $data['mahasiswa'] = $query->getResultArray(); // <-- Data mahasiswa yang mengajukan KRS
-    
+
         // Cek apakah ada data mahasiswa yang mengajukan KRS
         if (empty($data['mahasiswa'])) {
             $data['message'] = 'Belum ada pengajuan KRS dari mahasiswa.';
         }
-    
+
         return view('dosen/konfirmasi', $data);
     }
 
     public function penilaianMatkul($id_matkul)
     {
         $session = session();
-        $nim = $session->get('nim'); // Pastikan mengambil NIM dosen yang login
-        
+
+        // Kirim data session ke view
+        $data = [
+            $nim = $session->get('nim'),
+            'nim'   => $session->get('nim'),
+            'level' => $session->get('level')
+        ];
         if (!$nim) {
             return redirect()->to('mahasiswa/rencanastudi')->with('error', 'Silakan login terlebih dahulu.');
         }
-    
+
         // Ambil data dosen berdasarkan NIM dosen yang ada di session
         $dosenModel = new Dosen_model();
         $dosen = $dosenModel->where('nim', $nim)->first();  // Misalnya menggunakan NIM dosen yang ada di session
-    
+
         // Jika dosen tidak ditemukan
         if (!$dosen) {
             return redirect()->to('dosen/dashboard')->with('error', 'Dosen tidak ditemukan.');
         }
-    
+
         // Ambil data mahasiswa yang mengajukan KRS dengan mata kuliah yang dosen ajarkan
         $pengambilanModel = new \App\Models\Pengambilan_model();
         $data['mahasiswa'] = $pengambilanModel->getMahasiswaDiampu($dosen['id_dosen'], $id_matkul); // Mengambil mahasiswa yang mengambil matkul dosen
-    
+
         // Kirim data dosen dan mahasiswa ke view
         $data['id_matkul'] = $id_matkul;
         $data['dosen'] = $dosen;
-        
+
         return view('dosen/penilaian', $data); // Menampilkan halaman penilaian
     }
-    
-
-    
 }
-
-
-
-    
-    
-

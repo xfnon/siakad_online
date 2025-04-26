@@ -395,7 +395,7 @@
             <div class="col-md-12">
               <div class="flex-wrap d-flex justify-content-between align-items-center">
                 <div>
-                  <h1>Hello  <?= esc($nim); ?></h1>
+                  <h1>Hello <?= esc($nim); ?></h1>
                   <p>Selamat Datang di Aplikasi SIAKAD.</p>
                 </div>
               </div>
@@ -467,39 +467,39 @@
                           </div>
                         </div>
 
-                      <!-- Dropdown Fakultas -->
-<div class="form-group row mt-3">
-  <label for="fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
-  <div class="col-sm-9">
-    <select class="form-control <?= (session('errors.fakultas')) ? 'is-invalid' : ''; ?>"
-            id="fakultas" name="fakultas" required>
-      <option value="">-- Pilih Fakultas --</option>
-      <?php foreach ($fakultas as $f) : ?>
-        <option value="<?= esc($f['nama_fakultas']) ?>" <?= old('fakultas') == $f['nama_fakultas'] ? 'selected' : '' ?>>
-          <?= esc($f['nama_fakultas']) ?>
-        </option>
-      <?php endforeach; ?>
-    </select>
-    <div class="invalid-feedback"><?= session('errors.fakultas') ?></div>
-  </div>
-</div>
+                        <!-- Dropdown Fakultas -->
+                        <div class="form-group row mt-3">
+                          <label for="fakultas" class="col-sm-3 col-form-label">Fakultas:</label>
+                          <div class="col-sm-9">
+                            <select class="form-control <?= (session('errors.fakultas')) ? 'is-invalid' : ''; ?>"
+                              id="fakultas" name="fakultas" required>
+                              <option value="">-- Pilih Fakultas --</option>
+                              <?php foreach ($fakultas as $f) : ?>
+                                <option value="<?= esc($f['nama_fakultas']) ?>" <?= old('fakultas') == $f['nama_fakultas'] ? 'selected' : '' ?>>
+                                  <?= esc($f['nama_fakultas']) ?>
+                                </option>
+                              <?php endforeach; ?>
+                            </select>
+                            <div class="invalid-feedback"><?= session('errors.fakultas') ?></div>
+                          </div>
+                        </div>
 
-<!-- Dropdown Prodi -->
-<div class="form-group row mt-3">
-  <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
-  <div class="col-sm-9">
-    <select class="form-control <?= (session('errors.prodi')) ? 'is-invalid' : ''; ?>"
-            id="prodi" name="prodi" required>
-      <option value="">-- Pilih Prodi --</option>
-      <?php foreach ($prodi as $p) : ?>
-        <option value="<?= esc($p['nama_prodi']) ?>" <?= old('prodi') == $p['nama_prodi'] ? 'selected' : '' ?>>
-          <?= esc($p['nama_prodi']) ?>
-        </option>
-      <?php endforeach; ?>
-    </select>
-    <div class="invalid-feedback"><?= session('errors.prodi') ?></div>
-  </div>
-</div>
+                        <!-- Dropdown Prodi -->
+                        <div class="form-group row mt-3">
+                          <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+                          <div class="col-sm-9">
+                            <select class="form-control <?= (session('errors.prodi')) ? 'is-invalid' : ''; ?>"
+                              id="prodi" name="prodi" required>
+                              <option value="">-- Pilih Prodi --</option>
+                              <?php foreach ($prodi as $p) : ?>
+                                <option value="<?= esc($p['nama_prodi']) ?>" <?= old('prodi') == $p['nama_prodi'] ? 'selected' : '' ?>>
+                                  <?= esc($p['nama_prodi']) ?>
+                                </option>
+                              <?php endforeach; ?>
+                            </select>
+                            <div class="invalid-feedback"><?= session('errors.prodi') ?></div>
+                          </div>
+                        </div>
 
 
                     </div>

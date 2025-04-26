@@ -263,8 +263,8 @@
                   <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                   <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                   <div class="caption ms-3 d-none d-md-block ">
-                    <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                    <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                    <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                    <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                   </div>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -273,7 +273,11 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                  <li>
+                    <form action="/logout" method="post">
+                      <button type="submit" class="dropdown-item">Logout</button>
+                    </form>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -305,198 +309,197 @@
       <!--Nav End-->
     </div>
     <div class="container-fluid content-inner mt-n5 py-0">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="card">
-        <div class="card-header d-flex justify-content-between">
-          <div class="header-title">
-            <h4 class="card-title">Pengambilan KRS</h4>
-          </div>
-        </div>
-
-        <div class="card-body">
-        <form id="krsForm" method="post" action="<?= base_url('mahasiswa/konfirmasiKrs') ?>">
-            <div class="table-responsive">
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Pilih</th>
-                    <th>Mata Kuliah</th>
-                    <th>Dosen</th>
-                    <th>Gedung</th>
-                    <th>Ruang</th>
-                    <th>SKS</th>
-                    <th>Hari</th>
-                    <th>Jam</th>
-                    <th>Semester</th>
-                  </tr>
-                </thead>
-                <tbody id="jadwal-krs">
-  <?php foreach ($jadwal as $item): ?>
-    <tr 
-      data-id="<?= $item['id_jadwal']; ?>" 
-      data-sks="<?= $item['sks']; ?>" 
-      data-hari="<?= $item['hari']; ?>" 
-      data-jam-mulai="<?= $item['jam_mulai']; ?>" 
-      data-jam-selesai="<?= $item['jam_selesai']; ?>"
-    >
-      <td>
-        <input type="checkbox" class="cek-krs" name="id_sks[]" value="<?= $item['id_jadwal']; ?>">
-        <input type="hidden" name="sks_<?= $item['id_jadwal']; ?>" value="<?= $item['sks']; ?>">
-        <input type="hidden" name="matkul_<?= $item['id_jadwal']; ?>" value="<?= $item['matkul']; ?>">
-      </td>
-      <td><?= esc($item['matkul']); ?></td>
-      <td><?= esc($item['dosen']); ?></td>
-      <td><?= esc($item['gedung']); ?></td>
-      <td><?= esc($item['ruang']); ?></td>
-      <td><?= esc($item['sks']); ?></td>
-      <td><?= esc($item['hari']); ?></td>
-      <td><?= esc($item['jam_mulai']) . ' - ' . esc($item['jam_selesai']); ?></td>
-      <td><?= esc($item['semester']); ?></td>
-    </tr>
-  <?php endforeach; ?>
-</tbody>
-
-              </table>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header d-flex justify-content-between">
+              <div class="header-title">
+                <h4 class="card-title">Pengambilan KRS</h4>
+              </div>
             </div>
 
-            <hr>
-            <h5>Mata Kuliah yang Dipilih</h5>
-            <div class="table-responsive">
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                  <th>Dipilih</th>
-                    <th>Mata Kuliah</th>
-                    <th>Dosen</th>
-                    <th>Gedung</th>
-                    <th>Ruang</th>
-                    <th>SKS</th>
-                    <th>Hari</th>
-                    <th>Jam</th>
-                    <th>Semester</th>
-                  </tr>
-                </thead>
-                <tbody id="krs-terpilih">
-                </tbody>
-                <tfoot>
-  <tr>
-    <th colspan="5">Total SKS</th>
-    <th id="total-sks">0</th>
-    <th colspan="3"></th>
-  </tr>
-</tfoot>
-</table>
-</div>
+            <div class="card-body">
+              <form id="krsForm" method="post" action="<?= base_url('mahasiswa/konfirmasiKrs') ?>">
+                <div class="table-responsive">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Pilih</th>
+                        <th>Mata Kuliah</th>
+                        <th>Dosen</th>
+                        <th>Gedung</th>
+                        <th>Ruang</th>
+                        <th>SKS</th>
+                        <th>Hari</th>
+                        <th>Jam</th>
+                        <th>Semester</th>
+                      </tr>
+                    </thead>
+                    <tbody id="jadwal-krs">
+                      <?php foreach ($jadwal as $item): ?>
+                        <tr
+                          data-id="<?= $item['id_jadwal']; ?>"
+                          data-sks="<?= $item['sks']; ?>"
+                          data-hari="<?= $item['hari']; ?>"
+                          data-jam-mulai="<?= $item['jam_mulai']; ?>"
+                          data-jam-selesai="<?= $item['jam_selesai']; ?>">
+                          <td>
+                            <input type="checkbox" class="cek-krs" name="id_sks[]" value="<?= $item['id_jadwal']; ?>">
+                            <input type="hidden" name="sks_<?= $item['id_jadwal']; ?>" value="<?= $item['sks']; ?>">
+                            <input type="hidden" name="matkul_<?= $item['id_jadwal']; ?>" value="<?= $item['matkul']; ?>">
+                          </td>
+                          <td><?= esc($item['matkul']); ?></td>
+                          <td><?= esc($item['dosen']); ?></td>
+                          <td><?= esc($item['gedung']); ?></td>
+                          <td><?= esc($item['ruang']); ?></td>
+                          <td><?= esc($item['sks']); ?></td>
+                          <td><?= esc($item['hari']); ?></td>
+                          <td><?= esc($item['jam_mulai']) . ' - ' . esc($item['jam_selesai']); ?></td>
+                          <td><?= esc($item['semester']); ?></td>
+                        </tr>
+                      <?php endforeach; ?>
+                    </tbody>
 
-<!-- Tombol submit dipindah ke bawah agar lebih fleksibel -->
-<div class="text-end mt-3">
-  <button type="submit" class="btn btn-success" id="submitKrsBtn">Ajukan SKS</button>
-</div>
+                  </table>
+                </div>
+
+                <hr>
+                <h5>Mata Kuliah yang Dipilih</h5>
+                <div class="table-responsive">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Dipilih</th>
+                        <th>Mata Kuliah</th>
+                        <th>Dosen</th>
+                        <th>Gedung</th>
+                        <th>Ruang</th>
+                        <th>SKS</th>
+                        <th>Hari</th>
+                        <th>Jam</th>
+                        <th>Semester</th>
+                      </tr>
+                    </thead>
+                    <tbody id="krs-terpilih">
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <th colspan="5">Total SKS</th>
+                        <th id="total-sks">0</th>
+                        <th colspan="3"></th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+
+                <!-- Tombol submit dipindah ke bawah agar lebih fleksibel -->
+                <div class="text-end mt-3">
+                  <button type="submit" class="btn btn-success" id="submitKrsBtn">Ajukan SKS</button>
+                </div>
 
 
-              </table>
+                </table>
             </div>
-          </form>
-        </div> <!-- /.card-body -->
-      </div> <!-- /.card -->
-    </div> <!-- /.col-sm-12 -->
-  </div> <!-- /.row -->
-</div> <!-- /.container -->
+            </form>
+          </div> <!-- /.card-body -->
+        </div> <!-- /.card -->
+      </div> <!-- /.col-sm-12 -->
+    </div> <!-- /.row -->
+    </div> <!-- /.container -->
 
-<script>
-  const checkboxes = document.querySelectorAll('.cek-krs');
-  const submitBtn = document.getElementById('submitKrsBtn');
-  const maxSKS = 24;
+    <script>
+      const checkboxes = document.querySelectorAll('.cek-krs');
+      const submitBtn = document.getElementById('submitKrsBtn');
+      const maxSKS = 24;
 
-  checkboxes.forEach(function (checkbox) {
-    checkbox.addEventListener('change', function () {
-      const currentRow = this.closest('tr');
-      const hari = currentRow.dataset.hari;
-      const mulai = parseJam(currentRow.dataset.jamMulai);
-      const selesai = parseJam(currentRow.dataset.jamSelesai);
-      const sksBaru = parseInt(currentRow.dataset.sks);
+      checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+          const currentRow = this.closest('tr');
+          const hari = currentRow.dataset.hari;
+          const mulai = parseJam(currentRow.dataset.jamMulai);
+          const selesai = parseJam(currentRow.dataset.jamSelesai);
+          const sksBaru = parseInt(currentRow.dataset.sks);
 
-      if (this.checked) {
-        if (cekBentrok(this, hari, mulai, selesai)) {
-          alert('Tidak bisa memilih dua jadwal dengan jam yang bentrok pada hari yang sama.');
-          this.checked = false;
-          return;
-        }
+          if (this.checked) {
+            if (cekBentrok(this, hari, mulai, selesai)) {
+              alert('Tidak bisa memilih dua jadwal dengan jam yang bentrok pada hari yang sama.');
+              this.checked = false;
+              return;
+            }
 
-        // Cek jika SKS melebihi batas
-        const totalSKS = getTotalSKSSementara() + sksBaru;
-        if (totalSKS > maxSKS) {
-          alert('Total SKS tidak boleh lebih dari 24.');
-          this.checked = false;
-          return;
-        }
+            // Cek jika SKS melebihi batas
+            const totalSKS = getTotalSKSSementara() + sksBaru;
+            if (totalSKS > maxSKS) {
+              alert('Total SKS tidak boleh lebih dari 24.');
+              this.checked = false;
+              return;
+            }
 
-        document.getElementById('krs-terpilih').appendChild(currentRow);
-      } else {
-        document.getElementById('jadwal-krs').appendChild(currentRow);
-      }
-
-      hitungTotalSKS();
-      toggleSubmitButton();
-    });
-  });
-
-  function parseJam(jamStr) {
-    const [jam, menit, detik] = jamStr.split(':').map(Number);
-    return jam * 60 + menit;
-  }
-
-  function cekBentrok(currentCheckbox, hariBaru, mulaiBaru, selesaiBaru) {
-    let bentrok = false;
-    document.querySelectorAll('.cek-krs:checked').forEach(function (checkbox) {
-      if (checkbox !== currentCheckbox) {
-        const row = checkbox.closest('tr');
-        const hari = row.dataset.hari;
-        const mulai = parseJam(row.dataset.jamMulai);
-        const selesai = parseJam(row.dataset.jamSelesai);
-
-        if (hari === hariBaru) {
-          const overlap = !(selesaiBaru <= mulai || mulaiBaru >= selesai);
-          if (overlap) {
-            bentrok = true;
+            document.getElementById('krs-terpilih').appendChild(currentRow);
+          } else {
+            document.getElementById('jadwal-krs').appendChild(currentRow);
           }
-        }
+
+          hitungTotalSKS();
+          toggleSubmitButton();
+        });
+      });
+
+      function parseJam(jamStr) {
+        const [jam, menit, detik] = jamStr.split(':').map(Number);
+        return jam * 60 + menit;
       }
-    });
-    return bentrok;
-  }
 
-  function hitungTotalSKS() {
-    let total = 0;
-    document.querySelectorAll('.cek-krs:checked').forEach(function (checkbox) {
-      const row = checkbox.closest('tr');
-      total += parseInt(row.dataset.sks);
-    });
-    document.getElementById('total-sks').innerText = total;
-  }
+      function cekBentrok(currentCheckbox, hariBaru, mulaiBaru, selesaiBaru) {
+        let bentrok = false;
+        document.querySelectorAll('.cek-krs:checked').forEach(function(checkbox) {
+          if (checkbox !== currentCheckbox) {
+            const row = checkbox.closest('tr');
+            const hari = row.dataset.hari;
+            const mulai = parseJam(row.dataset.jamMulai);
+            const selesai = parseJam(row.dataset.jamSelesai);
 
-  function getTotalSKSSementara() {
-    let total = 0;
-    document.querySelectorAll('.cek-krs:checked').forEach(function (checkbox) {
-      const row = checkbox.closest('tr');
-      total += parseInt(row.dataset.sks);
-    });
-    return total;
-  }
+            if (hari === hariBaru) {
+              const overlap = !(selesaiBaru <= mulai || mulaiBaru >= selesai);
+              if (overlap) {
+                bentrok = true;
+              }
+            }
+          }
+        });
+        return bentrok;
+      }
 
-  function toggleSubmitButton() {
-    const totalChecked = document.querySelectorAll('.cek-krs:checked').length;
-    submitBtn.disabled = totalChecked === 0;
-  }
+      function hitungTotalSKS() {
+        let total = 0;
+        document.querySelectorAll('.cek-krs:checked').forEach(function(checkbox) {
+          const row = checkbox.closest('tr');
+          total += parseInt(row.dataset.sks);
+        });
+        document.getElementById('total-sks').innerText = total;
+      }
 
-  toggleSubmitButton();
-</script>
+      function getTotalSKSSementara() {
+        let total = 0;
+        document.querySelectorAll('.cek-krs:checked').forEach(function(checkbox) {
+          const row = checkbox.closest('tr');
+          total += parseInt(row.dataset.sks);
+        });
+        return total;
+      }
+
+      function toggleSubmitButton() {
+        const totalChecked = document.querySelectorAll('.cek-krs:checked').length;
+        submitBtn.disabled = totalChecked === 0;
+      }
+
+      toggleSubmitButton();
+    </script>
 
 
-          </div>
-        </div>
-      </div>
+    </div>
+    </div>
+    </div>
     </div>
 
 

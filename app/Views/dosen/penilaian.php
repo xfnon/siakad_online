@@ -280,8 +280,8 @@
                            <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                            <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                            <div class="caption ms-3 d-none d-md-block ">
-                              <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                              <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                              <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                              <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                            </div>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -290,7 +290,11 @@
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                           <li>
+                              <form action="/logout" method="post">
+                                 <button type="submit" class="dropdown-item">Logout</button>
+                              </form>
+                           </li>
                         </ul>
                      </li>
                   </ul>
@@ -303,7 +307,7 @@
                   <div class="col-md-12">
                      <div class="flex-wrap d-flex justify-content-between align-items-center">
                         <div>
-                           <h1>Hello Devs!</h1>
+                           <h1>Hello <?= esc($nim); ?></h1>
                            <p>Selamat datang di aplikasi SIAKAD Kampus</p>
                         </div>
                         <div>
@@ -331,95 +335,96 @@
          <!--Nav End-->
       </div>
       <div class="container-fluid content-inner mt-n5 py-0">
-  <div class="row">
-    <div class="col-sm-12">
-      <form method="post" action="/dosen/simpan_nilai">
-        <div class="card">
-          <div class="card-header d-flex justify-content-between">
-            <div class="header-title">
-              <h4 class="card-title">Daftar Nilai Mahasiswa</h4>
+         <div class="row">
+            <div class="col-sm-12">
+               <form method="post" action="/dosen/simpan_nilai">
+                  <div class="card">
+                     <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                           <h4 class="card-title">Daftar Nilai Mahasiswa</h4>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-sm">Simpan</button>
+                     </div>
+                     <div class="card-body">
+                        <p>Silakan ubah nilai di kolom. Grade akan otomatis diperbarui.</p>
+                        <div class="table-responsive">
+                           <table id="datatable" class="table table-striped">
+                              <thead>
+                                 <tr>
+                                    <th>No</th>
+                                    <th>NIM</th>
+                                    <th>Nama</th>
+                                    <th>Hadir (%)</th>
+                                    <th>Nilai</th>
+                                    <th>Grade</th>
+                                    <th>Lulus</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <?php $i = 1; ?>
+                                 <?php foreach ($mahasiswa as $mhs): ?>
+                                    <tr>
+                                       <td><?= $i++; ?></td>
+                                       <td><?= $mhs['nim']; ?></td> <!-- Menampilkan NIM mahasiswa dari tabel pengambilan -->
+                                       <td><?= $mhs['nama_mahasiswa']; ?></td> <!-- Menampilkan nama mahasiswa -->
+                                       <td>
+                                          <input type="number" name="kehadiran[]" value="0" class="form-control">
+                                       </td>
+                                       <td>
+                                          <input type="number" name="nilai[]" value="0" class="form-control nilai-input" data-index="<?= $i - 1 ?>">
+                                       </td>
+                                       <td id="grade-<?= $i - 1 ?>">-</td>
+                                       <td id="lulus-<?= $i - 1 ?>">-</td>
+                                       <input type="hidden" name="id_pengambilan[]" value="<?= $mhs['id_pengambilan'] ?>"> <!-- Menyimpan id_pengambilan untuk setiap mahasiswa -->
+                                       <input type="hidden" name="id_matkul" value="<?= $mhs['matkul'] ?>"> <!-- Menyimpan id_matkul untuk setiap mahasiswa -->
+                                    </tr>
+                                 <?php endforeach; ?>
+                              </tbody>
+                           </table>
+
+                        </div>
+                     </div>
+                  </div>
+               </form>
             </div>
-            <button type="submit" class="btn btn-success btn-sm">Simpan</button>
-          </div>
-          <div class="card-body">
-            <p>Silakan ubah nilai di kolom. Grade akan otomatis diperbarui.</p>
-            <div class="table-responsive">
-              <table id="datatable" class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>No</th>
-                    <th>NIM</th>
-                    <th>Nama</th>
-                    <th>Hadir (%)</th>
-                    <th>Nilai</th>
-                    <th>Grade</th>
-                    <th>Lulus</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <?php $i = 1; ?>
-                  <?php foreach ($mahasiswa as $mhs): ?>
-                    <tr>
-                      <td><?= $i++; ?></td>
-                      <td><?= $mhs->nim; ?></td>
-                      <td><?= $mhs->nama_mahasiswa; ?></td>
-                      <td>
-                        <input type="number" name="kehadiran[]" value="0" class="form-control">
-                      </td>
-                      <td>
-                        <input type="number" name="nilai[]" value="0" class="form-control nilai-input" data-index="<?= $i-1 ?>">
-                      </td>
-                      <td id="grade-<?= $i-1 ?>">-</td>
-                      <td id="lulus-<?= $i-1 ?>">-</td>
-                      <input type="hidden" name="id_pengambilan[]" value="<?= $mhs->id_pengambilan ?>">
-                      <input type="hidden" name="id_matkul" value="<?= $id_matkul ?>">
-                    </tr>
-                  <?php endforeach; ?>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</div>
+         </div>
+      </div>
 
-<script>
-function getGrade(nilai) {
-  if (nilai >= 4) return 'A';
-  else if (nilai >= 3.75) return 'A-';
-  else if (nilai >= 3.5) return 'A/B';
-  else if (nilai >= 3.25) return 'B+';
-  else if (nilai >= 3) return 'B';
-  else if (nilai >= 2.75) return 'B-';
-  else if (nilai >= 2.5) return 'B/C';
-  else if (nilai >= 2.25) return 'C+';
-  else if (nilai >= 2) return 'C';
-  else if (nilai >= 1.75) return 'C-';
-  else if (nilai >= 1.5) return 'C/D';
-  else if (nilai >= 1.25) return 'D+';
-  else if (nilai >= 1) return 'D';
-  else return 'E';
-}
+      <script>
+         function getGrade(nilai) {
+            if (nilai >= 4) return 'A';
+            else if (nilai >= 3.75) return 'A-';
+            else if (nilai >= 3.5) return 'A/B';
+            else if (nilai >= 3.25) return 'B+';
+            else if (nilai >= 3) return 'B';
+            else if (nilai >= 2.75) return 'B-';
+            else if (nilai >= 2.5) return 'B/C';
+            else if (nilai >= 2.25) return 'C+';
+            else if (nilai >= 2) return 'C';
+            else if (nilai >= 1.75) return 'C-';
+            else if (nilai >= 1.5) return 'C/D';
+            else if (nilai >= 1.25) return 'D+';
+            else if (nilai >= 1) return 'D';
+            else return 'E';
+         }
 
-function isLulus(grade) {
-  const lulusGrade = ['A', 'A-', 'A/B', 'B+', 'B', 'B-', 'B/C', 'C+', 'C'];
-  return lulusGrade.includes(grade);
-}
+         function isLulus(grade) {
+            const lulusGrade = ['A', 'A-', 'A/B', 'B+', 'B', 'B-', 'B/C', 'C+', 'C'];
+            return lulusGrade.includes(grade);
+         }
 
-document.querySelectorAll('.nilai-input').forEach(input => {
-  input.addEventListener('input', function () {
-    const index = this.dataset.index;
-    const nilai = parseFloat(this.value) || 0;
-    const grade = getGrade(nilai);
-    const lulus = isLulus(grade) ? 'Ya' : 'Tidak';
+         document.querySelectorAll('.nilai-input').forEach(input => {
+            input.addEventListener('input', function() {
+               const index = this.dataset.index;
+               const nilai = parseFloat(this.value) || 0;
+               const grade = getGrade(nilai);
+               const lulus = isLulus(grade) ? 'Ya' : 'Tidak';
 
-    document.getElementById('grade-' + index).textContent = grade;
-    document.getElementById('lulus-' + index).textContent = lulus;
-  });
-});
-</script>
+               document.getElementById('grade-' + index).textContent = grade;
+               document.getElementById('lulus-' + index).textContent = lulus;
+            });
+         });
+      </script>
 
 
 

@@ -280,8 +280,8 @@
                            <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                            <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                            <div class="caption ms-3 d-none d-md-block ">
-                              <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                              <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                              <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                              <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                            </div>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -290,7 +290,11 @@
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                           <li>
+                              <form action="/logout" method="post">
+                                 <button type="submit" class="dropdown-item">Logout</button>
+                              </form>
+                           </li>
                         </ul>
                      </li>
                   </ul>
@@ -303,7 +307,7 @@
                   <div class="col-md-12">
                      <div class="flex-wrap d-flex justify-content-between align-items-center">
                         <div>
-                           <h1>Hello Devs!</h1>
+                           <h1>Hello <?= esc($nim); ?>!</h1>
                            <p>Selamat datang di aplikasi SIAKAD Kampus</p>
                         </div>
                         <div>
@@ -331,76 +335,76 @@
          <!--Nav End-->
       </div>
       <div class="container-fluid content-inner mt-n5 py-0">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="card">
-                <div class="card-header d-flex justify-content-between">
-                    <div class="header-title">
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
                         <h4 class="card-title">Persetujuan KRS</h4>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <p>Daftar mahasiswa yang mengajukan KRS untuk disetujui.</p>
-                    <div class="table-responsive">
-                    <table id="datatable" class="table table-striped">
-    <thead>
-        <tr>
-            <th>NIM</th>
-            <th>Status</th>
-            <th>Aksi</th>
-        </tr>
-    </thead>
-    <tbody>
-    <?php if (!empty($pengajuan)) : ?>
-        <?php foreach ($pengajuan as $row): ?>
-        <tr>
-            <td><?= esc($row['nim']) ?></td>
-            <td>
-                <?php if ($row['status'] === 'pending'): ?>
-                    <span class="badge bg-warning text-dark">Menunggu Persetujuan</span>
-                <?php elseif ($row['status'] === 'disetujui'): ?>
-                    <span class="badge bg-success">Disetujui</span>
-                <?php elseif ($row['status'] === 'ditolak'): ?>
-                    <span class="badge bg-danger">Ditolak</span>
-                <?php endif; ?>
-            </td>
-               <td>
-                  <?php if (!empty($row['nim'])): ?>
-                     <a href="<?= base_url('dosen/konfirmasi/' . $row['nim']) ?>" class="btn btn-info btn-sm" title="Lihat KRS">
-    <i class="bi bi-eye"></i>
-</a>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <p>Daftar mahasiswa yang mengajukan KRS untuk disetujui.</p>
+                     <div class="table-responsive">
+                        <table id="datatable" class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th>NIM</th>
+                                 <th>Status</th>
+                                 <th>Aksi</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <?php if (!empty($pengajuan)) : ?>
+                                 <?php foreach ($pengajuan as $row): ?>
+                                    <tr>
+                                       <td><?= esc($row['nim']) ?></td>
+                                       <td>
+                                          <?php if ($row['status'] === 'pending'): ?>
+                                             <span class="badge bg-warning text-dark">Menunggu Persetujuan</span>
+                                          <?php elseif ($row['status'] === 'disetujui'): ?>
+                                             <span class="badge bg-success">Disetujui</span>
+                                          <?php elseif ($row['status'] === 'ditolak'): ?>
+                                             <span class="badge bg-danger">Ditolak</span>
+                                          <?php endif; ?>
+                                       </td>
+                                       <td>
+                                          <?php if (!empty($row['nim'])): ?>
+                                             <a href="<?= base_url('dosen/konfirmasi/' . $row['nim']) ?>" class="btn btn-info btn-sm" title="Lihat KRS">
+                                                <i class="bi bi-eye"></i>
+                                             </a>
 
 
 
 
 
-                <?php else: ?>
-                    <span class="text-danger">NIM tidak valid</span>
-                <?php endif; ?>
-            </td>
-        </tr>
-        <?php endforeach; ?>
-    <?php else : ?>
-        <tr>
-            <td colspan="3">Tidak ada data pengajuan.</td>
-        </tr>
-    <?php endif; ?>
-</tbody>
+                                          <?php else: ?>
+                                             <span class="text-danger">NIM tidak valid</span>
+                                          <?php endif; ?>
+                                       </td>
+                                    </tr>
+                                 <?php endforeach; ?>
+                              <?php else : ?>
+                                 <tr>
+                                    <td colspan="3">Tidak ada data pengajuan.</td>
+                                 </tr>
+                              <?php endif; ?>
+                           </tbody>
 
 
-</table>
+                        </table>
 
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</div>
+         </div>
+      </div>
 
 
-    </div>
-    </div>
-</div>
+      </div>
+      </div>
+      </div>
 
 
       <div class="btn-download">
@@ -653,15 +657,15 @@
    <script src="../assets/js/hope-ui.js" defer></script>
 
    <script>
-    const statusCell = document.querySelector("#status");
-    const statusText = statusCell.textContent.trim();
+      const statusCell = document.querySelector("#status");
+      const statusText = statusCell.textContent.trim();
 
-    if (statusText === "Menunggu Persetujuan") {
-        statusCell.innerHTML = `<span class="badge bg-warning text-dark">${statusText}</span>`;
-    } else if (statusText === "Disetujui") {
-        statusCell.innerHTML = `<span class="badge bg-success">${statusText}</span>`;
-    }
-</script>
+      if (statusText === "Menunggu Persetujuan") {
+         statusCell.innerHTML = `<span class="badge bg-warning text-dark">${statusText}</span>`;
+      } else if (statusText === "Disetujui") {
+         statusCell.innerHTML = `<span class="badge bg-success">${statusText}</span>`;
+      }
+   </script>
 
 
 </body>

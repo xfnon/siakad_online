@@ -87,13 +87,13 @@ $routes->get('/dosen/tolakKrs/(:segment)', 'Dosen::tolakKrs/$1', ['filter' => 'a
 
 
 //routes mahasiswa
-$routes->get('/mahasiswa/dashboard', 'Mahasiswa::dashboard');
-$routes->get('/mahasiswa/rencanastudi', 'Mahasiswa::rencanastudi');
-$routes->post('mahasiswa/konfirmasiKrs', 'Mahasiswa::konfirmasiKrs');
+$routes->get('/mahasiswa/dashboard', 'Mahasiswa::dashboard', ['filter' => 'auth:mahasiswa']);
+$routes->get('/mahasiswa/rencanastudi', 'Mahasiswa::rencanastudi', ['filter' => 'auth:mahasiswa']);
+$routes->post('mahasiswa/konfirmasiKrs', 'Mahasiswa::konfirmasiKrs', ['filter' => 'auth:mahasiswa']);
 // Route untuk dosen melihat detail pengajuan KRS
-$routes->get('mahasiswa/jadwal', 'Mahasiswa::jadwal');
-$routes->get('/mahasiswa/transkripnilai', 'Mahasiswa::transkripnilai');
-$routes->get('/mahasiswa/hasilstudi', 'Mahasiswa::hasilstudi');
+$routes->get('mahasiswa/jadwal', 'Mahasiswa::jadwal', ['filter' => 'auth:mahasiswa']);
+$routes->get('/mahasiswa/transkripnilai', 'Mahasiswa::transkripnilai', ['filter' => 'auth:mahasiswa']);
+$routes->get('/mahasiswa/hasilstudi', 'Mahasiswa::hasilstudi', ['filter' => 'auth:mahasiswa']);
 
 
 

@@ -54,7 +54,7 @@ class Auth extends BaseController
             if ($verify_pass) {
                 $ses_data = [
                     'id_akun'   => $data['id_akun'],
-                    'nim'       => $data['nim'],
+                    'nim'       => $data['nim'], // Menyimpan nim dalam session
                     'level'     => $data['level'],
                     'logged_in' => TRUE
                 ];
@@ -80,6 +80,7 @@ class Auth extends BaseController
             return redirect()->to('/login');
         }
     }
+
 
 
     public function logout()

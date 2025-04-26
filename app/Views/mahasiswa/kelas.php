@@ -205,7 +205,7 @@
         <!-- Sidebar Menu End -->
       </div>
     </div>
-    
+
     <div class="sidebar-footer"></div>
   </aside>
   <main class="main-content">
@@ -277,12 +277,12 @@
                   <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                   <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                   <div class="caption ms-3 d-none d-md-block ">
-                    <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                    <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                    <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                    <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                   </div>
                 </a>
 
-                
+
 
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="../dashboard/app/user-profile.html">Profile</a></li>
@@ -290,7 +290,11 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                  <li>
+                    <form action="/logout" method="post">
+                      <button type="submit" class="dropdown-item">Logout</button>
+                    </form>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -303,7 +307,7 @@
             <div class="col-md-12">
               <div class="flex-wrap d-flex justify-content-between align-items-center">
                 <div>
-                  <h1>Hello Devs!</h1>
+                  <h1>Hello <?= esc($nim); ?>!</h1>
                   <p>Selamat Datang di Aplikasi SIAKAD.</p>
                 </div>
               </div>
@@ -322,62 +326,62 @@
       <!--Nav End-->
     </div>
     <?php
-// Pastikan session dimulai
-if (!session()->has('nim')) {
-    header('Location: ' . base_url('login'));
-    exit;
-}
+    // Pastikan session dimulai
+    if (!session()->has('nim')) {
+      header('Location: ' . base_url('login'));
+      exit;
+    }
 
-$nim = session()->get('nim');
-?>
+    $nim = session()->get('nim');
+    ?>
 
-<div class="container-fluid content-inner mt-n5 py-0">
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="card">
-        <div class="card-header">
-          <h4 class="card-title">Kelas yang Saya Ikuti</h4>
-        </div>
-        <div class="card-body">
-          <div class="table-responsive">
-            <table class="table table-bordered table-striped">
-              <thead>
-                <tr>
-                  <th>Mata Kuliah</th>
-                  <th>Dosen</th>
-                  <th>Gedung</th>
-                  <th>Ruang</th>
-                  <th>Hari</th>
-                  <th>Jam</th>
-                  <th>Semester</th>
-                </tr>
-              </thead>
-              <tbody>
-                <?php if (!empty($kelas)): ?>
-                  <?php foreach ($kelas as $k): ?>
+    <div class="container-fluid content-inner mt-n5 py-0">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Kelas yang Saya Ikuti</h4>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                  <thead>
                     <tr>
-                      <td><?= esc($k['matkul']) ?></td>
-                      <td><?= esc($k['dosen']) ?></td>
-                      <td><?= esc($k['gedung']) ?></td>
-                      <td><?= esc($k['ruang']) ?></td>
-                      <td><?= esc($k['hari']) ?></td>
-                      <td><?= esc($k['jam_mulai']) . ' - ' . esc($k['jam_selesai']) ?></td>
-                      <td><?= esc($k['semester']) ?></td>
+                      <th>Mata Kuliah</th>
+                      <th>Dosen</th>
+                      <th>Gedung</th>
+                      <th>Ruang</th>
+                      <th>Hari</th>
+                      <th>Jam</th>
+                      <th>Semester</th>
                     </tr>
-                  <?php endforeach; ?>
-                <?php else: ?>
-                  <tr>
-                    <td colspan="7" class="text-center">Belum ada kelas yang disetujui.</td>
-                  </tr>
-                <?php endif; ?>
-              </tbody>
-            </table>
-          </div>
-        </div> <!-- /.card-body -->
-      </div> <!-- /.card -->
+                  </thead>
+                  <tbody>
+                    <?php if (!empty($kelas)): ?>
+                      <?php foreach ($kelas as $k): ?>
+                        <tr>
+                          <td><?= esc($k['matkul']) ?></td>
+                          <td><?= esc($k['dosen']) ?></td>
+                          <td><?= esc($k['gedung']) ?></td>
+                          <td><?= esc($k['ruang']) ?></td>
+                          <td><?= esc($k['hari']) ?></td>
+                          <td><?= esc($k['jam_mulai']) . ' - ' . esc($k['jam_selesai']) ?></td>
+                          <td><?= esc($k['semester']) ?></td>
+                        </tr>
+                      <?php endforeach; ?>
+                    <?php else: ?>
+                      <tr>
+                        <td colspan="7" class="text-center">Belum ada kelas yang disetujui.</td>
+                      </tr>
+                    <?php endif; ?>
+                  </tbody>
+                </table>
+              </div>
+            </div> <!-- /.card-body -->
+          </div> <!-- /.card -->
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
 
 

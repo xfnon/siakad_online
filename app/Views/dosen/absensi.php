@@ -280,8 +280,8 @@
                            <img src="../assets/images/avatars/avtar_5.png" alt="User-Profile" class="theme-color-yellow-img img-fluid avatar avatar-50 avatar-rounded">
                            <img src="../assets/images/avatars/avtar_3.png" alt="User-Profile" class="theme-color-pink-img img-fluid avatar avatar-50 avatar-rounded">
                            <div class="caption ms-3 d-none d-md-block ">
-                              <h6 class="mb-0 caption-title">Austin Robertson</h6>
-                              <p class="mb-0 caption-sub-title">Marketing Administrator</p>
+                              <h6 class="mb-0 caption-title"><?= esc($nim); ?></h6>
+                              <p class="mb-0 caption-sub-title"><?= esc($level); ?></p>
                            </div>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -290,7 +290,11 @@
                            <li>
                               <hr class="dropdown-divider">
                            </li>
-                           <li><a class="dropdown-item" href="../dashboard/auth/sign-in.html">Logout</a></li>
+                           <li>
+                              <form action="/logout" method="post">
+                                 <button type="submit" class="dropdown-item">Logout</button>
+                              </form>
+                           </li>
                         </ul>
                      </li>
                   </ul>
@@ -303,7 +307,7 @@
                   <div class="col-md-12">
                      <div class="flex-wrap d-flex justify-content-between align-items-center">
                         <div>
-                           <h1>Hello Devs!</h1>
+                           <h1>Hello <?= esc($nim); ?>!</h1>
                            <p>Selamat datang di aplikasi SIAKAD Kampus</p>
                         </div>
                         <div>
@@ -331,95 +335,95 @@
          <!--Nav End-->
       </div>
       <div class="container-fluid content-inner mt-n5 py-0">
-    <div class="row">
-    <div class="col-sm-12">
-   <div class="card">
-      <div class="card-header d-flex justify-content-between">
-         <div class="header-title">
-            <h4 class="card-title">Absensi Mahasiswa</h4>
+         <div class="row">
+            <div class="col-sm-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Absensi Mahasiswa</h4>
+                     </div>
+                     <button class="btn btn-primary btn-sm" id="save-button">
+                        <i class="bi bi-save"></i> Simpan
+                     </button>
+                  </div>
+                  <div class="card-body">
+                     <p>Daftar kehadiran mahasiswa pada mata kuliah tertentu.</p>
+                     <div class="table-responsive">
+                        <table id="datatable" class="table table-striped">
+                           <thead>
+                              <tr>
+                                 <th>Nama Mahasiswa</th>
+                                 <th>NIM</th>
+                                 <th>Pertemuan</th>
+                                 <th>Tanggal</th>
+                                 <th>Status Kehadiran</th>
+                                 <th>Aksi</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Ahmad Fauzi</td>
+                                 <td>210123456</td>
+                                 <td>Pertemuan 1</td>
+                                 <td class="tanggal">2025-03-11</td>
+                                 <td class="status">
+                                    <span class="badge bg-success">Hadir</span>
+                                 </td>
+                                 <td>
+                                    <button class="btn btn-warning btn-sm toggle-status">
+                                       <i class="bi bi-arrow-repeat"></i>
+                                    </button>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>Siti Rahma</td>
+                                 <td>210123457</td>
+                                 <td>Pertemuan 1</td>
+                                 <td class="tanggal">2025-03-11</td>
+                                 <td class="status">
+                                    <span class="badge bg-success">Hadir</span>
+                                 </td>
+                                 <td>
+                                    <button class="btn btn-warning btn-sm toggle-status">
+                                       <i class="bi bi-arrow-repeat"></i>
+                                    </button>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <script>
+               document.querySelectorAll('.toggle-status').forEach(button => {
+                  button.addEventListener('click', function() {
+                     let row = this.closest('tr');
+                     let statusCell = row.querySelector('.status span');
+
+                     if (statusCell.classList.contains('bg-success')) {
+                        statusCell.classList.remove('bg-success');
+                        statusCell.classList.add('bg-danger');
+                        statusCell.textContent = 'Absen';
+                     } else {
+                        statusCell.classList.remove('bg-danger');
+                        statusCell.classList.add('bg-success');
+                        statusCell.textContent = 'Hadir';
+                     }
+                  });
+               });
+
+               document.getElementById('save-button').addEventListener('click', function() {
+                  alert('Data absensi telah disimpan!');
+               });
+            </script>
+
+
+
+
          </div>
-         <button class="btn btn-primary btn-sm" id="save-button">
-            <i class="bi bi-save"></i> Simpan
-         </button>
       </div>
-      <div class="card-body">
-         <p>Daftar kehadiran mahasiswa pada mata kuliah tertentu.</p>
-         <div class="table-responsive">
-            <table id="datatable" class="table table-striped">
-               <thead>
-                  <tr>
-                     <th>Nama Mahasiswa</th>
-                     <th>NIM</th>
-                     <th>Pertemuan</th>
-                     <th>Tanggal</th>
-                     <th>Status Kehadiran</th>
-                     <th>Aksi</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>Ahmad Fauzi</td>
-                     <td>210123456</td>
-                     <td>Pertemuan 1</td>
-                     <td class="tanggal">2025-03-11</td>
-                     <td class="status">
-                        <span class="badge bg-success">Hadir</span>
-                     </td>
-                     <td>
-                        <button class="btn btn-warning btn-sm toggle-status">
-                           <i class="bi bi-arrow-repeat"></i>
-                        </button>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>Siti Rahma</td>
-                     <td>210123457</td>
-                     <td>Pertemuan 1</td>
-                     <td class="tanggal">2025-03-11</td>
-                     <td class="status">
-                        <span class="badge bg-success">Hadir</span>
-                     </td>
-                     <td>
-                        <button class="btn btn-warning btn-sm toggle-status">
-                           <i class="bi bi-arrow-repeat"></i>
-                        </button>
-                     </td>
-                  </tr>
-               </tbody>
-            </table>
-         </div>
-      </div>
-   </div>
-</div>
-
-<script>
-   document.querySelectorAll('.toggle-status').forEach(button => {
-      button.addEventListener('click', function () {
-         let row = this.closest('tr');
-         let statusCell = row.querySelector('.status span');
-
-         if (statusCell.classList.contains('bg-success')) {
-            statusCell.classList.remove('bg-success');
-            statusCell.classList.add('bg-danger');
-            statusCell.textContent = 'Absen';
-         } else {
-            statusCell.classList.remove('bg-danger');
-            statusCell.classList.add('bg-success');
-            statusCell.textContent = 'Hadir';
-         }
-      });
-   });
-
-   document.getElementById('save-button').addEventListener('click', function () {
-      alert('Data absensi telah disimpan!');
-   });
-</script>
-
-
-
-
-    </div>
-</div>
 
 
       <!-- Footer Section Start -->

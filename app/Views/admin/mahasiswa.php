@@ -397,7 +397,7 @@
                         <div class="col-md-12">
                             <div class="flex-wrap d-flex justify-content-between align-items-center">
                                 <div>
-                                    <h1>Hello  <?= esc($nim); ?></h1>
+                                    <h1>Hello <?= esc($nim); ?></h1>
                                     <p>Selamat Datang di Aplikasi SIAKAD.</p>
                                 </div>
                             </div>
@@ -485,18 +485,18 @@
                                                 </div>
 
                                                 <div class="form-group row mt-3">
-    <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
-    <div class="col-sm-9">
-        <select class="form-control" id="prodi" name="prodi" required>
-            <option value="">-- Pilih Program Studi --</option>
-            <?php foreach ($prodi as $p) : ?>
-                <option value="<?= esc($p['nama_prodi']) ?>" <?= old('prodi') == $p['nama_prodi'] ? 'selected' : '' ?>>
-                    <?= esc($p['nama_prodi']) ?>
-                </option>
-            <?php endforeach; ?>
-        </select>
-    </div>
-</div>
+                                                    <label for="prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+                                                    <div class="col-sm-9">
+                                                        <select class="form-control" id="prodi" name="prodi" required>
+                                                            <option value="">-- Pilih Program Studi --</option>
+                                                            <?php foreach ($prodi as $p) : ?>
+                                                                <option value="<?= esc($p['nama_prodi']) ?>" <?= old('prodi') == $p['nama_prodi'] ? 'selected' : '' ?>>
+                                                                    <?= esc($p['nama_prodi']) ?>
+                                                                </option>
+                                                            <?php endforeach; ?>
+                                                        </select>
+                                                    </div>
+                                                </div>
 
 
                                                 <div class="form-group row mt-3">
@@ -512,11 +512,11 @@
                                                         <input type="number" class="form-control" id="semester" name="semester" placeholder="Masukkan Semester" value="<?= old('semester') ?>" required>
                                                     </div>
                                                 </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                                                <button type="submit" class="btn btn-primary">Simpan</button>
-                                            </div>
-                                        </form>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                    <button type="submit" class="btn btn-primary">Simpan</button>
+                                                </div>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -550,7 +550,7 @@
                                                     <td><?= $no++; ?></td>
                                                     <td><?= esc($m['nim']); ?></td>
                                                     <td><?= esc($m['nama']); ?></td>
-                                                    <td><?= esc($m['jk']); ?></td>
+                                                    <td><?= $m['jk'] === 'l' ? 'Laki-Laki' : 'Perempuan'; ?></td>
                                                     <td><?= esc($m['no_telp']); ?></td>
                                                     <td><?= esc($m['alamat']); ?></td>
                                                     <td><?= esc($m['prodi']); ?></td>
@@ -628,18 +628,18 @@
                                                     </div>
 
                                                     <div class="form-group row mt-3">
-    <label for="edit_prodi" class="col-sm-3 col-form-label">Program Studi:</label>
-    <div class="col-sm-9">
-        <select class="form-control" id="edit_prodi" name="prodi" required>
-            <option value="">-- Pilih Program Studi --</option>
-            <?php foreach ($prodi as $p) : ?>
-                <option value="<?= esc($p['nama_prodi']) ?>">
-                    <?= esc($p['nama_prodi']) ?>
-                </option>
-            <?php endforeach; ?>
-        </select>
-    </div>
-</div>
+                                                        <label for="edit_prodi" class="col-sm-3 col-form-label">Program Studi:</label>
+                                                        <div class="col-sm-9">
+                                                            <select class="form-control" id="edit_prodi" name="prodi" required>
+                                                                <option value="">-- Pilih Program Studi --</option>
+                                                                <?php foreach ($prodi as $p) : ?>
+                                                                    <option value="<?= esc($p['nama_prodi']) ?>">
+                                                                        <?= esc($p['nama_prodi']) ?>
+                                                                    </option>
+                                                                <?php endforeach; ?>
+                                                            </select>
+                                                        </div>
+                                                    </div>
 
 
                                                     <div class="form-group row mt-3">
